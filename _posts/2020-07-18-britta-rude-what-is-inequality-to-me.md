@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is inequality to me?"
-date: 2020-07-08
+date: 2020-07-18
 ---
 
 ## The oldest story of human kind, and also, just a story about a cake - What is inequality to me? 
