@@ -21,7 +21,9 @@ Often, people are born into inequality. That means, they are born into a situati
 
 <img src="/images/Aguablanca.jpg" alt="aguablanca School" style="max-width:50%;"/>
 
-Only 63 % of all people above 15 years old are literate in low-income countries, compared to 95 % in upper-middle income countries ([World Bank Data ](https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?most_recent_value_desc=true)). The WHO characterizes 35 % of children in the World's lowest income quintile as plagued by malnutrition, compared to 16 % in the highest quintile ([Joint child malnutrition estimates](https://www.who.int/data/gho/data/themes/topics/joint-child-malnutrition-estimates-unicef-who-wb)). 
+Only 63 % of all people above 15 years old are literate in low-income countries, compared to 95 % in upper-middle income countries ([World Bank Data ](https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?most_recent_value_desc=true)). The WHO characterizes 35 % of children in the World's lowest income quintile as plagued by malnutrition, compared to 16 % in the highest quintile ([Joint child malnutrition estimates](https://www.who.int/data/gho/data/themes/topics/joint-child-malnutrition-estimates-unicef-who-wb)). Only 71 % of the World's population used safely managed drinking water in 2017, and 3 billion people lacked basic handwashing facilities with soap and water at home in 2017 ([WHO - Water, sanitation and hygiene](https://www.who.int/data/gho/data/themes/topics/joint-child-malnutrition-estimates-unicef-who-wb)). in 2016, 49.3 % of women between 30 and 34 years old stated to have experiencied intimate partner violence, compared to 7.6 % in Ukraine. All this is only a glimpse of all the different forms that inequality manifests itself. 
+
+Through this website I want to make a little contribution to bringing light on all the different forms and ways that inequality populates our world, and hope to raise awareness about it. What is inequality, how does it evolve, what are its consequences, and how can we address it? How can we create a better world, in which we all care more about each other? 
 
 
 
