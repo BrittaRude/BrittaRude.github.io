@@ -41,3 +41,14 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+
+ul.datascience { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.datascience li {
+    list-style: none;
+}
+
