@@ -27,7 +27,17 @@ The differences across time (B-A and D-C) control for time trends, while the sec
 
 ## Traditional Difference-in-Difference: When does it actually work, and what do we need to keep in mind? 
 
-This research strategy only works under an important condition, known under the name "parallel trend" assumption. As discussed previously, it is important for our estimation effect that our treatment and control groups are similar to each other, and therefore comparable, that is, our control group is a good counterfactual for our treatment group. I can test this assumption graphically by plotting our outcome of interest over time and test if they evolve similarly to each other before the imposition of the treatment of interest, in our case, wildfires.  
+This research strategy only works under an important condition, known under the name "parallel trend" assumption. As discussed previously, it is important for our estimation effect that our treatment and control groups are similar to each other, and therefore comparable, that is, our control group is a good counterfactual for our treatment group. I can test this assumption graphically by plotting our outcome of interest over time and test if they evolve similarly to each other before the imposition of the treatment of interest, in our case, wildfires. The parallel trend assumption therefore controls for the development over time of all observable and unobservable covariates (control variables) that evolve similarly in our treatment and control area. It does not account for covariates that evolve differently between the treatment and control area over time. Let's assume, for example, that urban infrastructure changes in our wildfire area over time. This change in urban infrastructure is similar in our control area unaffected by the wildfires. Now let's imagine that in parallel to the wildfire the local government introduces a subsidy program in our treatment state, aiming at lifting people out of poverty. If we do not observe this subsidy program in our data, the program could confound, or put in other words, bias our estimated effect of deforestation on poverty. 
+
+<img src="/images/Parallel Trend Assumption.png" alt="Parallel Trend Assumption" style="max-width:25%;"/>
+
+Another assumption that is important to have in mind is the "No-Anticipation"-Assumption. This assumption basically says that future treatment cannot affect current outcome. For example, the poverty share in the area with the wildfire is the same before the wildfire than after the wildfire. This assumption also says that non-treatment units cannot anticipate the treatment and opt-in, or contrary, treatment units cannot opt-out, through for example moving to a non-treatment area. This would contaminate our control and treatment group. The assumption is similar to the "No-Manipulation"-Assumption of the Regression Discontinuity Design. 
+
+## Traditional Difference-in-Difference: A fresh look and new insights
+
+Several recent papers have given the broadly used Difference-in-Difference design a critical look. David Mc'Kenzie summarizes some of these insights on his recent blogpost. 
+
+
 
 
 
