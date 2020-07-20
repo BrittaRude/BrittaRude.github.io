@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "How can we turn data science into a tool against inequality?"
+title: "Revisiting Difference-in-Difference - Taking the DiD Design to a next level ?"
 date: 2020-07-18
 ---
 
-## Revisiting Difference-in-Difference - Taking the DiD Design to a next level 
-
-### Traditional Difference-in-Difference: What do we need it for? 
+## Traditional Difference-in-Difference: What do we need it for? 
 
 Often we do not have the money nor the time to conduct field experiments, especially in development countries. Therefore, economists often employ quasi-experimental strategies, taking advantage of so-called natural experiments. Image that you want to exploit the effect of deforestation on poverty. Instead of implementing a field experiment, in which you deforest randomply-selected treatment areas, and leave randomly-selected control areas untouched, you can search for natural experiments. Image that there has been a fire due to lack of rain and heat in a certain region, similar to what has happened in Australia, or also several parts in Latin America. You can simply take this event as a natural experiment, and a sort of "proxy" for deforestation. You can then compare the evolution of poverty over time in the by the disaster affected region to a region that has been unaffected by the event. 
 
@@ -18,7 +16,7 @@ Natural experiments try to mimique these field experiments. Let's have a closer 
 
 Difference-in-Difference provides us with a solution for this problematic. What we do in Difference-in-Difference is to take a region that is similar to the region unaffected by the treatment we are interest in, in this case wildfires, and compare the evolution of poverty in our wildfire region (the treatment group) to the evolution of poverty in our control region (the control group). We can then subtract the difference in poverty over time observed in both regions from each other, and have an estimate that is a relatively good proxy for what we are actually looking for. 
 
-### Traditional Difference-in-Difference: When does it actually work, and what do we need to keep in mind? 
+## Traditional Difference-in-Difference: When does it actually work, and what do we need to keep in mind? 
 
 This research strategy only works under an important condition, known under the name "parallel trend" assumption. As discussed previously, it is important for our estimation effect that our treatment and control groups are similar to each other, and therefore comparable, that is, our control group is a good counterfactual for our treatment group. I can test this assumption graphically by plotting our outcome of interest over time and test if they evolve similarly to each other before the imposition of the treatment of interest, in our case, wildfires.  
 
