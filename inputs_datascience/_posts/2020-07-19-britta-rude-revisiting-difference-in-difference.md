@@ -35,8 +35,19 @@ Another assumption that is important to have in mind is the "No-Anticipation"-As
 
 ## Traditional Difference-in-Difference: A fresh look and new insights
 
-Several recent papers have given the broadly used Difference-in-Difference design a critical look. David Mc'Kenzie summarizes some of these insights on his recent blogpost. 
+Several recent papers have given the broadly used Difference-in-Difference design a critical look. David Mc'Kenzie summarizes some of these insights on his recent blogpost [McKenzie DiD1](https://blogs.worldbank.org/impactevaluations/revisiting-difference-differences-parallel-trends-assumption-part-i-pre-trend). The core insights for applied work are: 
 
+1. Levels are important. When plotting a parallel trend assumption, always look at differences in levels, and not just trends. If there are large differences, than think about why they are so different. Could these differences affect future trends in our outcome of differences? E.g., if the area affected by our wildfire, is much poorer than the area unaffected, than maybe this extreme poverty results in a downward spiral 
+
+2. Functional forms matter. When comparing our treatment and control trends, do we think that they evolve similarly in terms of absolute or relative terms? Do we want to use levels or logs? 
+
+3. Pre-treatment parallel tests are problematic. Only because we reject an unequal parallel trend does not mean that we confirmed its validity. Important problems can arise through pre-testing ... 
+
+
+
+## Traditional Difference-in-Difference: And if my parallel trend assumption does not hold? 
+
+...
 
 
 
