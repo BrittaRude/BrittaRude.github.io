@@ -18,10 +18,12 @@ Difference-in-Difference provides us with a solution for this problematic. What 
 
 <table align="center">
   <tr><th align="center"></th><th align="center">Before Treatment</th><th align="center">After Treatment</th><th align="center">Differences</th></tr>
-  <tr><td>Treatment Group</td><td>A</td><td>B</td><td>A-B</td></tr>
-  <tr><td>Control Group</td><td>C</td><td>D</td><td>C-D</td></tr>
-  <tr><td>Differences</td><td>A-C</td><td>B-D</td><td>(A-B) - (C-D)</td></tr>
+  <tr><td>Treatment Group</td><td>A</td><td>B</td><td>B-A</td></tr>
+  <tr><td>Control Group</td><td>C</td><td>D</td><td>D-C</td></tr>
+  <tr><td>Differences</td><td>A-C</td><td>B-D</td><td>(C-A) - (D-C)</td></tr>
 </table>
+
+The differences across time (B-A and D-C) control for time trends, while the second difference, group differences within time periods, control for selection bias (A-B and C-D). The difference-in-difference design cancels these effects out and leaves us with a credible estimation result. 
 
 ## Traditional Difference-in-Difference: When does it actually work, and what do we need to keep in mind? 
 
