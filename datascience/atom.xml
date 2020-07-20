@@ -14,7 +14,7 @@ layout: feed
 		<email>brittarude@gmx.net</email>
 	</author>
 
-	{% for post in site.inputs_DataScience %}
+	{% for post in site.categories.inputs_datascience %}
 		<entry>
 			<title>{{ post.title }}</title>
 			<link href="http://brittarude.github.io{{ post.url }}"/>
