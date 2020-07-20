@@ -17,10 +17,10 @@ Natural experiments try to mimique these field experiments. Let's have a closer 
 Difference-in-Difference provides us with a solution for this problematic. What we do in Difference-in-Difference is to take a region that is similar to the region unaffected by the treatment we are interest in, in this case wildfires, and compare the evolution of poverty in our wildfire region (the treatment group) to the evolution of poverty in our control region (the control group). We can then subtract the difference in poverty over time observed in both regions from each other, and have an estimate that is a relatively good proxy for what we are actually looking for. 
 
 <table align="center">
-  <tr><th align="center"></th><th align="center">Before Treatment</th><th align="center">After Treatment</th></tr>
-  <tr><td>Treatment Group</td><td>A</td><td>B</td></tr>
-  <tr><td>Control Group</td><td>C</td><td>D</td></tr>
-  <tr><td>Differences</td><td>A-C</td><td>B-D</td></tr>
+  <tr><th align="center"></th><th align="center">Before Treatment</th><th align="center">After Treatment</th><th align="center">Differences</th></tr>
+  <tr><td>Treatment Group</td><td>A</td><td>B</td><td>A-B</td></tr>
+  <tr><td>Control Group</td><td>C</td><td>D</td><td>C-D</td></tr>
+  <tr><td>Differences</td><td>A-C</td><td>B-D</td><td>(A-B) - (C-D)</td></tr>
 </table>
 
 ## Traditional Difference-in-Difference: When does it actually work, and what do we need to keep in mind? 
