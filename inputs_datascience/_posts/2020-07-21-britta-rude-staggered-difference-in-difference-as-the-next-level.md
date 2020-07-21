@@ -22,11 +22,13 @@ How do we test this assumption? First, we can run a regression, in which the ado
 
 <img src="/images/Exogeneity_Assumption_FSP.PNG" alt="Determinants of FSP adoption" style="max-width:60%;"/>
 
-The authors argue that this is not problematic to their identification strategy, as they indeed are significant determinants, but explain very little of the actual food stamp adoption. As the figures above show, the magnitude of the estimate is low and varation high. Still, to control for these possible confounders, they include linear trends interacted with these significant determinants in their estimation equation. This controls for observable, parametric trends across countries, but does not take into account unobservable, non-parametric trends. 
+The authors argue that this is not problematic to their identification strategy, as they indeed are significant determinants, but explain very little of the actual food stamp adoption. As the figures above show, the magnitude of the estimate is low and varation high. Still, to control for these possible confounders, they include linear trends interacted with these significant determinants in their estimation equation. This controls for observable, parametric trends across countries, but does not take into account unobservable, non-parametric trends. In their paper they present results for estiamtes with and without state fixed effects, with and without pilot counties. For a detailed overview of their results refer to Table 1 in their AEJ paper. 
 
 ### No confounding alternative programs or policies 
 
 [Hoynes and Schanzenbach (2009)](https://www.aeaweb.org/articles?id=10.1257/app.1.4.109) state that the FSP was introduced during a time of great expansion of programs for the Poor in the US. To take this into consideration, and control for possible confounding programs introduced at the same time, they control for county-by-year controls for federal spending on other social programs. They show that the introduction of this covariate does not significantly change their outcome of interest, confirming the "cleaniness" of their identification strategy. 
+
+
 
 ## Staggered Difference-in-Difference: Can we trust it? 
 
