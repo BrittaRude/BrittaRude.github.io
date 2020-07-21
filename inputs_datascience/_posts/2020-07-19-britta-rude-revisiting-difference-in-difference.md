@@ -35,19 +35,23 @@ Another assumption that is important to have in mind is the "No-Anticipation"-As
 
 ## Traditional Difference-in-Difference: A fresh look and new insights
 
-Several recent papers have given the broadly used Difference-in-Difference design a critical look. David Mc'Kenzie summarizes some of these insights on his recent blogpost [McKenzie DiD1](https://blogs.worldbank.org/impactevaluations/revisiting-difference-differences-parallel-trends-assumption-part-i-pre-trend). The core insights for applied work are: 
+Several recent papers have given the broadly used Difference-in-Difference design a critical look. David Mc'Kenzie summarizes some of these insights on his recent blogpost [McKenzie blogpost on DiD](https://blogs.worldbank.org/impactevaluations/revisiting-difference-differences-parallel-trends-assumption-part-i-pre-trend). The core insights for applied work are: 
 
 1. Levels are important. When plotting a parallel trend assumption, always look at differences in levels, and not just trends. If there are large differences, than think about why they are so different. Could these differences affect future trends in our outcome of differences? E.g., if the area affected by our wildfire, is much poorer than the area unaffected, than maybe this extreme poverty results in a downward spiral 
 
 2. Functional forms matter. When comparing our treatment and control trends, do we think that they evolve similarly in terms of absolute or relative terms? Do we want to use levels or logs? 
 
-3. Pre-treatment parallel tests are problematic. Only because we reject an unequal parallel trend does not mean that we confirmed its validity. Important problems can arise through pre-testing ... 
+3. Pre-treatment parallel tests are problematic. Only because we reject an unequal parallel trend does not mean that we confirmed its validity, and often, these rejection tests are underpowered. 
 
 
 
 ## Traditional Difference-in-Difference: And if my parallel trend assumption does not hold? 
 
-...
+In another blogpost McKenzie summarizes some recent literature on what to do if parallel trends do not hold [McKenzie blogpost on parallel trends](https://blogs.worldbank.org/impactevaluations/revisiting-difference-differences-parallel-trends-assumption-part-ii-what-happens). Does it mean that we have to abandon our research project directly? For sure not. Recent work provides several solutions to these kind of issues: 
+
+1. If you observe a pre-treatment difference in your control and treatment group, you can just extrapolate this difference to your post-treatment period. Coming back to our wildfire example, let's assume that the poverty rate in our wildfire region increased by 1% each year before the fire, while the poverty rate in our non-affected region increased by 2%. We can then extrapolate these differential trends into our post-treatment period, that is, assume that these different trends would have evolved similarly without the wildfire. The paper by [Rambach and Roth (2019)](https://scholar.harvard.edu/jroth/publications/Roth_JMP_Honest_Parallel_Trends) explains this in more detail. They also provide a testing strategy that allows us to test until which degree an approximation of this assumption let's us to a rejection of our parallel trend assumption with this extrapolation. The authors provide an R-Code for this called [Honest DiD](https://github.com/asheshrambachan/HonestDiD). 
+
+2. 
 
 
 
