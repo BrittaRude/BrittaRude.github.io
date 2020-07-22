@@ -15,9 +15,11 @@ The image shows that the FSP started with a pilot program in 1961, a pilot expan
 
 Their sample consists of children born between 1956 and 1981. This sample contains several pre- and post-treatment cohorts, as well as children born along the full rollout period of the FSP. Their data comes from the PSID data from interview year 2009. Therefore, the oldest individual in their sample is 53 years old. They limit the sample to people who are older than 18 years old for their health outcome (through introducing a dummy), and older than 25 years old for the economic outcome (through introducing another dummy). The authors also introduce the following control variables: Family background variables during early life, county-level controls from 1960, and county-year controls (number os hospital beds, hospitals per capita, real (non-FSP) government tranfers per capita, and a dummy for having a community health center). 
 
-They estimate the following equation: $$y_{ibc} + \alpha + \delta FSP_{cb} + X_{icb}\beta + \eta_c + \lambda_b + \gamma_t + \theta_s \times \beta + \phi CB60_c \times \beta + \epsilon_{icb}$$
+They estimate the following equation: $$y_{ibc} + \alpha + \delta FSP_{cb} + X_{icb}\beta + \eta_c + \lambda_b + \gamma_t + \theta_s \times \beta + \phi CB60_c \times \beta + \epsilon_{icb}$$, 
 
-, with i indexing the individuals, c indexing the county of birth, b indexing the birth year, s indexing state of birth, and t the survey year. The main variable of interest is _FSP_, the measure for food stamp availability in early life. The authors measure its exposure by the share of months that the food stamps were available in the adult's birth county. As counties adopted the _FSP_ at different points in time, I have variation across birth counties as well as birth cohorts. This is the famous traditional Difference-in-Difference estimation, that I talked about in my [previous blogpost](https://brittarude.github.io/blog/2020/07/18/britta-rude-revisiting-difference-in-difference). One difference stems from differences across counties within the same birth cohort, while the other difference stems from differences within counties across different birth cohorts (those born later are more exposed to the program than those born later). As you can see in the equation above, [Hoynes et al. (2016)](https://www.aeaweb.org/articles?id=10.1257/aer.20130375) introduce a variety of fixed-effects in their equation: Unrestricted cohort effects at the national level ($$\lambda_b$$), unrestricted county effects ($$\eta_c$$), unrestricted interview year effects ($$\gamma_t$$), as well as state-specific linear year of birth trends ($$\theta_s \times \beta$$). They also control for a set of individual-level controls ($$X_{icb}$$), as well as trends in the observable determinants of FSP adoption ($$CB60_c \times \beta$$). 
+with i indexing the individuals, c indexing the county of birth, b indexing the birth year, s indexing state of birth, and t the survey year. The main variable of interest is _FSP_, the measure for food stamp availability in early life. The authors measure its exposure by the share of months that the food stamps were available in the adult's birth county. As counties adopted the _FSP_ at different points in time, I have variation across birth counties as well as birth cohorts. This is the famous traditional Difference-in-Difference estimation, that I talked about in my [previous blogpost](https://brittarude.github.io/blog/2020/07/18/britta-rude-revisiting-difference-in-difference). One difference stems from differences across counties within the same birth cohort, while the other difference stems from differences within counties across different birth cohorts (those born later are more exposed to the program than those born later). Importantly, the estimation above estimated the _intent-to-treat-effect_, that is the intention to treat the whole underlying population. This is different from the average treatment effect, as not all individuals the program intents to address actually participate in the program (the pick-up of the program is not 100%). 
+
+As you can see in the equation above, [Hoynes et al. (2016)](https://www.aeaweb.org/articles?id=10.1257/aer.20130375) introduce a variety of fixed-effects in their equation: Unrestricted cohort effects at the national level ($$\lambda_b$$), unrestricted county effects ($$\eta_c$$), unrestricted interview year effects ($$\gamma_t$$), as well as state-specific linear year of birth trends ($$\theta_s \times \beta$$). They also control for a set of individual-level controls ($$X_{icb}$$), as well as trends in the observable determinants of FSP adoption ($$CB60_c \times \beta$$). Do you wonder why they include pre-treatment county characteristics, interacted with linear time trends? More about this last point in the next paragraph! 
 
 ## Staggered Difference-in-Difference: When does it work? 
 
@@ -36,14 +38,19 @@ The authors argue that this is not problematic to their identification strategy,
 [Hoynes and Schanzenbach (2009)](https://www.aeaweb.org/articles?id=10.1257/app.1.4.109) state that the FSP was introduced during a time of great expansion of programs for the Poor in the US. To take this into consideration, and control for possible confounding programs introduced at the same time, they control for county-by-year controls for federal spending on other social programs. They show that the introduction of this covariate does not significantly change their outcome of interest, confirming the "cleaniness" of their identification strategy. 
 
 
-
 ## Staggered Difference-in-Difference: Can we trust it? 
 
-Robustness tests [Hoynes and Schanzenbach (2009)](https://www.aeaweb.org/articles?id=10.1257/app.1.4.109): 
-1. Event study
-2. Introducing more fixed-effects
-3. Subgroups
-4. Placebo tests 
+In economic papers, you often have to show that your results are robust. What does that mean? You want to show that your results indeed hold, and are not just a result of specific characteristics of how you defined your estimation equation, or your data. [Hoynes et al. (2016)](https://www.aeaweb.org/articles?id=10.1257/aer.20130375) conduct some of the most common robustness tests. These are: 
+
+1. Reestimating the estimation equation for subgroups of the underyling sample 
+2. Adding additional controls, or introducing more fixed-effects
+3. Conducting placebo tests
+4. Conducting a triple difference design 
+5. Estimating an event study 
+
+In their paper the authors reestimate the equation by gender, to see if either male or female individuals drive the results. They reestimate their results including controls for county programs and resources available between age zero and five, to control for potential confounders. And they conduct a placebo test through restricting the sample to individuals likely to be unaffected by the program (in their case restricting the sample to families with high education). 
+
+
 
 
 
