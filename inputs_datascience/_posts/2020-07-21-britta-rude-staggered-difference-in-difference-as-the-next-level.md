@@ -14,6 +14,8 @@ The image shows that the FSP started with a pilot program in 1961, a pilot expan
 
 Their sample consists of children born between 1956 and 1981. This sample contains several pre- and post-treatment cohorts, as well as children born along the full rollout period of the FSP. Their data comes from the PSID data from interview year 2009. Therefore, the oldest individual in their sample is 53 years old. They limit the sample to people who are older than 18 years old for their health outcome (through introducing a dummy), and older than 25 years old for the economic outcome (through introducing another dummy). The authors also introduce the following control variables: Family background variables during early life, county-level controls from 1960, and county-year controls (number os hospital beds, hospitals per capita, real (non-FSP) government tranfers per capita, and a dummy for having a community health center). 
 
+They estimate the following equation: $$y_ibc$$
+
 ## Staggered Difference-in-Difference: When does it work? 
 
 ### Exogeneity of treatment adoption 
