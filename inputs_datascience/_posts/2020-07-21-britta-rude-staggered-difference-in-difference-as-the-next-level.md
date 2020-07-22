@@ -17,7 +17,7 @@ Their sample consists of children born between 1956 and 1981. This sample contai
 
 They estimate the following equation: $$y_{ibc} + \alpha + \delta FSP_{cb} + X_{icb}\beta + \lambda_b + \gamma_t + \theta_s \times \beta + \phi CB60_c \times \beta + \epsilon_{icb}$$
 
-, with i indexing the individuals, c indexing the county of birth, b indexing the birth year, s indexing state of birth, and t the survey year. The main variable of interest is _FSP_, the measure for food stamp availability in early life. The authors measure its exposure by the share of months that the food stamps were available in the adult's birth county.  
+, with i indexing the individuals, c indexing the county of birth, b indexing the birth year, s indexing state of birth, and t the survey year. The main variable of interest is _FSP_, the measure for food stamp availability in early life. The authors measure its exposure by the share of months that the food stamps were available in the adult's birth county. As counties adopted the _FSP_ at different points in time, I have variation across birth counties as well as birth cohorts. This is the famous traditional Difference-in-Difference estimation, that I talked about in my [previous blogpost](https://brittarude.github.io/blog/2020/07/18/britta-rude-revisiting-difference-in-difference). One difference stems from differences across counties within the same birth cohort, while the other difference stems from differences within counties across different birth cohorts (those born later are more exposed to the program than those born later). 
 
 ## Staggered Difference-in-Difference: When does it work? 
 
