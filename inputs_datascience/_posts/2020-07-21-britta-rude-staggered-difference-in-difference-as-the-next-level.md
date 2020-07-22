@@ -17,7 +17,7 @@ Their sample consists of children born between 1956 and 1981. This sample contai
 
 They estimate the following equation: $$y_{ibc} + \alpha + \delta FSP_{cb} + X_{icb}\beta + \lambda_b + \gamma_t + \theta_s \times \beta + \phi CB60_c \times \beta + \epsilon_{icb}$$
 
-, with i indexing the individuals, c indexing the county of birth, b indexing the birth year, s indexing state of birth, and t the survey year. 
+, with i indexing the individuals, c indexing the county of birth, b indexing the birth year, s indexing state of birth, and t the survey year. The main variable of interest is _FSP_, the measure for food stamp availability in early life. The authors measure its exposure by the share of months that the food stamps were available in the adult's birth county.  
 
 ## Staggered Difference-in-Difference: When does it work? 
 
