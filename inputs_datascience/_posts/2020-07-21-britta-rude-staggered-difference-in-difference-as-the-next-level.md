@@ -1,5 +1,6 @@
 ---
 layout: post
+useMath: true 
 title: "Staggered Difference-in-Difference - What is different?"
 date: 2020-07-21
 ---
