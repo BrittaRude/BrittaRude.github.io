@@ -44,13 +44,17 @@ The authors argue that this is not problematic to their identification strategy,
 
 In economic papers, you often have to show that your results are robust. What does that mean? You want to show that your results indeed hold, and are not just a result of specific characteristics of how you defined your estimation equation, or your data. [Hoynes et al. (2016)](https://www.aeaweb.org/articles?id=10.1257/aer.20130375) conduct some of the most common robustness tests. These are: 
 
-1. ##Reestimating the estimation equation for subgroups of the underyling sample 
+1. Reestimating the estimation equation for subgroups of the underyling sample 
 2. Adding additional controls, or introducing more fixed-effects
 3. Conducting placebo tests
 4. Conducting a triple difference design 
 5. Estimating an event study 
 
-In their paper the authors reestimate the equation by gender, to see if either male or female individuals drive the results. They reestimate their results including controls for county programs and resources available between age zero and five, to control for potential confounders. And they conduct a placebo test through restricting the sample to individuals likely to be unaffected by the program (in their case restricting the sample to families with high education). 
+In their paper the authors reestimate the equation by gender, to see if either male or female individuals drive the results. They reestimate their results including controls for county programs and resources available between age zero and five, to control for potential confounders. And they conduct a placebo test through restricting the sample to individuals likely to be unaffected by the program (in their case restricting the sample to families with high education). To better understand the Triple-Difference estimation see my latest blogpost on [Triple-Difference - Why Triple?](https://brittarude.github.io/blog/2020/07/20/britta-rude-Triple-difference). [Hoynes et al. (2016)](https://www.aeaweb.org/articles?id=10.1257/aer.20130375) apply a Triple-Difference strategy interacting their treatment variable $$ FSP_{cb}$$ with the probability of being affected by the program, the group-level food stamp participation rate $$ P_g $$. The main identification assumption here then is that there are no differential trends for high participation versus low participation groups within early versus late implementing countries. 
+
+As many papers applying Difference-in-Difference, and especially staggered Difference-in-Difference strategies, the authors also use an event-study design to confirm the robustness of their results. I will treat this design that slightly differs from the DiD that we have seen so far in a separate blogpost. 
+
+Also, have in mind that there is an entire new literature emerging that analyzes what the generalized DiD estimate actually is about, and until which degree we can apply traditional interpretations of DiD estimates to a staggered Difference-in-Difference design. I will discuss this literature in a future blogpost. 
 
  
 
