@@ -21,6 +21,10 @@ Here, $$ \theta_{st}$$ is the outcome of interest in state s and year t, $$\delt
 
 They test for parallel trends before the implementation of the reforms and find that there are no systematic changes in the periods leading up to the reform. They find clear changes in student achievement after the reforms. Ten years after a reform, relative achievement of students in  low-income districts has risen by roughly 0.1 standard deviation. 
 
+## Event Studies: What if events are not random, or take some time to be fully implemented?
+
+There are two possible threats to the estimation equation shown above. First of all, SFRs may materialize gradually, especially when talking about student achievement outcomes. As a student's achievement not only depends on the quality of education that s/he receives after the reform, but also before, the development of results may be gradual. Another threat to the identification stratey would be the violation of our assumption that events occur randomly. If states experiencing events systematically differ from events not experiencing events, then this might lead to a bias. [Lafortune et al.(2018)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/app.20160567) 
+
 
 
 
