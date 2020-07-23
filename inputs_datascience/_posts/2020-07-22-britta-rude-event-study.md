@@ -11,4 +11,8 @@ Often in economic papers that use Difference-in-Difference, or the staggered ver
 
 But before getting on the details on this, let's revise what it actually means to conduct an event study. Therefore, let's have a look at the paper by [Lafortune et al.(2018)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/app.20160567). They study the impact of a post-1990 school finance reform on spending and student achievement in low-income school districts, using an event-study design. The authors show that educational spending as measured by real per pupil revenues has constantly increased between 1990 and 2012. They argue that most of these increases are due to school finance reforms, directed at low-income districts. 
 
+<img src="//images/Lafortune_2017_SFR.PNG" alt="Lafortune FSR" style="max-width:60%;"/>
+
+
+
 
