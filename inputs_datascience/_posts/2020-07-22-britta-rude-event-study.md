@@ -23,7 +23,9 @@ They test for parallel trends before the implementation of the reforms and find 
 
 ## Event Studies: What if events are not random, or take some time to be fully implemented?
 
-There are two possible threats to the estimation equation shown above. First of all, SFRs may materialize gradually, especially when talking about student achievement outcomes. As a student's achievement not only depends on the quality of education that s/he receives after the reform, but also before, the development of results may be gradual. Another threat to the identification stratey would be the violation of our assumption that events occur randomly. If states experiencing events systematically differ from events not experiencing events, then this might lead to a bias. [Lafortune et al.(2018)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/app.20160567) 
+There are two possible threats to the estimation equation shown above. First of all, SFRs may materialize gradually, especially when talking about student achievement outcomes. As a student's achievement not only depends on the quality of education that s/he receives after the reform, but also before, the development of results may be gradual. Another threat to the identification stratey would be the violation of our assumption that events occur randomly. If states experiencing events systematically differ from events not experiencing events, then this might lead to a bias. [Lafortune et al.(2018)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/app.20160567) solve this by adding two trend terms: 
+
+$$ \theta_{st} = \delta_s + \kappa_t + 1(t>t_s*) \beta_{jump} + \epsilon_{st} $$
 
 
 
