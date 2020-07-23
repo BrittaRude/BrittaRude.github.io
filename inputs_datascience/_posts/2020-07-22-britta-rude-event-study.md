@@ -7,7 +7,7 @@ date: 2020-07-22
 
 ## Event Studies: What is an event study? 
 
-Often in economic papers that use Difference-in-Difference, or the staggered version of it, we can observe that researchers conduct event studies as robustness tests. A recent working paper by [Jonathan Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) reflects on this method, and the fact that economists often apply event-studies to test for pre-trends (or the famous parallel trend assumption). He finds that over 70 journals published in the AEA report an event-plot. He finds that the power of these tests is often low, and that distortions from pre-testing is a concern. 
+Often in economic papers that use Difference-in-Difference, or the staggered version of it, we can observe that researchers conduct event studies as robustness tests. A recent working paper by [Jonathan Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) reflects on this method, and the fact that economists often apply event-studies to test for pre-trends (or the famous parallel trend assumption). He finds that over 70 journals published in the AEA report an event-plot. He then shows that the power of these tests is often low, and that distortions from pre-testing is a concern. 
 
 But before getting on the details on this, let's revise what it actually means to conduct an event study. Therefore, let's have a look at the paper by [Lafortune et al.(2018)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/app.20160567). They study the impact of post-1990 school finance reforms on student achievement in low-income school districts, using an event-study design and nationally representative data. The authors show that educational spending as measured by real per pupil revenues has constantly increased between 1990 and 2012. They argue that most of these increases are due to school finance reforms, directed at low-income districts. 
 
@@ -40,6 +40,13 @@ In the equation above $$\beta_{r}$$ can be interpreted as the effect of an event
 <img src="/images/Lafortune_2017_EventStudy_Graph.PNG" alt="Lafortune Event Study Graph" style="max-width:60%;"/>
 
 
+## Summing up: How to use event studies in economics 
 
+The paper presented in this blogpost shows how to use an event study as your main identification strategy. But often, papers employ a Difference-in-Difference strategy and then employ event studies to shed some light on the dynamics behind treatment effects, and to show that the parallel trend assumption is fulfilled. One example is the paper that I discussed in one of my previous blogposts about [Staggered Difference-in-Difference](https://brittarude.github.io/blog/2020/07/21/britta-rude-staggered-difference-in-difference-as-the-next-level). [Hoynes et al. (2016)](https://www.aeaweb.org/articles?id=10.1257/aer.20130375) conduct an event study to raise insights about the question on when investments in children actually most matter. This also helps to further interpret the magnitude of the treatment effect, and the underlying parallel trend assumption of their estimation. Contrary to the estimation equation of their Staggered Difference-in-Difference Design, they recode their main effect $$FSP_{cb}$$ to a series of dummies that is one for two-year intervals of the age at FSP introduction. They omit the 10-11 age category and trimm age at 12 and 5 years respectively to reduce collinearity between event tme and birth year. 
 
+Their event study confirmed their hypothesis of larger treatment effects for children who are exposed to the FSP earlier and therefore for a longer time period. 
+
+## And are there any shortcomings with these event studies? 
+
+Indeed, there are. As already mentioned in the beginning, there are flaws to these event studies, especially when using them to test for parallel trends. [Jonathan Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) gives this a critical look, and so do [Athey and Imbens (2020)](http://economics.mit.edu/files/14964). I will discuss their insights in my next blogpost. 
 
