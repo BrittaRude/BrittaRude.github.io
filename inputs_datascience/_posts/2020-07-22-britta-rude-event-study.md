@@ -15,7 +15,7 @@ But before getting on the details on this, let's revise what it actually means t
 
 They construct a state-by-year panel based on fourth- and eighth-graders taking a yearly math and and reading test. They employ an event study to distinguish the effects of the reforms from other potential determinants of these test-score cards. The event study suits their purpose as the reforms were implemented randomly across states and time. They state that there are 64 school-financed reform events in 26 states between 1990 and 2011. Of these 26 states, 18 had multiple events. The states that do introduce a reform in a certain year forms the treatment group in this set-up, while states without a reform form the control group, after accounting for fixed effects at the state and year level. Following this, the estimation equation looks like that: 
 
-$$ \theta_{st} = \delta_s + \kappa_t + 1(t>t_s*) \beta_{jump} + \epsilon_{st} $$
+$$ \theta_{st} = \delta_s + \kappa_t + 1(t>t_s*) \beta_{jump} + 1(t>t_s*)(t-t_s) \beta_{phasein} + (t-t_s) \beta_{trend} + \epsilon_{st} $$
 
 Here, $$ \theta_{st}$$ is the outcome of interest in state s and year t, $$\delta_s$$ is the state-fixed effect and $$\kappa_t$$ is the year-fixed effect. $$\beta_{jump}$$ is our main coefficient of interest, with $$t_s*$$ representing the time of the event in state s. As the event is assumed to be permanent, the equation considers t>$$t_s*$$. Standard errors are clustered at the state level. As indicated above, the identifying assumption of this equation is that events (reform) were rolled-out randomly. 
 
