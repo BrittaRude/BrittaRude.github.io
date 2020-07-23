@@ -15,7 +15,7 @@ But before getting on the details on this, let's revise what it actually means t
 
 They construct a state-by-year panel based on fourth- and eighth-graders taking a yearly math and and reading test. They employ an event study to distinguish the effects of the reforms from other potential determinants of these test-score cards. The event study suits their purpose as the reforms were implemented randomly across states and time. They state that there are 64 school-financed reform events in 26 states between 1990 and 2011. Of these 26 states, 18 had multiple events. The states that do introduce a reform in a certain year forms the treatment group in this set-up, while states without a reform form the control group, after accounting for fixed effects at the state and year level. Following this, the estimation equation looks like that: 
 
-$$ \theta_{st} = \delta_s + \kappa_t + 1(t>t_s*) \beta_{jump} + 1(t>t_s*)(t-t_s) \beta_{phasein} + (t-t_s) \beta_{trend} + \epsilon_{st} $$
+$$ \theta_{st} = \delta_s + \kappa_t + 1(t>t_s*) \beta_{jump} + \epsilon_{st} $$
 
 Here, $$ \theta_{st}$$ is the outcome of interest in state s and year t, $$\delta_s$$ is the state-fixed effect and $$\kappa_t$$ is the year-fixed effect. $$\beta_{jump}$$ is our main coefficient of interest, with $$t_s*$$ representing the time of the event in state s. As the event is assumed to be permanent, the equation considers t>$$t_s*$$. Standard errors are clustered at the state level. As indicated above, the identifying assumption of this equation is that events (reform) were rolled-out randomly. 
 
@@ -25,8 +25,7 @@ They test for parallel trends before the implementation of the reforms and find 
 
 There are two possible threats to the estimation equation shown above. First of all, SFRs may materialize gradually, especially when talking about student achievement outcomes. As a student's achievement not only depends on the quality of education that s/he receives after the reform, but also before, the development of results may be gradual. Another threat to the identification stratey would be the violation of our assumption that events occur randomly. If states experiencing events systematically differ from events not experiencing events, then this might lead to a bias. [Lafortune et al.(2018)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/app.20160567) solve this by adding two trend terms: 
 
-$$ \theta_{st} = \delta_s + \kappa_t + 1(t>t_s*) \beta_{jump} + \epsilon_{st} $$
+$$ \theta_{st} = \delta_s + \kappa_t + 1(t>t_s*) \beta_{jump} + 1(t>t_s*)(t-t_s) \beta_{phasein} + (t-t_s) \beta_{trend} + \epsilon_{st} $$
 
-
-
+\beta_{phasein} represents delayed event effects and \beta_{trend} represents a falsification test. 
 
