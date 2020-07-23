@@ -17,6 +17,8 @@ They construct a state-by-year panel based on fourth- and eighth-graders taking 
 
 $$ \theta_{st} = \delta_s + \kappa_t + 1(t>t_s*) \beta_{jump} + \epsilon_{st} $$
 
+Here, $$ \theta_{st}$$ is the outcome of interest in state s and year t, $$\delta_s$$ is the state-fixed effect and $$\kappa_t$$ is the year-fixed effect. $$\beta_{jump}$$ is our main coefficient of interest, with $$t_s*$$ representing the time of the event in state s.  
+
 They test for parallel trends before the implementation of the reforms and find that there are no systematic changes in the periods leading up to the reform. They find clear changes in student achievement after the reforms. Ten years after a reform, relative achievement of students in  low-income districts has risen by roughly 0.1 standard deviation. 
 
 
