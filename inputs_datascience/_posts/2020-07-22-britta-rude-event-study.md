@@ -17,9 +17,9 @@ They construct a state-by-year panel based on fourth- and eighth-graders taking 
 
 $$ \theta_{st} = \delta_s + \kappa_t + 1(t>t_s*) \beta_{jump} + \epsilon_{st} $$
 
-Here, $$ \theta_{st}$$ is the outcome of interest in state s and year t, $$\delta_s$$ is the state-fixed effect and $$\kappa_t$$ is the year-fixed effect. $$\beta_{jump}$$ is our main coefficient of interest, with $$t_s*$$ representing the time of the event in state s. As the event is assumed to be permanent, the equation considers t>$$t_s*$$. Standard errors are clustered at the state level. As indicated above, the identifying assumption of this equation is that events (reform) were rolled-out randomly. 
+Here, $$ \theta_{st}$$ is the outcome of interest in state s and year t, $$\delta_s$$ is the state-fixed effect and $$\kappa_t$$ is the year-fixed effect. $$\beta_{jump}$$ is our main coefficient of interest, with $$t_s*$$ representing the time of the event in state s. As the event is assumed to be permanent, the equation considers t>$$t_s*$$. Standard errors are clustered at the state level. As indicated above, the identifying assumption of this equation is that events (reform) were rolled-out randomly, and that without the reform taking place, outcomes (spending and student achievement) would have developed parallely in treated and untreated states. The authors state that this assumption might be too ambitious, and therefore decide to focus on relative student outcomes, instead of absolute student outcomes. What does relative in this case mean? They simply compare outcomes of high- and low-income districts in the same state. With this outcome, different underlying trends or confounders across states and years do not affect our parallel trend assumption anymore, as long as they affect low- and high-income districts within the same state similarly. The identification assumption under this specification changes to that relative outcomes of  low-income districts would have followed parallel trends across states in the absence of SFRs. 
 
-They test for parallel trends before the implementation of the reforms and find that there are no systematic changes in the periods leading up to the reform. They find clear changes in student achievement after the reforms. Ten years after a reform, relative achievement of students in  low-income districts has risen by roughly 0.1 standard deviation. 
+[Lafortune et al.(2018)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/app.20160567) test for parallel trends before the implementation of the reforms and find that there are no systematic changes in the periods leading up to the reform. They find clear changes in student achievement after the reforms. Ten years after a reform, relative achievement of students in  low-income districts has risen by roughly 0.1 standard deviation. 
 
 ## Event Studies: What if events are not random, or take some time to be fully implemented?
 
@@ -36,6 +36,8 @@ $$ \theta_{st} = \delta_s + \kappa_t + \sum_{r=kmin}^r=kmax 1(t=t_s* + r) \beta_
 In the equation above $$\beta_{r}$$ can be interpreted as the effect of an event taking place in year $$t_s*$$ r years later, relative to r=0, and with r being censored at kmin=5 and kmax. This specification then shows that the treatment effect is sometimes spread out over a view year following the event. The authors only reject the non-significance of pre-event coefficients once, as shown in the figure below.  
 
 <img src="/images/Lafortune_2017_EventStudy_Graph.PNG" alt="Lafortune Event Study Graph" style="max-width:60%;"/>
+
+
 
 
 
