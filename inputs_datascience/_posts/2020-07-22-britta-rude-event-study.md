@@ -27,5 +27,11 @@ There are two possible threats to the estimation equation shown above. First of 
 
 $$ \theta_{st} = \delta_s + \kappa_t + 1(t>t_s*) \beta_{jump} + 1(t>t_s*)(t-t_s) \beta_{phasein} + (t-t_s) \beta_{trend} + \epsilon_{st} $$
 
-$$\beta_{phasein}$$ represents delayed event effects, capturing annual changes in the outcome in state s after $$t_s*$$ and relative to t, while $$\beta_{trend}$$ represents a falsification test. If $$\beta_{trend}$$  is unequal to 0, this would mean that our randomization assumption does not hold.  
+$$\beta_{phasein}$$ represents delayed event effects, capturing annual changes in the outcome in state s after $$t_s*$$ and relative to t, while $$\beta_{trend}$$ represents a falsification test. If $$\beta_{trend}$$  is unequal to 0, this would mean that our randomization assumption does not hold. 
+
+[Lafortune et al.(2018)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/app.20160567) additionally estimate a non-parametric version of the estimation equation to allow for non-linear phase-out effects of the treatment, as well as non-linear pre-trends: 
+
+$$ \theta_{st} = \delta_s + \kappa_t + \sum_{r=kmin}^r=kmax 1(t=t_s* + r) \beta_{r} + \epsilon_{st} $$
+
+In the equation above $$\beta_{r}$$ can be interpreted as the effect of an event taking place in year $$t_s*$$ r years later, relative to r=0, and with r being censored at kmin=5 and kmax. This specification then shows that the treatment effect is sometimes spread out over a view year following the event. The authors only reject the non-significance of pre-event coefficients once, as shown in the figure below.   
 
