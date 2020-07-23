@@ -6,6 +6,6 @@ date: 2020-07-01
 
 ##Bachelor 
 
-Teaching Assistant - Behavioral Political Economics Seminar SoSe 2019 
+- Teaching Assistant at [University of Munich](https://www.en.econ.uni-muenchen.de/index.html): Behavioral Political Economics Seminar (Summer 2019) 
 
-Teaching Assistnat - Causes and Consequences of Migration Seminar WiSe 2020/2021
+- Teaching Assistant at [University of Munich](https://www.en.econ.uni-muenchen.de/index.html): Causes and Consequences of Migration Seminar (Summer 2020)
