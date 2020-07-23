@@ -35,7 +35,7 @@ $$ \theta_{st} = \delta_s + \kappa_t + \sum_{r=kmin}^r=kmax 1(t=t_s* + r) \beta_
 
 In the equation above $$\beta_{r}$$ can be interpreted as the effect of an event taking place in year $$t_s*$$ r years later, relative to r=0, and with r being censored at kmin=5 and kmax. This specification then shows that the treatment effect is sometimes spread out over a view year following the event. The authors only reject the non-significance of pre-event coefficients once, as shown in the figure below.  
 
-<img src="/images/Lafortune_2017_SFR.PNG" alt="Lafortune Event Study Graph" style="max-width:60%;"/>
+<img src="/images/Lafortune_2017_EventStudy_Graph.PNG" alt="Lafortune Event Study Graph" style="max-width:60%;"/>
 
 
 
