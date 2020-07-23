@@ -27,5 +27,5 @@ There are two possible threats to the estimation equation shown above. First of 
 
 $$ \theta_{st} = \delta_s + \kappa_t + 1(t>t_s*) \beta_{jump} + 1(t>t_s*)(t-t_s) \beta_{phasein} + (t-t_s) \beta_{trend} + \epsilon_{st} $$
 
-\beta_{phasein} represents delayed event effects and \beta_{trend} represents a falsification test. 
+$$\beta_{phasein}$$ represents delayed event effects, capturing annual changes in the outcome in state s after $$t_s*$$ and relative to t, while $$\beta_{trend}$$ represents a falsification test. If $$\beta_{trend}$$  is unequal to 0, this would mean that our randomization assumption does not hold.  
 
