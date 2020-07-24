@@ -27,7 +27,11 @@ where $$D_i \times g(t)$$ is a potential difference in trends between the treatm
 
 $$ y_{it}= \alpha_i + \theta_t + \sum_{s \neq 0} beta_s × 1[s=t] \times D_i + \epsilon_{it}$$. 
 
-$$\beta_1$$ is our canonical difference-in-differences treatment effect, and $$\beta_{-1}$$ our pre-period event-study coefficient. 
+$$\beta_1$$ is our canonical difference-in-difference treatment effect, and $$\beta_{-1}$$ our pre-period event-study coefficient. Importantly, $$ \triangle y_{t=0}$$ enters the formular for both estimates (the post- and pre-coefficient). This is important, as if we assume $$\beta_{-1}$$ to be 0, this affects our distribution of $ \triangle y_{t=0}$$, and this on the other hand influences the distribution of $$\beta_{1}$$. This is important to have in mind for the argument Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) is making. 
+
+
+
+
 
 
 
