@@ -37,6 +37,10 @@ The right panel of the figure above shows the bias of our estimate. [Roth (2020)
  
 <img src="/images/Roth_Bias_Rational_2019.PNG" alt="Roth Bias PreTest" style="max-width:60%;"/>
 
+[Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) also shows that the false non-rejection of parallel trends affects our variance estimator. The variance of passing the pre-trend test is lower than the unconditional variance. This can also be seen in the figure above. The blue dots are less disperse than the grey triangles. The combination of this variance effect, and the bias effect described in the paragraph above then leads us to conventional CIs that over-cover for pre-treatment differences in trends close to zero, and under-cover in the case of large pre-treatment differences. 
+
+In his paper, [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) also develops the general model of the three period case discussed above, but in the virtue of time I will refer you to his paper for that. I will focus on the implications he derives for applied work. Reviewing a number of papers in leading journals he shows that conventional pre-tests for parallel trends often have low power even against substantial linear violations of parallel trends
+
 
 
 
