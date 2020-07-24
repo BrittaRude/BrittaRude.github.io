@@ -21,7 +21,15 @@ Giving an example, in which linear pre-trends exists, he shows that even in this
 
 $$y_{it}(0) = \alpha_i + \theta_t + D_i \times g(t) +\epsilon_{it}$$, 
 
-where $$D_i \times g(t)$$ is a potential difference in trends between the treatment and control group. 
+where $$D_i \times g(t)$$ is a potential difference in trends between the treatment and control group. With $$ g(t)=t$$ the outcome of our treatment group is linearly increasing relative to the outcome of our control group, but if $$ g(t)=0$$ then our parallel trend assumption holds, and there are no pre-treatment trends present. 
+
+[Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) then applies a traditional Difference-in-Difference specification, that is: 
+
+$$ y_{it}= \alpha_i + \theta_t + \sum_{s \neq 0} beta_s × 1[s=t] \times D_i + \epsilon_{it}$$. 
+
+$$\beta_1$$ is our canonical difference-in-differences treatment effect, and $$\beta_{-1}$$ our pre-period event-study coefficient. 
+
+
 
 
 
