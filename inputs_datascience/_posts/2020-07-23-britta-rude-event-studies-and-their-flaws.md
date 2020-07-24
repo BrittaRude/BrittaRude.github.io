@@ -33,6 +33,10 @@ In his paper, he assumes a linear violation of the parallel trend assumption $$g
 
 <img src="/images/Roth_Bias_PreTest_2019.PNG" alt="Roth Bias PreTest" style="max-width:60%;"/>
 
+The right panel of the figure above shows the bias of our estimate. [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) shows that in the case without conditioning on parallel pre-trends the bias simply is equal to the underlying true difference in trends $$\gamma$$ (the black line). But if we condition on parallel trends, but did not detect the actual underlying difference in trends, our bias is larger than in the unconditional case (the blue line). But where does this increased bias come from? 
+
+
+
 
 
 
