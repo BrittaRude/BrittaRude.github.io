@@ -17,4 +17,13 @@ Giving an example, in which linear pre-trends exists, he shows that even in this
 - [ Freyaldenhoven et al. (2019)](https://www.brown.edu/Research/Shapiro/pdfs/pretrends.pdf) allow for a violation of the parallel-trend assumption as long as there exists a covariate that is unaffected by the treatment, but by the same confounding factor leading to pre-trend differences. 
 - [Rambach and Roth (2019)](https://scholar.harvard.edu/files/jroth/files/roth_jmp_honestparalleltrends_main.pdf) propose to conduct a form of sensitiviy analysis to the parallel trend assumption, and through this find out how and when it affects the estimated treatment effect. 
 
+[Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) introduces a model with three periods, homoskedastic errors, and (potentially) linear violations of parallel trends. This means that we have an outcome $$y_{it}$$ for individual i that we observe in the three time periods t=-1,0,1. The individuals can forme part of the treatment group ($$D_i = 1$$), or the control group ($$D_i = 0$$). We then have two potential outcomes $$y_{it}(1)$$ and $$y_{it}(0)$$. Now let's assume that there is no causal effect of the treatment and $$y_{it}(1)$$ = $$y_{it}(0)$$, and that: 
+
+$$y_{it}(0) = \alpha_i + \theta_t + D_i \times g(t) +\epsilon_{it}$$, 
+
+where $$D_i \times g(t)$$ is a potential difference in trends between the treatment and control group. 
+
+
+
+
 
