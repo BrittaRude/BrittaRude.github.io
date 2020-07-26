@@ -14,7 +14,9 @@ Giving an example, in which linear pre-trends exists, he shows that even in this
 [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) presents several possible solutions to this problem. Of course, all of these proposals are based on assumptions about the violation of parallel trends themselves. Therefore, we have to decide on a certain method, depending on which assumption we believe to be true in our respective case. The proposals presented by the author are: 
 
 - The extrapolation of the pre-treatment difference in trends to the post-treatment periods via a functional form assumption. The problem with this approach is that researchers are often unsure about the correct functional formfor the differential trend. Therefore, he proposes an alternative approach that relaxes the exact parallel trends assumption: 
+
 - [ Freyaldenhoven et al. (2019)](https://www.brown.edu/Research/Shapiro/pdfs/pretrends.pdf) allow for a violation of the parallel-trend assumption as long as there exists a covariate that is unaffected by the treatment, but by the same confounding factor leading to pre-trend differences. 
+
 - [Rambach and Roth (2019)](https://scholar.harvard.edu/files/jroth/files/roth_jmp_honestparalleltrends_main.pdf) propose to conduct a form of sensitiviy analysis to the parallel trend assumption, and through this find out how and when it affects the estimated treatment effect. 
 
 [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) introduces a model with three periods, homoskedastic errors, and (potentially) linear violations of parallel trends. This means that we have an outcome $$y_{it}$$ for individual i that we observe in the three time periods t=-1,0,1. The individuals can forme part of the treatment group ($$D_i = 1$$), or the control group ($$D_i = 0$$). We then have two potential outcomes $$y_{it}(1)$$ and $$y_{it}(0)$$. Now let's assume that there is no causal effect of the treatment and $$y_{it}(1)$$ = $$y_{it}(0)$$, and that: 
@@ -39,7 +41,11 @@ The right panel of the figure above shows the bias of our estimate. [Roth (2020)
 
 [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) also shows that the false non-rejection of parallel trends affects our variance estimator. The variance of passing the pre-trend test is lower than the unconditional variance. This can also be seen in the figure above. The blue dots are less disperse than the grey triangles. The combination of this variance effect, and the bias effect described in the paragraph above then leads us to conventional CIs that over-cover for pre-treatment differences in trends close to zero, and under-cover in the case of large pre-treatment differences. 
 
-In his paper, [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) also develops the general model of the three period case discussed above, but in the virtue of time I will refer you to his paper for that. I will focus on the implications he derives for applied work. Reviewing a number of papers in leading journals he shows that conventional pre-tests for parallel trends often have low power even against substantial linear violations of parallel trends
+In his paper, [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) also develops the general model of the three period case discussed above, but in the virtue of time I will refer you to his paper for that. I will focus on the implications he derives for applied work. Reviewing a number of papers in leading journals he shows that conventional pre-tests for parallel trends often have low power even against substantial linear violations of parallel trends. As mentioned above, he then presents alternative methods to apply if we suspect our parallel trend assumption to be violated. 
+
+The first possibility is to impose particular functional form restrictionson the way that parallel trends can be violated. We can then extrapolate pre-treatment data to our post-treatment periods, and estimate the counterfactual difference in trends, and removing the bias in conventional estimates. One possiblity there is to assume linearity in the violation of pre-trends, that is $$ \delta_t = t \times \M_t \delta_{pre}$$. 
+
+
 
 
 
