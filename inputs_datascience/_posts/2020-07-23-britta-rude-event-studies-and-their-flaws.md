@@ -51,6 +51,8 @@ Therefore, [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pret
 
 The paper by [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) stresses an important point relevant for research applying event-studies, or difference in difference. It is not enough to simply rely on a non-rejection of parallel trend assumptions. Researchers should think about what the parallel trend assumption actually implies from an economic viewpoint, and then deduct reasonable assumptions about the functional form of this assumptions. The methods presented can then serve to stress the robustness of causal inferences made. 
 
+For flaws in Event Studies with varying treatment, see the paper by [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) which I resume in my next blogpost. 
+
 
 
 
