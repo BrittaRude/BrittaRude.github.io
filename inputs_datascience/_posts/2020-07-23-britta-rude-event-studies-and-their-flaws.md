@@ -45,7 +45,13 @@ In his paper, [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_p
 
 The first possibility is to impose particular functional form restrictionson the way that parallel trends can be violated. We can then extrapolate pre-treatment data to our post-treatment periods, and estimate the counterfactual difference in trends, and removing the bias in conventional estimates. One possiblity there is to assume linearity in the violation of pre-trends, that is $$ \delta_t = t \times M_t \delta_{pre}$$. We then have $$ \tau_t = \beta_t - t \times M_T \beta_{pre}, a valid causal estimator, under the assumption that the functional form specification is correct. The downside of this solution is that often it is not possible to identify the correct underlying functional form, and that the exact functional form remains an open question. 
 
-Therefore, [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) refers to alternative solutions to relax the parallel trend assumption without relying on these strong assumptions about the underlying functional form of the parallel trend violation. One such approach is the one proposed by [ Freyaldenhoven et al. (2019)](https://www.brown.edu/Research/Shapiro/pdfs/pretrends.pdf). They allow for a differential trend in the outcome $$ y_{it}$$ as long as this difference is driven by an unobservable variable $$ \eta_{it}$$ that also affects treatment status $$ D_{it}$$, and as long as we observe an alternative outcome $$x_{it}$$ that is also affected by $$ \eta_{it}$$, but unaffected by treatment $$ D_{it}$$. 
+Therefore, [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pretrends_testing.pdf) refers to alternative solutions to relax the parallel trend assumption without relying on these strong assumptions about the underlying functional form of the parallel trend violation. One such approach is the one proposed by [ Freyaldenhoven et al. (2019)](https://www.brown.edu/Research/Shapiro/pdfs/pretrends.pdf). They allow for a differential trend in the outcome $$ y_{it}$$ as long as this difference is driven by an unobservable variable $$ \eta_{it}$$ that also affects treatment status $$ D_{it}$$, and as long as we observe an alternative outcome $$x_{it}$$ that is also affected by $$ \eta_{it}$$, but unaffected by treatment $$ D_{it}$$. This line of thinking is similar to what we know from instrumental variable approaches. the downside of this approach though is that it is often difficult to find the excluded outcome variable  $$x_{it}$$. 
+
+
+
+
+
+
 
 
 
