@@ -13,7 +13,12 @@ They follow [Roth (2020)](https://scholar.harvard.edu/files/jroth/files/roth_pre
 
 What does this mean for applied work? It means that we can have a spurious non-zero positive lead coefficient even when there is no pretrend. The contamination of $$ \mu_l $$ from other periods $$l'$$ depends on the relative weights on $$CATT_{e,l'}$$. These weights, on the other hand, depend on the cohort composition. Examining these weights can give researchers some insight about a potential spurious pre-treatment trend. [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) develop an estimator that can accomodate these heterogeneous treatment effects. Their estimation strategy first estimates the heterogeneous treatment effect of each cohort, and then calculates the average of these cohort-specific estimates through applying cohort-specific weights. They then repeat the analysis with the inclusion of covariates. Importantly, in their specification the $$CATT_{e,l'}$$ is the cohort-specific average change in outcome relative to never being treated. This is different to a specification of $$CATT_{e,l'}$$ as the cohort-specific average change in outcome relative to being treatment at a different time period (see [Athey and Imbens (2018)](https://www.nber.org/papers/w24963.pdf). 
 
-[Sun and Abraham (2020)](http://economics.mit.edu/files/14964) show the validity of their estimation method applying it to the research question addressed by [Dobkin et al. (2018)](https://www.aeaweb.org/articles?id=10.1257/aer.20161038) about the economic consequences of hospital admissions for adults. 
+[Sun and Abraham (2020)](http://economics.mit.edu/files/14964) show the validity of their estimation method applying it to the research question addressed by [Dobkin et al. (2018)](https://www.aeaweb.org/articles?id=10.1257/aer.20161038) about the economic consequences of hospital admissions for adults. The blogpost at hand will summarize their paper in greater detail. 
+
+## Defining event studies 
+
+[Sun and Abraham (2020)](http://economics.mit.edu/files/14964) define event studies as follows. 
+
 
 
 
