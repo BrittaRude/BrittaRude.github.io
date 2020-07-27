@@ -103,7 +103,7 @@ The authors observe some heterogeneity across treatment effects for different ag
 
 [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) state the paper by [Dobkin et al. (2018)](https://www.aeaweb.org/articles?id=10.1257/aer.20161038) suits their purpose, as the parallel trend assumption as well as no anticipation assumption are likely to hold, but there seems to be heterogeneity across cohorts due to cohort compositional changes. They estimate an event-study regression estimation with three leads and lags, including an indicator variable for each lead and lag (see equation 22 in their paper). In contrast to the original paper, [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) do not trim the sample, but balance it over calendar time. They then exclude the period before hospitalization (l=-1) and l=-4. They then focus on the coefficient $$ \mu_0 $$ that supposedly captures the contenmporaneous effect of hospitalization. They show that $$ \mu_0 $$ is a linear combination of the CATTs from its own relative period, as well as other relative periods, and the excluded periods. They plot the waves of each of the CATTs: 
 
-
+<img src="/images/Sun_Abraham_Figure3.PNG" alt="Roth Bias PreTest" style="max-width:60%;"/>
 
 
 
