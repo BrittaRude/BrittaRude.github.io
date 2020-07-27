@@ -105,6 +105,10 @@ The authors observe some heterogeneity across treatment effects for different ag
 
 <img src="/images/Sun_Abraham_Figure3.PNG" alt="Roth Bias PreTest" style="max-width:60%;"/>
 
+The figure above shows that weights are large for leads of treatments (negative relative waves), and therefore our contemporaneous estimator $$ \mu_o $$ is sensitive to pre-trends. Consequently, it does not isolate the contemporaneous effect of hospitalizations. Therefore, in a next step, [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) estimate their IW estimator, and show, that the estimators are very similar to the traditional FE estimators. Still, the two-way fixed effects estimators are marked by non-convex and non-positive weights. 
+
+
+
 
 
 
