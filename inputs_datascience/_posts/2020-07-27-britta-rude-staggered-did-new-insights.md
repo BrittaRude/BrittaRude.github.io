@@ -1,7 +1,7 @@
 ---
 layout: post
 usemathjax: true 
-title: "Staggered DiD versus traditional DiD - What is different"
+title: "Staggered DiD versus traditional DiD - What is different?"
 date: 2020-07-27
 ---
 
@@ -13,7 +13,7 @@ One of these papers is the paper by [Athey and Imbens (2018)](https://www.nber.o
 
 ## Staggered difference-in-difference: Definition 
 
-
+To derive their results, [Athey and Imbens (2018)](https://www.nber.org/papers/w24963.pdf) consider a setting with i=1,...,N individuals and t=1,...,T time periods, with a binary treatment being first adopted in t=T+1. $$Y_{it}(a)$$ is the outcome of interest, and Ai is the adoption date. If an individual does not adopt the treatment, the treatment period is $$T= \infty $$. They define $$ W(a,t) = 1_{a \leq t} $$ as an indicator for the adoption date a before t. They then derive a matrix W that contains never adopters, late adopters, medium adopters and early adopters. 
 
 
 
