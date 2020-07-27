@@ -25,6 +25,16 @@ This is slightly different from the $$CATT_{a,i}$$ definition that Abraham and S
 
 ## Assumptions 
 
+[Athey and Imbens (2018)](https://www.nber.org/papers/w24963.pdf) derive three sets of assumption, which I will summarize in the following: 
+
+- Assumption 1: Random adoption date. This assumption is very strong, but can only be relaxed through additional information, as for example the inclusion of additional control variables, pre-treatment variables, or limiting treatment effects. 
+
+- Assumption 2: Exclusion restrictions. The first of the two exclusion restriction is that future adoption dates do not affect current outcomes. The assumption is also called no-anticipation assumption. The second exclusio restriction is the invariance-to-history assumption. The assumption implies that for the outcome observed in period t it does not matter how long the individual has been exposed to a certain treatment, just whether it has been exposed, or not. Put differently, there is no causal effect of an early or late adoption of the treatment on the outcome of interest. [Athey and Imbens (2018)](https://www.nber.org/papers/w24963.pdf) give an example of this exclusion restriction, that is, when our cohorts differ per period (pooled panel data), as for example in the case that we estimate the effect of a student subsidy on the employment rate of 25-year olds. Then it makes sense to assume that the college choice of students graduating depends on the current subsidy, but not on the subsidy during previous years. 
+
+- Assumption 3-5: Auxiliary assumptions. The first of these auxiliary assumptions is the assumption about constant treatment effects across units. It implies that the effect of adoption date a' is the same for all units. The second auxiliary assumption states that treatment effects are constant over time. The third auxiliary assumption imposes random sampling, and the last one additivity. 
+
+## Defining and interpreting the DiD estimator 
+
 
 
 
