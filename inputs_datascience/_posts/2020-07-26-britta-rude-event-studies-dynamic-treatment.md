@@ -55,6 +55,8 @@ The dynamic specification allows for treatment leads and lags, excluding distant
 
 $$Y_{i,t} = \alpha_i + \gamma_t + \sum_{l = -K}^-2 \mu_l D_{i,t}^l + \sum_{l = 0}^L \mu_l D_{i,t}^l + \nu_{i,t}$$
 
+The exclusion of some relative period is necessary to avoid multicollinearity. Excluding the period prior to to treatment is common practice. 
+
 
 
 
