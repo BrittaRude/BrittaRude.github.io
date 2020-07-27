@@ -97,6 +97,8 @@ $$ y_{it} = \gamma_t + X_{it} \alpha + \delta r + \sum_{r=0}^3 \mu_r + \epsilon_
 
 which allows for a linear pre-trend in event time r. The coefficient of interest $$\mu_r S$$ then shows the change in outcome following a hospital admission, relative to any preexisting linear trends. The credit report specification further includes cubic spline in post-admission event time, allowing for second and third derivatives of the relationship between outcome and event time to change after r>0, the fourth derivative after r>12, and the fifth derivative after r>24. The functional form specifications for both datasets are based on the nonparametric event study, and the figures below: 
 
+<img src="/images/Dobkin et al.PNG" alt="Roth Bias PreTest" style="max-width:60%;"/>
+
 
 
 
