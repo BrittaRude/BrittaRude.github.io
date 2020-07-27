@@ -67,13 +67,23 @@ The exclusion of some relative period is necessary to avoid multicollinearity. E
 
 - Under the parallel trend assumption, the no-anticipation assumption, as well as the treatment effect homogeneity assumption, $$CATT_{e,l} = CATT_{l}$$ is constant across e for a given l and $$ \mu_g $$ is equal to a linear combination of its own relative period CATT minus the linear combination of the CATT from other relative periods. 
 
-## Alternative estimation method 
+## Alternative estimation method - the interaction-weighted estimator 
 
 [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) propose a new estimation method that is robust to treatment effect heterogeneity, and generate an interpretable relative period estimator $$ \mu_g $$ with non-negative weights that sum up to one. They create the following weighted-average, with weights being the share of cohorts that experience their first treatment in period e, or at least l periods relative to the treatment, normalized by the size of g: 
 
 $$ \nu_{g} = \frac{1}{|g|} \sum_{l \in g} \sum_e CATT_{e,l} Pr \{ E_i = e | E_i \in (-l, T-l) \}$$
 
-To estimate $$ \nu_{g}$$ the authors first estimate each CATT_{e,l} and then estimate their respective weight using their sample analogs. 
+To estimate $$ \nu_{g}$$ the authors first estimate each CATT_{e,l} and then estimate their respective weight using their sample analogs. They then average across the respective cohort-specific estimates. They call their estimator an interaction-weighted estimator. The exact procedure is as follows: 
+
+- Step 1: Estimate the $$CATT_{e,l}$$ through a linear two-way fixed effects specification that interactsrelative period indicators with cohort indicators
+
+- Step 2: Estimate the weights by sample shares of each cohortin the relevant period(s)
+
+- Step 3: Estimate a weighted average using Step 1 and Step 2 to generate the IW-estimator
+
+## Bringing it to practice - Some empirical illustrations
+
+
 
 
 
