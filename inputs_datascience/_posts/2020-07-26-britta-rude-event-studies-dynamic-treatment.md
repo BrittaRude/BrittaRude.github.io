@@ -19,7 +19,7 @@ What does this mean for applied work? It means that we can have a spurious non-z
 
 [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) define event studies as follows. They focus on absorbing treatment, which means that once the treatment status is switched on, it stays on. They estimate the following equation: 
 
-$$ Y_{it} = Y_{it}^E_i = Y{it}^\infty + \sum_{0 \leq e \leq T} (Y_{it}^e - Y_{it}^\infty ) \times 1 (E_i = e) $$, 
+$$ Y_{it} = Y_{it}^E_i = Y{it}^\infty + \sum_{0 \leq e \leq T} (Y_{it}^e - Y_{it}^\infty) \times 1 \{ E_i = e \} $$, 
 
 where unit i is first treated in time period e. For never treated units $$E_i = \infty $$. All individuals for which treatment first switches on in period e form one cohort. It is important to stress that the authors define the treatment effect as the difference between the outcome of treated individuals $$Y_{it}$$ relative to the outcome of never treated units $$Y_{it}^\infty$$. They then define the $$CATT_{e,l}$$ (the cohort-specific average treatment effect on the treated) as the average of all treatment effects of all individuals receiving treatment for the first time at period e. They estimate the CATT not at time period t, but at relative time period l (l periods from the initial treatment e): 
 
@@ -57,7 +57,21 @@ $$Y_{i,t} = \alpha_i + \gamma_t + \sum_{l = -K}^-2 \mu_l D_{i,t}^l + \sum_{l = 0
 
 The exclusion of some relative period is necessary to avoid multicollinearity. Excluding the period prior to to treatment is common practice. Another common practice is to bin or trim distant periods. 
 
-[Sun and Abraham (2020)](http://economics.mit.edu/files/14964) next show that under no assumptions the coefficient $$\mu_l$$ is a linear combination of differences in trends from its own relative period $$ l \in g$$, from other relative periods $$ l \in g' $$, and from excluded relative periods, weighted by weights \omega_{e,l}^g.   
+[Sun and Abraham (2020)](http://economics.mit.edu/files/14964) next inspect the relative period coefficients under a combination of the assumptions listed above: 
+
+- They show that under no assumptions the coefficient $$\mu_l$$ is a linear combination of differences in trends from its own relative period $$ l \in g$$, from other relative periods $$ l \in g' $$, and from excluded relative periods, weighted by weights $$\omega_{e,l}^g$$. They show that for $$ \mu_g $$'s own relative period, the weights sum up to 1, for other relative periods, the weights sum up to 0, and for for excluded relative periods, the weights sum up to -1. For never treated units, the weights are zero. 
+
+- Under the parallel trend assumption only, $$ CATT_{i,l}$$ is a linear combination of the CATT belonging to its own relative period, and other relative periods. The weights in this case can be non-convex, and it is important to examine them, to see if one particular CATT is driving the overall estimate (treatment heterogeneity does matter). 
+
+- Under the parallel trend assumption, and no anticipation assumtpion, $$ CATT_{i,l}$$ is a linear combination of post-treatment $$CATT_{e, l'}$$. What does this mean for applied work? This means that pre-trend tests based on pre-period coefficients are invalid, if effects are homogeneous across cohorts. Non-zero pre-treatment coefficients do not automatically give evidence of pre-treatment trends. This is due to the fact that under the no-anticipation assumption the coefficients of all cohort-specific treatment effects prior to treatment are all zero, and therefore also their linear combination. But still, due to the influence of post-treatment $$CATT_{e \geq 0} the estimant is not necessarily zero. Therefore, traditional pre-trend tests are invalid. 
+
+- Under the parallel trend assumption, the no-anticipation assumption, as well as the treatment effect homogeneity assumption, $$CATT_{e,l} = CATT_{l}$$ is constant across e for a given l and $$ \mu_g $$ is equal to a linear combination of its own relative period CATT minus the linear combination of the CATT from other relative periods. 
+
+##Alternative estimation method 
+
+
+
+
 
 
 
