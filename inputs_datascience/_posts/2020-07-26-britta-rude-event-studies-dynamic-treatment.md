@@ -37,7 +37,13 @@ There are three identifying assumptions in this set-up:
 
 - __Assumption 3:__ Treatment effect homogeneity: For each relative period l, $$CATT_{e,l}$$ does not depend on the timing of its first treatment status e, and is equal to $$CATT_l$$. This means that treatment effects are the same across different cohorts for every relative treatment period l. This means that different cohorts share the same treatment path, and does not mean that dynamic treatment effects do not occur. A variation across cohorts could stem from differing covariates across cohorts (e.g. treatment varies by age, and cohorts vary by their age structure), calendar-time varying effects (e.g. macroeconomic conditions), or individuals selecting into treatment at certain times e, that is, the treatment timing is not random. The last case still satisfies their parallel trend assumpion, if it is not determined by the outcome. 
 
+## Estimators - How to interprete coefficients in the dynamic set-up 
 
+The traditional event study regression, also called two-way (unit and time) fixed effects regression, with i=1, ..., N units and t=1, ..., T calendar time periods looks as follows: 
+
+$$Y_{i,t} = \alpha_i + \gamma_t + \sum_{g \in G} \mu_g 1{t-E_i \in g} + \nu_{i,t}$$, 
+
+where $$Y_{i,t}$$ is the outcome of interest for unit i at time t. 
 
 
 
