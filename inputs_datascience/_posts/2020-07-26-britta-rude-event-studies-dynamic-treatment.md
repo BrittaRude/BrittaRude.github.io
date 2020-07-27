@@ -43,7 +43,12 @@ The traditional event study regression, also called two-way (unit and time) fixe
 
 $$Y_{i,t} = \alpha_i + \gamma_t + \sum_{g \in G} \mu_g 1{t-E_i \in g} + \nu_{i,t}$$, 
 
-where $$Y_{i,t}$$ is the outcome of interest for unit i at time t, and $$g \in G§§ are relative periods. $$ \mu_g $$ are the relative period coefficients, and ideally these should be convex averages of $$CATT_{e,l}. 
+where $$Y_{i,t}$$ is the outcome of interest for unit i at time t, and $$g \in G§§ are relative periods. $$ \mu_g $$ are the relative period coefficients, and ideally these should be convex averages of $$CATT_{e,l}$$. [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) have a closer look at the relative period indicator $$ 1{t-E_i \in g} $$ to see how it varies with time. They define the following as an indicator for unit i being observed l periods away from the initial treatment at calendar time t: 
+
+$$ 1{t-E_i \in g} = 1{t-E_i = l} = \sum_{l \in g} D_{i,t}^l $$ 
+
+
+
 
 
 
