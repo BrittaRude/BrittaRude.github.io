@@ -13,7 +13,19 @@ One of these papers is the paper by [Athey and Imbens (2018)](https://www.nber.o
 
 ## Staggered difference-in-difference: Definition 
 
-To derive their results, [Athey and Imbens (2018)](https://www.nber.org/papers/w24963.pdf) consider a setting with i=1,...,N individuals and t=1,...,T time periods, with a binary treatment being first adopted in t=T+1. $$Y_{it}(a)$$ is the outcome of interest, and Ai is the adoption date. If an individual does not adopt the treatment, the treatment period is $$T= \infty $$. They define $$ W(a,t) = 1_{a \leq t} $$ as an indicator for the adoption date a before t. They then derive a matrix W that contains never adopters, late adopters, medium adopters and early adopters. 
+To derive their results, [Athey and Imbens (2018)](https://www.nber.org/papers/w24963.pdf) consider a setting with i=1,...,N individuals and t=1,...,T time periods, with a binary treatment being first adopted in t=T+1. $$Y_{it}(a)$$ is the outcome of interest, and Ai is the adoption date. If an individual does not adopt the treatment, the treatment period is $$T= \infty $$. They define $$ W(a,t) = 1_{a \leq t} $$ as an indicator for the adoption date a before t. They then derive a matrix W that contains never adopters, late adopters, medium adopters and early adopters. They then define a fraction of individuals belonging to each timing-treatment-group, and the  population  average  of the potential outcome in period t for adoption date a:
+
+$$ Y_t(a) = \frac{1}{N} \sum_{i=1}^N Y_{it}(a)$$ 
+
+and the average causal effect of adoption date a′ relative to a, on the outcome in period t as: 
+
+$$ \tau_{t, aa'} = Y_t(a') - Y_t(a) = \frac{1}{N} \sum_{i=1}^N \{Y_{it}(a') - Y_{it}(a) \}$$. 
+
+
+
+
+
+
 
 
 
