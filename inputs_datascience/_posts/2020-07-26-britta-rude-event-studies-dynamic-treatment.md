@@ -19,7 +19,9 @@ What does this mean for applied work? It means that we can have a spurious non-z
 
 [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) define event studies as follows. They focus on absorbing treatment, which means that once the treatment status is switched on, it stays on. They estimate the following equation: 
 
-$$ Y_{it} = Y_{it}^(E_i) = Y{it}^\infty + \sum_{0 \leq e \leq T} (Y_{it}^e - (Y_{it}^\infty ) \times 1{E_i = e} $$, where unit i is first treated in time period e. For never treated units $$E_i = \infty $$. All individuals for which treatment first switches on in period e form one cohort. It is important to stress that the authors define the treatment effect as the difference between the outcome of treated individuals $$Y_{it}$$ relative to the outcome of never treated units $$Y_{it}^\infty$$. They then define the CATT_{e,l} (the cohort-specific average treatment effect on the treated) as the average of all treatment effects of all individuals receiving treatment for the first time at period e. 
+$$ Y_{it} = Y_{it}^(E_i) = Y{it}^\infty + \sum_{0 \leq e \leq T} (Y_{it}^e - (Y_{it}^\infty ) \times 1{E_i = e} $$, where unit i is first treated in time period e. For never treated units $$E_i = \infty $$. All individuals for which treatment first switches on in period e form one cohort. It is important to stress that the authors define the treatment effect as the difference between the outcome of treated individuals $$Y_{it}$$ relative to the outcome of never treated units $$Y_{it}^\infty$$. They then define the $$CATT_{e,l}$$ (the cohort-specific average treatment effect on the treated) as the average of all treatment effects of all individuals receiving treatment for the first time at period e. They estimate the CATT not at time period t, but at relative time period l (l periods from the initial treatment e): 
+
+$$ CATT_{e,l} = E[Y_{i,e+l} - Y_{i,e+l}^\infty| E_i=e]} 
 
 
 
