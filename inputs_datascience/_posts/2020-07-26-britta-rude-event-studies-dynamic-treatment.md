@@ -43,9 +43,9 @@ The traditional event study regression, also called two-way (unit and time) fixe
 
 $$Y_{i,t} = \alpha_i + \gamma_t + \sum_{g \in G} \mu_g 1{t-E_i \in g} + \nu_{i,t}$$, 
 
-where $$Y_{i,t}$$ is the outcome of interest for unit i at time t, and $$g \in G$$ are relative periods. $$ \mu_g $$ are the relative period coefficients, and ideally these should be convex averages of $$CATT_{e,l}$$. [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) have a closer look at the relative period indicator $$ 1{t-E_i \in g} $$ to see how it varies with time. They define the following as an indicator for unit i being observed l periods away from the initial treatment at calendar time t: 
+where $$Y_{i,t}$$ is the outcome of interest for unit i at time t, and $$g \in G$$ are relative periods. $$ \mu_g $$ are the relative period coefficients, and ideally these should be convex averages of $$CATT_{e,l}$$. [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) have a closer look at the relative period indicator $$ 1{\t-E_i \in g\} $$ to see how it varies with time. They define the following as an indicator for unit i being observed l periods away from the initial treatment at calendar time t: 
 
-$$ 1{t-E_i \in g} = 1{t-E_i = l} = \sum_{l \in g} D_{i,t}^l $$ 
+$$ 1\{t-E_i \in g\} = 1\{t-E_i = l\} = \sum_{l \in g} D_{i,t}^l $$ 
 
 This indicator can be applied to a static or dynamic set-up. The static set-up assumes that $$ g= [0, T] $$ and that $$ 1{t-E_i \in g} = 1{E_i \leq t} $$ (has unit i received its initial treatment by calendar-time period t?). The static regression thus looks as follows: 
 
@@ -55,7 +55,9 @@ The dynamic specification allows for treatment leads and lags, excluding distant
 
 $$Y_{i,t} = \alpha_i + \gamma_t + \sum_{l = -K}^-2 \mu_l D_{i,t}^l + \sum_{l = 0}^L \mu_l D_{i,t}^l + \nu_{i,t}$$
 
-The exclusion of some relative period is necessary to avoid multicollinearity. Excluding the period prior to to treatment is common practice. 
+The exclusion of some relative period is necessary to avoid multicollinearity. Excluding the period prior to to treatment is common practice. Another common practice is to bin or trim distant periods. 
+
+[Sun and Abraham (2020)](http://economics.mit.edu/files/14964) next show that under no assumptions the coefficient $$\mu_l$$ is a linear combination of differences in trends from its own relative period $$ l \in g$$, from other relative periods $$ l \in g' $$, and from excluded relative periods, weighted by weights \omega_{e,l}^g.   
 
 
 
