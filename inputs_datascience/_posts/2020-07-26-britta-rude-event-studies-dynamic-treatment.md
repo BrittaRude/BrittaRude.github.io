@@ -19,7 +19,7 @@ What does this mean for applied work? It means that we can have a spurious non-z
 
 [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) define event studies as follows. They focus on absorbing treatment, which means that once the treatment status is switched on, it stays on. They estimate the following equation: 
 
-$$ Y_{it} = Y_{it}^E_i = Y{it}^\infty + \sum_{0 \leq e \leq T} (Y_{it}^e - (Y_{it}^\infty ) \times 1{E_i = e} $$, where unit i is first treated in time period e. For never treated units $$E_i = \infty $$. All individuals for which treatment first switches on in period e form one cohort. 
+$$ Y_{it} = Y_{it}^(E_i) = Y{it}^\infty + \sum_{0 \leq e \leq T} (Y_{it}^e - (Y_{it}^\infty ) \times 1{E_i = e} $$, where unit i is first treated in time period e. For never treated units $$E_i = \infty $$. All individuals for which treatment first switches on in period e form one cohort. 
 
 
 
