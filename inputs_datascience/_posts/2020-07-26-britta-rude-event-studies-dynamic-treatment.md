@@ -73,7 +73,7 @@ The exclusion of some relative period is necessary to avoid multicollinearity. E
 
 $$ \nu_{g} = \frac{1}{|g|} \sum_{l \in g} \sum_e CATT_{e,l} Pr \{ E_i = e | E_i \in (-l, T-l) \}$$
 
-To estimate $$ \nu_{g}$$ the authors first estimate each CATT_{e,l} and then estimate their respective weight using their sample analogs. They then average across the respective cohort-specific estimates. They call their estimator an interaction-weighted estimator. The exact procedure is as follows: 
+To estimate $$ \nu_{g}$$ the authors first estimate each $$CATT_{e,l}$$ and then estimate their respective weight using their sample analogs. They then average across the respective cohort-specific estimates. They call their estimator an interaction-weighted estimator. The exact procedure is as follows: 
 
 - Step 1: Estimate the $$CATT_{e,l}$$ through a linear two-way fixed effects specification that interactsrelative period indicators with cohort indicators
 
@@ -83,7 +83,15 @@ To estimate $$ \nu_{g}$$ the authors first estimate each CATT_{e,l} and then est
 
 ## Bringing it to practice - Some empirical illustrations
 
+[Sun and Abraham (2020)](http://economics.mit.edu/files/14964) illustrate their results applying it to the work conducted by [Dobkin et al. (2018)](https://www.aeaweb.org/articles?id=10.1257/aer.20161038). [Dobkin et al. (2018)](https://www.aeaweb.org/articles?id=10.1257/aer.20161038) examine the economic consequences of hospital admissions  for adults, applying an event-study and to two different datasets: The Health and Retirement Study, as well as hospitalization data linked to credit reports. They use 20 years of the Health and Retirement Study (1992 - 2012) to analyze the impact of hospital admissions on out-of-pocket medical spending, income, and its components, focusing on 2,700 insured adults between 50-59 years old. Second, they analyze a 10-year panel (2002-2011) of merged credit reports and hospizalization data, focusing on 380,000 adults with health insurance between 25-64 years old. They find "sharp, on-impact effects of hospitalizations that in many cases persist, or even increase, over time". 
 
+[Dobkin et al. (2018)](https://www.aeaweb.org/articles?id=10.1257/aer.20161038) estimate a parametric and non-parametric event study. The non-parametric event study estimates the effect of the treatment of interest for _relative time_ (time relative to the event), allowing for a flexible estimation of treatment patterns relative to the event time: 
+
+$$ y_{it} = \gamma_t + X_{it} \alpha + \sum_{r=S}^-2 \mu_r + \sum-{r=0}^F \mu_r + \epsilon_{it} $$, 
+
+with $$\gamma_t$$ being calendar-time fixed effects, $$X_{it}$$ being covariates, and $$\mu_r$$ being the coefficient on indicators for time relative to the treatment, here hospital admission. The omitted category is $$}mu_{-1}$$, and the estimator of interest are the relative treatment effects to this omitted category. 
+
+In the HRS data, event time _r_ is the survey wave relative to the survey wave during which the event is reported to have ocurred (r = 0). The author analyze three waves prior to index admission (S=-3), and three waves after index admission (F=3). As the HRS data is biannual, the authors include biannual survey wave indicators that control for calendar time ($$\gamma_t$$), and include "HRS-cohort"-by-wave dummies (X_it) due to sample composition changes. For the credit data, which is gathered once per year in January, the relative time dimension is months, as individuals are admitted to the hospital during different months within the year. They limit the sample to relative months from  -42 to 72. The omitted category ($$\mu_r$$) is the month prior to hospitalization. $$\gamma_t$$ are calendar year-fixed effects. The underlying identification assumption is that the timing of hospital admission is unrelated to the outcome of interest. 
 
 
 
