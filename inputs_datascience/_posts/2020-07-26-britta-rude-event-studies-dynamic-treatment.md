@@ -19,7 +19,7 @@ What does this mean for applied work? It means that we can have a spurious non-z
 
 [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) define event studies as follows. They focus on absorbing treatment, which means that once the treatment status is switched on, it stays on. They estimate the following equation: 
 
-
+$$ Y_{it} = Y_{it}^E_i = Y{it}^\infty + \sum_{0 \leq e \leq T} (Y_{it}^e - Y_{it}^\infty) \times 1 \{ E_i = e \} $$, 
 
 where unit i is first treated in time period e. For never treated units $$E_i = \infty $$. All individuals for which treatment first switches on in period e form one cohort. It is important to stress that the authors define the treatment effect as the difference between the outcome of treated individuals $$Y_{it}$$ relative to the outcome of never treated units $$Y_{it}^\infty$$. They then define the $$CATT_{e,l}$$ (the cohort-specific average treatment effect on the treated) as the average of all treatment effects of all individuals receiving treatment for the first time at period e. They estimate the CATT not at time period t, but at relative time period l (l periods from the initial treatment e): 
 
@@ -51,7 +51,7 @@ This indicator can be applied to a static or dynamic set-up. The static set-up a
 
 $$Y_{i,t} = \alpha_i + \gamma_t + \mu_g \sum_{l \geq 0} D_{i,t}^l + \nu_{i,t}$$, 
 
-The dynamic specification allows for treatment leads and lags, excluding distant ones that are more thanKperiods before treatment and more thanLperiods after treatment, as well as the period before treatment, or period -1. G is {{-K},...,{-2}, {0}, {1},...,{L}}, and the dynamic regression looks like: 
+The dynamic specification allows for treatment leads and lags, excluding distant ones that are more thanKperiods before treatment and more thanLperiods after treatment, as well as the period before treatment, or period -1. G is $$ \{\{-K\},...,\{-2\}, \{0\}, \{1\},...,\{L\}\} $$, and the dynamic regression looks like: 
 
 $$Y_{i,t} = \alpha_i + \gamma_t + \sum_{l = -K}^-2 \mu_l D_{i,t}^l + \sum_{l = 0}^L \mu_l D_{i,t}^l + \nu_{i,t}$$
 
@@ -67,7 +67,7 @@ The exclusion of some relative period is necessary to avoid multicollinearity. E
 
 - Under the parallel trend assumption, the no-anticipation assumption, as well as the treatment effect homogeneity assumption, $$CATT_{e,l} = CATT_{l}$$ is constant across e for a given l and $$ \mu_g $$ is equal to a linear combination of its own relative period CATT minus the linear combination of the CATT from other relative periods. 
 
-##Alternative estimation method 
+## Alternative estimation method 
 
 
 
