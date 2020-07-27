@@ -99,6 +99,10 @@ which allows for a linear pre-trend in event time r. The coefficient of interest
 
 <img src="/images/Dobkin et al.PNG" alt="Roth Bias PreTest" style="max-width:60%;"/>
 
+The authors observe some heterogeneity across treatment effects for different age groups as well as socioeconomic groups. They test their findings to alternative specifications to assess robustness. These are the inclusion of individual-fixed effects, a balanced panel, wave fixed effects only, adding demographic covariates, a non-restriction of pre-period observations, as well as a poisson distribution. 
+
+
+
 
 
 
