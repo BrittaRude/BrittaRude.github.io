@@ -19,9 +19,23 @@ What does this mean for applied work? It means that we can have a spurious non-z
 
 [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) define event studies as follows. They focus on absorbing treatment, which means that once the treatment status is switched on, it stays on. They estimate the following equation: 
 
-$$ Y_{it} = Y_{it}^(E_i) = Y{it}^\infty + \sum_{0 \leq e \leq T} (Y_{it}^e - (Y_{it}^\infty ) \times 1{E_i = e} $$, where unit i is first treated in time period e. For never treated units $$E_i = \infty $$. All individuals for which treatment first switches on in period e form one cohort. It is important to stress that the authors define the treatment effect as the difference between the outcome of treated individuals $$Y_{it}$$ relative to the outcome of never treated units $$Y_{it}^\infty$$. They then define the $$CATT_{e,l}$$ (the cohort-specific average treatment effect on the treated) as the average of all treatment effects of all individuals receiving treatment for the first time at period e. They estimate the CATT not at time period t, but at relative time period l (l periods from the initial treatment e): 
+$$ Y_{it} = Y_{it}^(E_i) = Y{it}^\infty + \sum_{0 \leq e \leq T} (Y_{it}^e - (Y_{it}^\infty ) \times 1 {E_i = e} $$, 
 
-$$ CATT_{e,l} = E[Y_{i,e+l} - Y_{i,e+l}^\infty| E_i=e]} 
+where unit i is first treated in time period e. For never treated units $$E_i = \infty $$. All individuals for which treatment first switches on in period e form one cohort. It is important to stress that the authors define the treatment effect as the difference between the outcome of treated individuals $$Y_{it}$$ relative to the outcome of never treated units $$Y_{it}^\infty$$. They then define the $$CATT_{e,l}$$ (the cohort-specific average treatment effect on the treated) as the average of all treatment effects of all individuals receiving treatment for the first time at period e. They estimate the CATT not at time period t, but at relative time period l (l periods from the initial treatment e): 
+
+$$ CATT_{e,l} = E[Y_{i,e+l} - Y_{i,e+l}^\infty| E_i=e]} $$
+
+They shift from calendar time t to relative period l as they then can compare across cohorts which received the treatment for the first time at different time periods e, while holding their exposure to the treatment constant. 
+
+## Identifying assumptions 
+
+There are three identifying assumptions in this set-up: 
+
+- __Assumption 1:__ Parallel trends in baseline outcomes: This is a generalization of the parallel trend assumption we already know from our canonical DiD Set-Up, and implies that parallel trends should hold for all units receiving treatment for the first time at different periods e, and also for never treated units. 
+
+- __Assumption 2:__ No anticipatory behavior in $$ l \in g $$ periods prior to treatment. This means, that outcomes prior to the treatment should be equal to the baseline outcome, on average. If this assumption holds, then there are no pre-trends, as $$CATT_{e,l} = 0$$. This assumption is similar to the no-manipulation of treatment status assumption in the Regression Discontinuity Design. This is most likely to hold if individuals cannot predict their future treatment status. 
+
+- __Assumption 3:__ Treatment effect homogeneity: For each relative period l, $$CATT_{e,l}$$ does not depend on the timing of its first treatment status e, and is equal to $$CATT_l$$. This means that treatment effects are the same across different cohorts for every relative treatment period l. This means that different cohorts share the same treatment path, and does not mean that dynamic treatment effects do not occur. A variation across cohorts could stem from differing covariates across cohorts (e.g. treatment varies by age, and cohorts vary by their age structure), calendar-time varying effects (e.g. macroeconomic conditions), or individuals selecting into treatment at certain times e, that is, the treatment timing is not random. The last case still satisfies their parallel trend assumpion, if it is not determined by the outcome. 
 
 
 
