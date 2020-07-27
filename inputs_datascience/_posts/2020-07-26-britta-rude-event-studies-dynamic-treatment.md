@@ -51,7 +51,9 @@ This indicator can be applied to a static or dynamic set-up. The static set-up a
 
 $$Y_{i,t} = \alpha_i + \gamma_t + \mu_g \sum_{l \geq 0} D_{i,t}^l + \nu_{i,t}$$, 
 
+The dynamic specification allows for treatment leads and lags, excluding distant ones that are more thanKperiods before treatment and more thanLperiods after treatment, as well as the period before treatment, or period -1. G is {{-K},...,{-2}, {0}, {1},...,{L}}, and the dynamic regression looks like: 
 
+$$Y_{i,t} = \alpha_i + \gamma_t + \sum_{l = -K}^-2 \mu_l D_{i,t}^l + \sum_{l = 0}^L \mu_l D_{i,t}^l + \nu_{i,t}$$
 
 
 
