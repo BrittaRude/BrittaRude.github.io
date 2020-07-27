@@ -69,6 +69,13 @@ The exclusion of some relative period is necessary to avoid multicollinearity. E
 
 ## Alternative estimation method 
 
+[Sun and Abraham (2020)](http://economics.mit.edu/files/14964) propose a new estimation method that is robust to treatment effect heterogeneity, and generate an interpretable relative period estimator $$ \mu_g $$ with non-negative weights that sum up to one. They create the following weighted-average, with weights being the share of cohorts that experience their first treatment in period e, or at least l periods relative to the treatment, normalized by the size of g: 
+
+$$ \nu_{g} = \frac{1}{|g|} \sum_{l \in g} \sum_e CATT_{e,l} Pr \{ E_i = e | E_i \in (-l, T-l) \}$$
+
+To estimate $$ \nu_{g}$$ the authors first estimate each CATT_{e,l} and then estimate their respective weight using their sample analogs. 
+
+
 
 
 
