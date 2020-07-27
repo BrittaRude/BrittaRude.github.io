@@ -21,7 +21,9 @@ and the average causal effect of adoption date a′ relative to a, on the outcom
 
 $$ \tau_{t, aa'} = Y_t(a') - Y_t(a) = \frac{1}{N} \sum_{i=1}^N \{Y_{it}(a') - Y_{it}(a) \}$$. 
 
+This is slightly different from the $$CATT_{a,i}$$ definition that Abraham and Sun use in their paper which I discussed in my [previous blogpost](https://brittarude.github.io/blog/2020/07/26/britta-rude-event-studies-dynamic-treatment). 
 
+## Assumptions 
 
 
 
