@@ -19,11 +19,11 @@ What does this mean for applied work? It means that we can have a spurious non-z
 
 [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) define event studies as follows. They focus on absorbing treatment, which means that once the treatment status is switched on, it stays on. They estimate the following equation: 
 
-$$ Y_{it} = Y_{it}^E_i = Y{it}^\infty + \sum_{0 \leq e \leq T} (Y_{it}^e - (Y_{it}^\infty ) \times 1 {E_i = e} $$, 
+$$ Y_{it} = Y_{it}^E_i = Y{it}^\infty + \sum_{0 \leq e \leq T} (Y_{it}^e - Y_{it}^\infty ) \times 1 (E_i = e) $$, 
 
 where unit i is first treated in time period e. For never treated units $$E_i = \infty $$. All individuals for which treatment first switches on in period e form one cohort. It is important to stress that the authors define the treatment effect as the difference between the outcome of treated individuals $$Y_{it}$$ relative to the outcome of never treated units $$Y_{it}^\infty$$. They then define the $$CATT_{e,l}$$ (the cohort-specific average treatment effect on the treated) as the average of all treatment effects of all individuals receiving treatment for the first time at period e. They estimate the CATT not at time period t, but at relative time period l (l periods from the initial treatment e): 
 
-$$ CATT_{e,l} = E(Y_{i,e+l} - Y_{i,e+l}^\infty | E_i=e)} $$
+$$ CATT_{e,l} = E(Y_{i,e+l} - Y_{i,e+l}^\infty | E_i = e) $$
 
 They shift from calendar time t to relative period l as they then can compare across cohorts which received the treatment for the first time at different time periods e, while holding their exposure to the treatment constant. 
 
@@ -46,6 +46,10 @@ $$Y_{i,t} = \alpha_i + \gamma_t + \sum_{g \in G} \mu_g 1{t-E_i \in g} + \nu_{i,t
 where $$Y_{i,t}$$ is the outcome of interest for unit i at time t, and $$g \in G§§ are relative periods. $$ \mu_g $$ are the relative period coefficients, and ideally these should be convex averages of $$CATT_{e,l}$$. [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) have a closer look at the relative period indicator $$ 1{t-E_i \in g} $$ to see how it varies with time. They define the following as an indicator for unit i being observed l periods away from the initial treatment at calendar time t: 
 
 $$ 1{t-E_i \in g} = 1{t-E_i = l} = \sum_{l \in g} D_{i,t}^l $$ 
+
+This indicator can be applied to a static or dynamic set-up. The static set-up assumes that $$ g= [0, T] $$ and that $$ 1{t-E_i \in g} = 1{E_i \leq t} $$ (has unit i received its initial treatment by calendar-time period t?). The static regression thus looks as follows: 
+
+$$Y_{i,t} = \alpha_i + \gamma_t + \mu_g \sum_{l \geq 0} D_{i,t}^l + \nu_{i,t}$$, 
 
 
 
