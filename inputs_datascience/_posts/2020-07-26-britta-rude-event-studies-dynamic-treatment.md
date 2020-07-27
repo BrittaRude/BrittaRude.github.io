@@ -89,7 +89,7 @@ To estimate $$ \nu_{g}$$ the authors first estimate each $$CATT_{e,l}$$ and then
 
 $$ y_{it} = \gamma_t + X_{it} \alpha + \sum_{r=S}^-2 \mu_r + \sum_{r=0}^F \mu_r + \epsilon_{it} $$, 
 
-with $$\gamma_t$$ being calendar-time fixed effects, $$X_{it}$$ being covariates, and $$\mu_r$$ being the coefficient on indicators for time relative to the treatment, here hospital admission. The omitted category is $$}mu_{-1}$$, and the estimator of interest are the relative treatment effects to this omitted category. 
+with $$\gamma_t$$ being calendar-time fixed effects, $$X_{it}$$ being covariates, and $$\mu_r$$ being the coefficient on indicators for time relative to the treatment, here hospital admission. The omitted category is $$\mu_{-1}$$, and the estimator of interest are the relative treatment effects to this omitted category. 
 
 In the HRS data, event time _r_ is the survey wave relative to the survey wave during which the event is reported to have ocurred (r = 0). The author analyze three waves prior to index admission (S=-3), and three waves after index admission (F=3). As the HRS data is biannual, the authors include biannual survey wave indicators that control for calendar time ($$\gamma_t$$), and include "HRS-cohort"-by-wave dummies (X_it) due to sample composition changes. For the credit data, which is gathered once per year in January, the relative time dimension is months, as individuals are admitted to the hospital during different months within the year. They limit the sample to relative months from  -42 to 72. The omitted category ($$\mu_r$$) is the month prior to hospitalization. $$\gamma_t$$ are calendar year-fixed effects. The underlying identification assumption is that the timing of hospital admission is unrelated to the outcome of interest. This assumption would be violated if individuals are admitted to hospitals due to job losses, or if they were an a downward health-trend prior to hospital admission, and anticipated the hospital admission. The non-parametric event study allows for an examination of these possible threats, and consequently, serves as the basis for the functional form assumptions of the parametric event study: 
 
@@ -100,6 +100,10 @@ which allows for a linear pre-trend in event time r. The coefficient of interest
 <img src="/images/Dobkin et al.PNG" alt="Roth Bias PreTest" style="max-width:60%;"/>
 
 The authors observe some heterogeneity across treatment effects for different age groups as well as socioeconomic groups. They test their findings to alternative specifications to assess robustness. These are the inclusion of individual-fixed effects, a balanced panel, wave fixed effects only, adding demographic covariates, a non-restriction of pre-period observations, as well as a poisson distribution. 
+
+[Sun and Abraham (2020)](http://economics.mit.edu/files/14964) state the paper by [Dobkin et al. (2018)](https://www.aeaweb.org/articles?id=10.1257/aer.20161038) suits their purpose, as the parallel trend assumption as well as no anticipation assumption are likely to hold, but there seems to be heterogeneity across cohorts due to cohort compositional changes. They estimate an event-study regression estimation with three leads and lags, including an indicator variable for each lead and lag (see equation 22 in their paper). In contrast to the original paper, [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) do not trim the sample, but balance it over calendar time. They then exclude the period before hospitalization (l=-1) and l=-4. They then focus on the coefficient $$ \mu_0 $$ that supposedly captures the contenmporaneous effect of hospitalization. They show that $$ \mu_0 $$ is a linear combination of the CATTs from its own relative period, as well as other relative periods, and the excluded periods. They plot the waves of each of the CATTs: 
+
+
 
 
 
