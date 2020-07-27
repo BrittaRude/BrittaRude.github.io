@@ -35,6 +35,14 @@ This is slightly different from the $$CATT_{a,i}$$ definition that Abraham and S
 
 ## Defining and interpreting the DiD estimator 
 
+[Athey and Imbens (2018)](https://www.nber.org/papers/w24963.pdf) in a next step derive the difference-in-difference estimator in the staggered design, and analyze its interpretation. They define the regression estimation as follows: 
+
+$$ Y_{it} = \alpha_i + \beta_t + \tau W_{it} + \epsilon_{it} $$, 
+
+with $$ \tau $$ being our main variable of interest, assuming treatment effects to be additive and constant across time periods and units. They interprete the DiD estimand under the random adoption assumption, therefore leading to a different result than previous paper analyzing the estimate. 
+
+
+
 
 
 
