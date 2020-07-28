@@ -5,7 +5,7 @@ title: "Staggered DiD versus traditional DiD - What is different?"
 date: 2020-07-27
 ---
 
-## Can be apply our traditional DiD strategy to realities with staggered treatment adoption? 
+## Can we apply our traditional DiD strategy to realities with staggered treatment adoption? 
 
 As already addressed in my blogpost about [Staggered Difference-in-Difference](https://brittarude.github.io/blog/2020/07/21/britta-rude-staggered-difference-in-difference-as-the-next-level), policies are often implemented at different points in time for different individuals. It has remained an open question in how far we can apply the insights from the traditional DiD Design to this setting with staggered adoption. Several papers have addressed this question recently. They investigate how estimators in this staggered setting can be interpreted, and find that they are weighted averages of causal effects and bias terms. The literature shows that these weighted averages involve negative terms, and propose alternative estimators, that correct for these negative weights. 
 
@@ -39,7 +39,8 @@ This is slightly different from the $$CATT_{a,i}$$ definition that Abraham and S
 
 $$ Y_{it} = \alpha_i + \beta_t + \tau W_{it} + \epsilon_{it} $$, 
 
-with $$ \tau $$ being our main variable of interest, assuming treatment effects to be additive and constant across time periods and units. They interprete the DiD estimand under the random adoption assumption, therefore leading to a different result than previous paper analyzing the estimate. 
+with $$ \tau $$ being our main variable of interest, assuming treatment effects to be additive and constant across time periods and units. They interprete the DiD estimand under the random adoption assumption, therefore leading to a different result than previous paper analyzing the estimate. They then show that the staggered DiD estimator is a weighted average of simple estimators for the causal effect of changes in the adoption dates, which they call $$ \tau_{t, aa'}$$. This $$ \tau_{t, aa'}$$ consists of averages of individuals switching from never adopting to adopting in time t, an average of individuals that switch to adoption at time $$ a > t$$, that is some time after t, and the last one is an average of individuals switching to adoption at time $$ a /leq t$$, that is some time before t. The weights of the first average sum up to 1, the weights of the second average sum up to 1, but the weights of the last average sum up to -1. Imposing the no-anticipation assumption, the last average has weights summing up to 1 instead of -1, and the interpretation of the overall DiD estimator is easier. 
+
 
 
 
