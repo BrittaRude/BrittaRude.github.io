@@ -41,7 +41,7 @@ $$ Y_{it} = \alpha_i + \beta_t + \tau W_{it} + \epsilon_{it} $$,
 
 with $$ \tau $$ being our main variable of interest, assuming treatment effects to be additive and constant across time periods and units. They interprete the DiD estimand under the random adoption assumption, therefore leading to a different result than previous paper analyzing the estimate. They then show that the staggered DiD estimator is a weighted average of simple estimators for the causal effect of changes in the adoption dates, which they call $$ \tau_{t, aa'}$$. This $$ \tau_{t, aa'}$$ consists of averages of individuals switching from never adopting to adopting in time t, an average of individuals that switch to adoption at time $$ a > t$$, that is some time after t, and the last one is an average of individuals switching to adoption at time $$ a /leq t$$, that is some time before t. The weights of the first average sum up to 1, the weights of the second average sum up to 1, but the weights of the last average sum up to -1. Imposing the no-anticipation assumption, the last average has weights summing up to 1 instead of -1, and the interpretation of the overall DiD estimator is easier. 
 
-
+In a next step, [Athey and Imbens (2018)](https://www.nber.org/papers/w24963.pdf) show that there is no unbiased variance estimator in our staggered DiD design, but that there indeed is a conservative variance estimator. The standard Liang-Zegerand clustered bootstrap variance estimators are unnecessarily conservative, and the variance estimator proposed by [Athey and Imbens (2018)](https://www.nber.org/papers/w24963.pdf) improves upon those. 
 
 
 
