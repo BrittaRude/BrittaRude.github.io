@@ -79,9 +79,11 @@ Her main explanatory variable of interested is the expected wage, that depends o
 
 [Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) estimates the hazard rate of migration duration as followed: 
 
-$$ h(t; x_i) = h_0(t) /times exp(x_i' /beta)$$, 
+$$ h(t; x_i) = h_0(t) \times exp(x_i' \beta)$$, 
 
-with $$h_0(t)$$ being considered the baseline hazard rate, and $$ h(t; x_i)$$ being the hazard of return migration at time t for a migrant characterized by the vector $$/beta$$. The assumption of the hazard model is that the effect of the covariates is proportional to the baseline. The baseline hazard rate is the same for all individuals, and only the level of the hazard function differs by $$exp(x_i' /beta)$$ across individuals. Importantly, the Cox proportional hazard model does not make parametric assumptions on the underlying baseline hazard function.    
+with $$h_0(t)$$ being considered the baseline hazard rate, and $$ h(t; x_i)$$ being the hazard of return migration at time t for a migrant characterized by the vector $$/beta$$. The assumption of the hazard model is that the effect of the covariates is proportional to the baseline. The baseline hazard rate is the same for all individuals, and only the level of the hazard function differs by $$exp(x_i' \beta)$$ across individuals. Importantly, the Cox proportional hazard model does not make parametric assumptions on the underlying baseline hazard function.
+
+
 
 
 
