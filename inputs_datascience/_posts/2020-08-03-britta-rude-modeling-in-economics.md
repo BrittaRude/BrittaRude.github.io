@@ -29,7 +29,10 @@ The Cox proportional hazard models lies upon the following assumption:
 
 - If $$t = 0 or t=T$$ the migrant is a permament stayer. The model abstracts from this, and only considers interior solution, that is, temporary migration. 
 
-- The migrants choice function is: $$ \sum_{\tau=1}^t u(\mu^us, c^us) + \sum_{\tau=1+t}^T(\mu^mex, c^mex)$$. With the assumption of constant wages, the utility function is: $$ t u(\mu^us, c^us) + (T-t) u(\mu^mex, c^mex)$$. 
+- The migrants choice function is: $$ \sum_{\tau=1}^t u(\mu^us, c^us) + \sum_{\tau=1+t}^T(\mu^mex, c^mex)$$. With the assumption of constant wages, the utility function is: $$ t u(\mu^us, c^us) + (T-t) u(\mu^mex, c^mex)$$. The utility function has diminishing marginal returns, and $$\mu^mex and \mu^us $$ are preference parameters for consumption at home or in the migration destination. If $$\mu^mex > \mu^us $$, the migrant prefers to consume at home. We assume that both preference parameters are larger than 0. 
+
+The maximization problem then is as follows: 
+
 
 
 
