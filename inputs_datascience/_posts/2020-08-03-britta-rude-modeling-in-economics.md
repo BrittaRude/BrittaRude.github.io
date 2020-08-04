@@ -40,9 +40,16 @@ $$ max_{c^{us}, c^{mex}, t \in (t,T)} U(c^{us}, c^{mex}, t) =  t u(\mu^{us}, c^{
 subject to the following budget constraint: 
 
 a) $$(T-t) \omega^{mex} + t \omega^{us} - t pc^{us} - (T-t) c^{mex} - cc = 0$$
+
 b) $$\omega^{mex} < \omega^{us}$$
 
 p is the relative price of consumping in the US, with $$p>1$$ indicating that consumption in the US is more costly than in Mexico. cc represents the cost of moving (transportation costs, ability to cross the border, non-labor income (e.g., income from property owned in Mexico), and forgone income). 
+
+When solving the Lagrange equation with respect to the optimal duratio t we get to the following solution, with $$\theta$$ being the marginal utility of wealth: 
+
+$$\theta[(\omega^{us} - pc^{us}) - (\omega^{mex} - c^{mex})] - [u(\mu^{mex}, c^{mex}) - u(\mu^{us}, c^{us})] = 0$$
+
+
 
 
 
