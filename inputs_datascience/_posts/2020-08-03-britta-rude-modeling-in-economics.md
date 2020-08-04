@@ -64,10 +64,15 @@ As indicated above the current literature suggests an increase in the optimal du
 The example above has shown how theoretical models can help us to better understand and structure real-life economic models, and make predictions about reality. But relying on these theoretical models is often not enough. This is why economists often try to validate these theoretical models in real life, and test if the predictions made hold with real data. [Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) uses data from the Mexian Migration Project (MMP) to validate the Cox proportional hazard model. She focuses on migrants between 15 and 64 years old, who undertook migration trips to the US between 1963 and 1999. She creates two samples, the first one being 2375 "first migration trips", and the second one being 2658 "last migration trips". She includes several control variables: 
 
 - For individual characteristics: Gender, age, marital status, number of children
+
 - For ability: Education, occupation, English proficiency
+
 - For migration costs: Urban versus rural, apprehension rate, and distance in miles
-- Social networks: Kins in the US, social networks, expected wage 
+
+- Social networks: Kins in the US, social networks, expected wage
+
 - US migration policies: IRCA (1986), IA (1990), and IIRA (1996)
+
 - Long-term savings: Properties in Mexico, long-term savings, and remittances
 
 Her main explanatory variable of interested is the expected wage, that depends on the mean wage ($$w_{it}$$), the CPI in the US ($$P_{it}$$) and the propensity to find a job: ($$u_{it}$$): $$(1- u_{it})(w_{it} / p_{it})$$. A downside of this wage measure is that it only varies at the state level, and does not account for differences across the skill distribution of migrants. A further downside is that the expected wage differential could be confounded by different wage inequality across US states. [Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) tries to account for this by controling for sector of employment. The main outcome variable is the migration duration measured in months. It is important to note that her sample includes right-censoring (migrants who are still in the US and have not (yet) returned), but no left-censoring (migrants who are already in the US at the start of the sample). 
