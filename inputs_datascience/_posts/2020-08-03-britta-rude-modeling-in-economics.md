@@ -57,7 +57,30 @@ This is what economists call comparative statistics. Looking at first-order deri
 
 She finds that: $$\delta t = \psi_1 d \omega^{mex} + \psi_2 d \omega^{us}$$, with $$\Psi_i$$ being partial derivatives with respect to $$\theta, t, \omega^{mex} and \omega^{us}$$. 
 
-As indicated above the current literature suggests an increase in the optimal duration if the wage differential increases. Contrary, [Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) find in the application of her model that the income effect is negative as the value of staying in the US one additional month decreases as total wealth increases, leading to a reduction in the optimal migration duration. The model therefore predicts that an increase in the wage differential could lead to an increase or decrease of migration duration. 
+As indicated above the current literature suggests an increase in the optimal duration if the wage differential increases. Contrary, [Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) finds in the application of her model that the income effect is negative as the value of staying in the US one additional month decreases as total wealth increases, leading to a reduction in the optimal migration duration. The model therefore predicts that an increase in the wage differential could lead to an increase or decrease of migration duration. On the on hand, migrants prefer to spend as little time as possible away from their home country, and during this time, earn as much as possible. This leads to a decrease of duration time after an increase in the wage differential. On the other hand, lower wages might make it more difficult to cover their cost of migrating, therefore leading to the opposite effect. Also, if migrant costs increase, the migrant is expected to stay for a longer time period. The author leaves the reaction of optimal migration duration to alternative factors, as for example an increase in the real wages in Mexico, an increase in border enforcement, and an increase in migration experience, to further research. 
+
+## The Cox proportional hazard model as a mirror of reality? 
+
+The example above has shown how theoretical models can help us to better understand and structure real-life economic models, and make predictions about reality. But relying on these theoretical models is often not enough. This is why economists often try to validate these theoretical models in real life, and test if the predictions made hold with real data. [Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) uses data from the Mexian Migration Project (MMP) to validate the Cox proportional hazard model. She focuses on migrants between 15 and 64 years old, who undertook migration trips to the US between 1963 and 1999. She creates two samples, the first one being 2375 "first migration trips", and the second one being 2658 "last migration trips". She includes several control variables: 
+
+- For individual characteristics: Gender, age, marital status, number of children
+- For ability: Education, occupation, English proficiency
+- For migration costs: Urban versus rural, apprehension rate, and distance in miles
+- Social networks: Kins in the US, social networks, expected wage 
+- US migration policies: IRCA (1986), IA (1990), and IIRA (1996)
+- Long-term savings: Properties in Mexico, long-term savings, and remittances
+
+Her main explanatory variable of interested is the expected wage, that depends on the mean wage ($$w_{it}$$), the CPI in the US ($$P_{it}$$) and the propensity to find a job: ($$u_{it}$$): $$(1- u_{it})(w_{it} / p_{it})$$. A downside of this wage measure is that it only varies at the state level, and does not account for differences across the skill distribution of migrants. A further downside is that the expected wage differential could be confounded by different wage inequality across US states. [Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) tries to account for this by controling for sector of employment. The main outcome variable is the migration duration measured in months. It is important to note that her sample includes right-censoring (migrants who are still in the US and have not (yet) returned), but no left-censoring (migrants who are already in the US at the start of the sample). 
+
+[Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) estimates the hazard rate of migration duration as followed: 
+
+$$ h(t; x_i) = h_0(t) /times exp(x_i' /beta)$$, 
+
+with $$h_0(t)$$ being considered the baseline hazard rate, and $$ h(t; x_i)$$ being the hazard of return migration at time t for a migrant characterized by the vector $$/beta$$. The assumption of the hazard model is that the effect of the covariates is proportional to the baseline. The baseline hazard rate is the same for all individuals, and only the level of the hazard function differs by $$exp(x_i' /beta)$$ across individuals. Importantly, the Cox proportional hazard model does not make parametric assumptions on the underlying baseline hazard function.    
+
+
+
+
 
 
 
