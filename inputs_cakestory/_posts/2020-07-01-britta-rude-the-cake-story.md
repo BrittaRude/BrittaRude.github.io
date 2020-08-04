@@ -12,3 +12,4 @@ Often we hear that inequality is bad for us. That it affects our possibility to 
 
 
 
+
