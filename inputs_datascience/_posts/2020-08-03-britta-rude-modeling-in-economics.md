@@ -13,7 +13,7 @@ Let's have a look at a concrete example to further understand the importance of 
 
 A large economic literature shows that migration decisions are driven by wage differentials. Individuals move if the discounted income stream between two destinations exceeds moving costs (as in the paper by [Sjaastad (1962)](https://www.jstor.org/stable/1829105?seq=1]). There are two factors that influence this migration decision: Social networks, and local labor market conditions, especially the demand for low-skilled labor in the US. But what about the duration of migrants' stay in the US? Why do they return despite a positive wage differential? Past research has tried to explain this through consumption preferences by migrants to consume at home (see for example [Dustmann & Weiss (2006)](https://www.ucl.ac.uk/~uctpb21/Cpapers/optimalmigrationduration.pdf)), due to for example their family livign at home, or the existence of a higher purchasing power of the dollar in Mexico (as in [Dustmann (2003)](https://www.sciencedirect.com/science/article/pii/S0014292101001842). Another paper by [Angelucci (2012)](https://www.jstor.org/stable/10.1086/662575?seq=1) addresses the role of border enforcement policies. 
 
-## The Cox proportional hazard model
+## The Cox proportional hazard model and optimal migration duration 
 
 The Cox proportional hazard models lies upon the following assumption: 
 
@@ -45,9 +45,21 @@ b) $$\omega^{mex} < \omega^{us}$$
 
 p is the relative price of consumping in the US, with $$p>1$$ indicating that consumption in the US is more costly than in Mexico. cc represents the cost of moving (transportation costs, ability to cross the border, non-labor income (e.g., income from property owned in Mexico), and forgone income). 
 
-When solving the Lagrange equation with respect to the optimal duratio t we get to the following solution, with $$\theta$$ being the marginal utility of wealth: 
+When solving the Lagrange equation with respect to the optimal duration t we get to the following solution, with $$\theta$$ being the marginal utility of wealth: 
 
 $$\theta[(\omega^{us} - pc^{us}) - (\omega^{mex} - c^{mex})] - [u(\mu^{mex}, c^{mex}) - u(\mu^{us}, c^{us})] = 0$$
+
+$$\theta[(\omega^{us} - pc^{us}) - (\omega^{mex} - c^{mex})]$$ is the benefit of an additional month in the US. The term is positive under the following conditions: $$\theta[(\omega^{us} - \omega^{mex}) > (pc^{us} - c^{mex})]$$, $$\omega^{us} > \omega^{mex}$$, and $$p>1$$. The term is decreasing in t. The second term is the cost of staying an additional month in the US and is increasing in t. The optimal duration time is achieved when the first term is equal to the second term, that is, the benefit of staying an additional month in the US is equal to the cost of staying. 
+
+## How does optimal migration duration react to varying exogeneous factors? 
+
+This is what economists call comparative statistics. Looking at first-order derivates, they analyze how a variable of interest reacts to the change in other variables, through looking at the sign of the derivate (is it positive, or negative?). [Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) does the same in her paper. 
+
+She finds that: $$\delta t = \psi_1 d \omega^{mex} + \psi_2 d \omega^{us}$$, with $$\Psi_i$$ being partial derivatives with respect to $$\theta, t, \omega^{mex} and \omega^{us}$$. 
+
+As indicated above the current literature suggests an increase in the optimal duration if the wage differential increases. Contrary, [Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) find in the application of her model that the income effect is negative as the value of staying in the US one additional month decreases as total wealth increases, leading to a reduction in the optimal migration duration. The model therefore predicts that an increase in the wage differential could lead to an increase or decrease of migration duration. 
+
+
 
 
 
