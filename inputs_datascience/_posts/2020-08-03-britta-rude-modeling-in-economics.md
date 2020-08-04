@@ -89,9 +89,9 @@ A limitation of the model is that it does not account for unobservable heterogen
 
 ## Estimating the hazard rate with real data 
 
-[Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) estimates a survival function based on the Kaplan-Meier estimator to better understand the duration data: 
+[Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) estimates a survival function based on the Kaplan-Meier estimator to better understand the duration data, and test whether the assumption about proportional covariates along the baseline is fulfilled.
 
-$$ S(t) = \pi (\eta_i - h_i) / \eta_i = \pi (1-\lambda_i)$$, where $$h_i$$ is the number of returns at time $$t_i$$, $$\lambda_i$$ is the number of failures at duration $$t_i$$. The risk of migration duration decreases with the length of stay, and the risk to return to one's home country decreases with the number of migration trips. 
+$$ S(t) = \pi (\eta_i - h_i) / \eta_i = \pi (1-\lambda_i)$$, where $$h_i$$ is the number of returns at time $$t_i$$, $$\lambda_i$$ is the number of failures at duration $$t_i$$. The risk of migration duration decreases with the length of stay, and the risk to return to one's home country decreases with the number of migration trips. She finds that the assumption is not fulfilled for English proficiency. Those reporting to be proficient in English have a lower hazard in returning to their home country. 
 
 <center><src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40176-017-0108-0/MediaObjects/40176_2017_108_Fig1_HTML.gif?as=webp"></center>
 
