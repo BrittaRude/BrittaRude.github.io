@@ -23,7 +23,7 @@ The Cox proportional hazard models lies upon the following assumption:
 
 - Wages in the US and Mexico are constant along the lifecycle of the migrant, but migrants have different abilities and migrant costs.  
 
-- The migrant is interested in consumption in both countries ($$ c_{USA} and c_{MEX} $$), and his utility function depends upon it. 
+- The migrant is interested in consumption in both countries ($$ c_{USA}$$ and $$c_{MEX} $$), and his utility function depends upon it. 
 
 - The migrants decides about returning to Mexico every month, depending on her optimal migration duration $$ t \in (t, T) $$. The optimal migration duration is associated with her ability. 
 
@@ -39,8 +39,8 @@ $$ max_{c^{us}, c^{mex}, t \in (t,T)} U(c^{us}, c^{mex}, t) =  t u(\mu^{us}, c^{
 
 subject to the following budget constraint: 
 
-a) $$(T-t) \omega^{mex} + t \omega^{us} - t pc^{us} - (T-t) c^{mex} - cc = 0
-b) \omega^{mex} < \omega^{us}
+a) $$(T-t) \omega^{mex} + t \omega^{us} - t pc^{us} - (T-t) c^{mex} - cc = 0$$
+b) $$\omega^{mex} < \omega^{us}$$
 
 p is the relative price of consumping in the US, with $$p>1$$ indicating that consumption in the US is more costly than in Mexico. cc represents the cost of moving (transportation costs, ability to cross the border, non-labor income (e.g., income from property owned in Mexico), and forgone income). 
 
