@@ -19,15 +19,17 @@ The Cox proportional hazard models lies upon the following assumption:
 
 - The economy starts at an initial point t=0, during which the migrant can choose between migrating or staying. People die in period T.  
 
-- The migrant bases her decision on a positive wage differential ($$ \omega_USA > \omega_MEX $$, and there is no uncertainty about wages. 
+- The migrant bases her decision on a positive wage differential ($$ \omega_{USA} > \omega_{MEX} $$, and there is no uncertainty about wages. 
 
 - Wages in the US and Mexico are constant along the lifecycle of the migrant, but migrants have different abilities and migrant costs.  
 
-- The migrant is interested in consumption in both countries ($$ c_USA and c_MEX $$), and his utility function depends upon it. 
+- The migrant is interested in consumption in both countries ($$ c_{USA} and c_{MEX} $$), and his utility function depends upon it. 
 
 - The migrants decides about returning to Mexico every month, depending on her optimal migration duration $$ t \in (t, T) $$. The optimal migration duration is associated with her ability. 
 
 - If $$t = 0$$ or $$t=T$$ the migrant is a permament stayer. The model abstracts from this, and only considers interior solution, that is, temporary migration. 
+
+- The model abstracts from savings, as it is assumed that the migrants consumes all her savings to cover the moving costs. 
 
 - The migrants choice function is: $$ \sum_{\tau=1}^t u(\mu^{us}, c^{us}) + \sum_{\tau=1+t}^T(\mu^{mex}, c^{mex})$$. With the assumption of constant wages, the utility function is: $$ t u(\mu^{us}, c^{us}) + (T-t) u(\mu^{mex}, c^{mex})$$. The utility function has diminishing marginal returns, and $$\mu^{mex} and \mu^{us} $$ are preference parameters for consumption at home or in the migration destination. If $$\mu^{mex} > \mu^{us} $$, the migrant prefers to consume at home. We assume that both preference parameters are larger than 0. 
 
@@ -40,7 +42,7 @@ subject to the following budget constraint:
 a) $$(T-t) \omega^{mex} + t \omega^{us} - t pc^{us} - (T-t) c^{mex} - cc = 0
 b) \omega^{mex} < \omega^{us}
 
-p is the relative price of consumping in the US, with $$p>1$$ indicating that consumption in the US is more costly than in Mexico. 
+p is the relative price of consumping in the US, with $$p>1$$ indicating that consumption in the US is more costly than in Mexico. cc represents the cost of moving (transportation costs, ability to cross the border, non-labor income (e.g., income from property owned in Mexico), and forgone income). 
 
 
 
