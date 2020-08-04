@@ -91,7 +91,9 @@ A limitation of the model is that it does not account for unobservable heterogen
 
 [Carmen E. Carrión-Flores (2018)](https://link.springer.com/article/10.1186/s40176-017-0108-0) estimates a survival function based on the Kaplan-Meier estimator to better understand the duration data: 
 
-$$ S(t) = \pi (\eta_i - h_i) / \eta_i = \pi (1-\lambda_i)$$, where $$h_i$$ is the number of returns at time $$t_i$$, $$\lambda_i$$ is the number of failures at duration $$t_i$$. 
+$$ S(t) = \pi (\eta_i - h_i) / \eta_i = \pi (1-\lambda_i)$$, where $$h_i$$ is the number of returns at time $$t_i$$, $$\lambda_i$$ is the number of failures at duration $$t_i$$. The risk of migration duration decreases with the length of stay, and the risk to return to one's home country decreases with the number of migration trips. 
+
+<center><src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40176-017-0108-0/MediaObjects/40176_2017_108_Fig1_HTML.gif?as=webp"></center>
 
 
 
