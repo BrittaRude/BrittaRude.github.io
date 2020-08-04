@@ -95,7 +95,7 @@ $$ S(t) = \pi (\eta_i - h_i) / \eta_i = \pi (1-\lambda_i)$$, where $$h_i$$ is th
 
 <center><src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40176-017-0108-0/MediaObjects/40176_2017_108_Fig1_HTML.gif?as=webp"></center>
 
-
+The author concludes that an increase in the expected wage in the destination country indeed increases duration and therefore confirms the findings of previous literature. Still, it is not sufficient to just consider wages as the sole driver. Other important factors need to be considered, as for example, social networks, family ties to the home country, as well as communication costs. Social ties are an especially important factor of migration duration. The data confirmed the predictions made by the model, with exception of border controls. She stresses that future research should address the question about the effect of unobservables on hazard rates, as these could bias the results found, as well as the role of social assistance. 
 
 
 
