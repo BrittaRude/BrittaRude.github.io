@@ -16,7 +16,7 @@ But let's start simple. What is the value of Python over R, or Stata? Python is 
 
 Python is nearly like an endless universe with thousands of modules dedicated at different purposes. But we can limit Python to 15 to 20 libraries that are useful for datascience. A library is like a toolbox full of tools (called modules) that somebody else prepared for us, and that we can use without having to build them from zero again. The most important library for data scientistis is our _pandas_ library. 
 
-[![Panda](https://www.natgeofineart.com/wp-content/uploads/2018/05/2496735_Vitale_2800px.jpg)](https://www.google.de/url?sa=i&url=https%3A%2F%2Fwww.natgeofineart.com%2Fcollections%2Fthe-secret-lives-of-pandas-china-2015%2F&psig=AOvVaw05U-BnuniZS5zYwrKf5yQL&ust=1597080804741000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiHt_HTjusCFQAAAAAdAAAAABAD){ width=50% }
+[![Panda](https://www.natgeofineart.com/wp-content/uploads/2018/05/2496735_Vitale_2800px.jpg)]{ width=50% }(https://www.google.de/url?sa=i&url=https%3A%2F%2Fwww.natgeofineart.com%2Fcollections%2Fthe-secret-lives-of-pandas-china-2015%2F&psig=AOvVaw05U-BnuniZS5zYwrKf5yQL&ust=1597080804741000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiHt_HTjusCFQAAAAAdAAAAABAD)
 
 
 
