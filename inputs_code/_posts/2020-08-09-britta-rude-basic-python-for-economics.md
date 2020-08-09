@@ -33,3 +33,4 @@ Then open your prefered Python User Interface (as Jupyter Notebook, or Spyder) a
 import pandas as pd
 ```
 
+Now we can get started on some data mining. Let's look at a concrete example, as for example the Time Use Survey published by the government of Paraguay. 
