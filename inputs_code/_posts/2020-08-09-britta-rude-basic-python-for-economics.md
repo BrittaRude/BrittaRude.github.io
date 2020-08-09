@@ -26,5 +26,10 @@ To use _pandas_, we first need to install it. To install _pandas_, open your ana
 ```python
 $pip install pandas
 ```
+Then open your prefered Python User Space (as Jupyter Notebook, or Spyder) and load the package: 
 
+
+```python
+import pandas as pd
+```
 
