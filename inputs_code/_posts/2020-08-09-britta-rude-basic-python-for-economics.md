@@ -20,7 +20,6 @@ Python is nearly like an endless universe with thousands of modules dedicated at
 <img src="https://www.natgeofineart.com/wp-content/uploads/2018/05/2496735_Vitale_2800px.jpg" alt="Pandas" style="max-width:25%;"/>
 <a/>
 
-[![Panda](https://www.natgeofineart.com/wp-content/uploads/2018/05/2496735_Vitale_2800px.jpg)](https://www.google.de/url?sa=i&url=https%3A%2F%2Fwww.natgeofineart.com%2Fcollections%2Fthe-secret-lives-of-pandas-china-2015%2F&psig=AOvVaw05U-BnuniZS5zYwrKf5yQL&ust=1597080804741000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiHt_HTjusCFQAAAAAdAAAAABAD)
 
 
 
