@@ -26,12 +26,11 @@ Of course, under the ideal situation we would dispose about as much information 
 
 ## Act 3: Limited resources and smart investment decisions
 
-Act 1 and 2 have shown the underlying rational of how we can use data science as a tool for effective policy making to address inequality in the public sector. But what about the private sector? Is Data Science a valuable tool for firms and enterprises in developing countries to address the challenges they face? 
+Act 1 and 2 have shown the underlying rational for how we can use data science as a tool for effective policy making to address inequality in the public sector. But what about the private sector? Is Data Science a valuable tool for firms and enterprises in developing countries to address the challenges they face? 
 
-Of course it is. Resources are limited, and companies have to make the best investment decisions possible with the limited resources they have at hand. This is where financial analyses, as well as economic analyses can help to shed some light. Let's take Paraguay, for example. Paraguay is a land-logged country in the Southern Cone of Southamerica, depending highly on the agricultural sector. It is the 
+Of course it is. Resources are limited, and companies have to make the best investment decisions possible with the limited resources they have at hand. This is where financial analyses, as well as economic analyses can help to shed some light. Let's take Paraguay, for example. Paraguay is a land-logged country in the Southern Cone of Southamerica. Paraguay is the 4th largest exporter of soy beans in the World [(Source)](https://www.ifo.de/DocDL/sd-2020-09-rude-niederhoefer-ferrara-entwaldung-migration.pdf) and recently surpassed Argentina for the eighth place among the world’s largest beef exports [(Source)](https://www.usmef.org/paraguay-becoming-rising-star-in-beef-exports/). Let's take an investor looking to invest in the forestry industry, for example. If we have a timber plantation with a financial rate of return in the North-West of the country of 10 percent, and a similar timber plantation resulting in a financial return of 12 percent in the South-East of the country, the investor prefers to move his money to the South-East, of course. Factors that drive the profitability of timber plantations are transport costs, average tree growth, soil adaptability, among others. So if we can plot a granular map of the average tree growth, or soil adaptability in Paraguay, we can help investors to make informed investment decisions, and generate the largest value possible with the same amount of money. 
 
-## Act 4: Remote Sensing and a message from space 
+<a href="https://www.unique-landuse.de/images/Abteilungen/paraguay/10.jpg"><img src="https://www.unique-landuse.de/images/Abteilungen/paraguay/10.jpg" align="center" ></a>
 
-Remote Sensing and project monitoring 
-
+The ways in which data science can be transformed in a tool to address inequality are manyfold. I have only lifted out some of the possibilities in which data science can help us to make a contribution. Read my next blogpost about how to make the most out of Open Data Sources for development purposes. 
 
