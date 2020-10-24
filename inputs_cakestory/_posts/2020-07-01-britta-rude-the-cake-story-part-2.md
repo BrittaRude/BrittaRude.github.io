@@ -12,6 +12,8 @@ This is one example showing how data helped to reveal a problem, then resulting 
 
 [![PerryPreschoolProject](https://highscope.org/wp-content/uploads/2020/03/DSC_0476-2048x1318.jpg)](https://highscope.org/wp-content/uploads/2020/03/DSC_0476-2048x1318.jpg){height="50%" width="50%"}
 
+<a href="https://highscope.org/wp-content/uploads/2020/03/DSC_0476-2048x1318.jpg"><img src="https://highscope.org/wp-content/uploads/2020/03/DSC_0476-2048x1318.jpg" align="left" width="10" ></a>
+
 ## Act 2: Population Register - A digital footprint of ones' population 
 
 Population Register 
