@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Research"
+date: 2020-07-01
 ---
 
 #Work in Progress 
