@@ -54,3 +54,6 @@ ul.inputs_DataScience li {
     list-style: none;
 }
 
+.right {
+ float: right;
+ padding: 10px 0 0 0;}
