@@ -4,6 +4,8 @@ title: "How can we use Data Science as a tool to address inequality?"
 date: 2020-10-24
 ---
 
+We live in an increasingly data-driven world. But how can we use data science as a tool to address inequality? First of all, we can use it to generate knowledge, and understand what is going on in developing countries. To address a problem, you need to know what is going on. Second of all, closing the digital data gap is a step towards closing one form of inequality causing ineffective policy-making. We can use data-science to create digital footprints of our population. And lastly, we can use Data Science as a tool for smart investment decisions in the private sector, generating a tool for enterprises to generate value out of their money. 
+
 ## Act 1: To address a problem, we need to know what is going on. 
 
 In 2006, Chile finds out that an overproportional large share of its children younger than 4 years old is affected by poverty (CASEN (2006)). 10.5 percent of the overall population live below the poverty line, and 3.2 percent in extreme poverty, compared to 16.7 percent of children below 4 years old (7.2 percent respectively). At the same time, the National Survey of Quality of Life conducted in 2006 revealed that 30 percent of children below 5 years old did not reach their development goals, and that development delays mainly persisted in low income groups. These findings caused resonance in the political debate, and shortly thereafter, the Presidential Advisory Council for the Reform of Policies for Children was founded. Its purpose was to identify, formulate and design the establishment of a social protections system for Early Childhood in Chile, today known as Chile Crece Contigo. 
@@ -24,7 +26,9 @@ Of course, under the ideal situation we would dispose about as much information 
 
 ## Act 3: Limited resources and smart investment decisions
 
-Financial rate of return + risk assessments
+Act 1 and 2 have shown the underlying rational of how we can use data science as a tool for effective policy making to address inequality in the public sector. But what about the private sector? Is Data Science a valuable tool for firms and enterprises in developing countries to address the challenges they face? 
+
+Of course it is. Resources are limited, and companies have to make the best investment decisions possible with the limited resources they have at hand. This is where financial analyses, as well as economic analyses can help to shed some light. Let's take Paraguay, for example. Paraguay is a land-logged country in the Southern Cone of Southamerica, depending highly on the agricultural sector. It is the 
 
 ## Act 4: Remote Sensing and a message from space 
 
