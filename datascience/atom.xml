@@ -8,10 +8,10 @@ layout: feed
 	<link href="http://brittarude.github.io/datascience/atom.xml" rel="self"/>
 	<link href="http://brittarude.github.io/datascience"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://brittarude.github.io/blog</id>
+	<id>http://brittarude.github.io/datascience</id>
 	<author>
 		<name>Britta Rude</name>
-		<email>brittarude@gmx.net</email>
+		<email>britta.rude@gmx.net</email>
 	</author>
 
 	{% for post in site.categories.inputs_datascience %}
