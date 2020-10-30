@@ -19,4 +19,6 @@ date: 2020-10-24
 
 - Britta Rude & Bennet Niederhöfer & Fabio Ferrara, 2020. "[ifo Migrationsmonitor: Entwaldung und Migration](https://ideas.repec.org/a/ces/ifosdt/v73y2020i09p66-74.html)," ifo Schnelldienst, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, vol. 73(09), pages 66-74, September.
 
-- "Paraguay Country Forest Note", joint work with [The World Bank](https://www.worldbank.org/en/topic/forests). 
+- "Paraguay Country Forest Note" (forthcoming), joint work with [The World Bank](https://www.worldbank.org/en/topic/forests). 
+
+- "Refugee Children and COVID-19. How do we protect Germany's most vulnerable?" (forthcoming), ifo Schnelldienst
