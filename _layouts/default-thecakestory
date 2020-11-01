@@ -25,7 +25,8 @@
 	    		<ul>
 	        		<li><a href="mailto:britta.rude@gmx.net">email</a></li>
 	        		<li><a href="https://github.com/BrittaRude">github.com/BrittaRude</a></li>
-              <li>class="rss-subscribe">subscribe <a href="{{"/feed.html"
+				<li><a href="https://www.linkedin.com/in/britta-rude-712301a4/?originalSubdomain=de">LinkedIn</a></li>
+              			<li>class="rss-subscribe">subscribe <a href="{{"/feed.html"
 			
 				</ul>
 			</footer>
