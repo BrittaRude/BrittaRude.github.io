@@ -3,6 +3,7 @@ layout: post
 usemathjax: true 
 title: "Event Studies with heterogeneous treatment effects"
 date: 2020-07-26
+image: /images/DataScience_FeatureImage.jpg
 ---
 
 ## Event Studies - Application to dynamic events 
