@@ -3,6 +3,7 @@ layout: post
 usemathjax: true 
 title: "Multiple Hypothesis Testing"
 date: 2020-11-02
+image: /images/DataScience_FeatureImage.jpg
 ---
 
 ## Multiple Hypothesis Testing - Why should we care? 
