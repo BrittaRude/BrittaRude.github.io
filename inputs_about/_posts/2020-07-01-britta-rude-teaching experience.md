@@ -2,6 +2,7 @@
 layout: post
 title: "Teaching Experience"
 date: 2020-07-01
+image: /images/Explore.jpg
 ---
 
 ## Bachelor 
