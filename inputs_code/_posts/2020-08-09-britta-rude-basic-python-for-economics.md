@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Python Basics for Economics - Uploading datasets"
-date: 2020-08-09
+date: 2020-08-08/Pandas.jpg
 ---
 
 ## How can we make use of Python in Economics? 
