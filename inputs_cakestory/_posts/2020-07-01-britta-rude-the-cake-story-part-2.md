@@ -2,6 +2,7 @@
 layout: post
 title: "How can we use Data Science as a tool to address inequality?"
 date: 2020-10-24
+image: /images/CakeStory_FeatureImage.jpg
 ---
 
 We live in an increasingly data-driven world. But how can we use data science as a tool to address inequality? First of all, we can use it to generate knowledge, and understand what is going on in developing countries. To address a problem, you need to know what is going on. Second of all, closing the digital data gap is a step towards closing one form of inequality causing ineffective policy-making. We can use data-science to create digital footprints of our population. And lastly, we can use Data Science as a tool for smart investment decisions in the private sector, converting it into a tool for enterprises to generate value out of their money. 
