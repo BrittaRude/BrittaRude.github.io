@@ -3,6 +3,7 @@ layout: post
 usemathjax: true 
 title: "Triple Difference - Why Triple?"
 date: 2020-07-20
+image: /images/DataScience_FeatureImage.jpg
 ---
 
 ## Triple Difference: A bicycle program for girls in India
