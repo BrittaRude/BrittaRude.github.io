@@ -2,7 +2,7 @@
 layout: post
 title: "Research"
 date: 2020-10-24
-image: /images/Research.jpg
+image: /images/Explore.jpg
 ---
 
 ## Work in Progress 
