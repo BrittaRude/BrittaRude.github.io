@@ -63,6 +63,6 @@ ul.inputs_DataScience li {
 .blog-roll-image{
     width: 75px;
     height: 75px;
-    object-fit:cover;
+    object-fit: cover;
     float: left;
 }
