@@ -3,6 +3,7 @@ layout: post
 usemathjax: true 
 title: "Staggered DiD versus traditional DiD - What is different?"
 date: 2020-07-27
+image: /images/DataScience_FeatureImage.jpg
 ---
 
 ## Can we apply our traditional DiD strategy to realities with staggered treatment adoption? 
