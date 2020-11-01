@@ -13,7 +13,7 @@ In 2006, Chile finds out that an overproportional large share of its children yo
 
 This is one example showing how data helped to reveal a problem, then resulting in a targeted response. To make things better, we need to know what is going on. Another example is the High/Scope Perry Preschool Project. The High/Scope Perry Preschool Project started in 1962 analyzing the influences of pre-school education on children's learning outcomes. The project started when David Weikert noted that poor children do much worse in school, and founded a committee trying to address this. As part of the project, a random group of vulnerable, ultra-poor children between 3 and 4 years old got access to pre-school as well as a weekly 90-minute home visit by a social worker, while a second group of vulnerable, ultra-poor children with similar characteristics served as their control group. 24 years later, researchers compared several socio-economic outcomes among both groups, as criminal activities, income, and educational outcomes. The relevations of the High/Scope Perry Preschool Project contributed to the general acceptance of the importance of kindergardens in society, and the foundation of a large number of pre-school facilities. Nowadays, the High/Scope Perry Preschool Project has been extensively studied, similar initiatives have been founded, and the knowledge created through data generated through these experiments, flows into respective policy designs. 
 
-<img src="/images/ChileProtests.jpg" alt="Chile Protests" style="max-width:50%;"/>
+<img src="/images/PoorChildren.jpg" alt="Poor Children" style="max-width:50%;"/>
 
 
 ## Act 2: Population Register - A digital footprint of a country's population 
