@@ -2,6 +2,7 @@
 layout: post
 title: "Research"
 date: 2020-10-24
+image: /images/CakeStory_FeatureImage.jpg
 ---
 
 ## Work in Progress 
