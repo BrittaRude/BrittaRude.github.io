@@ -2,6 +2,7 @@
 layout: post
 title: "Revisiting Difference-in-Difference - Taking the DiD Design to a next level ?"
 date: 2020-07-18
+image: /images/DataScience_FeatureImage.jpg
 ---
 
 ## Traditional Difference-in-Difference: What do we need it for? 
