@@ -3,6 +3,7 @@ layout: post
 usemathjax: true 
 title: "Staggered Difference-in-Difference - What is different?"
 date: 2020-07-21
+image: /images/DataScience_FeatureImage.jpg
 ---
 
 ## Staggered Difference-in-Difference: What does it mean?
