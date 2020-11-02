@@ -2,17 +2,32 @@
 layout: default
 title: The Cake Story
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 
-	  {% for post in site.categories.inputs_cakestory %}
-		<img src="{{post.image}}" alt="" class="blog-roll-image" hspace="5">
-		<li>{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-		<span class="post-meta">{{ post.date | date: date_format }} </span></li>
-		<li><h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3></li>
-		<li>{{ post.myexcerpt | remove: '<p>' | remove: '</p>'  }}</li>
-	  {% endfor %}
-	</ul>
+<h1>{{ page.title }}</h1>
+<ul class="posts">
+    {% for post in site.categories.inputs_cakestory %}
+ <a href="{{ post.url }}">
+    <li>
+      <div>
+        {% assign foundImage = 0 %}
+          {% assign images = post.content | split:"<img " %}
+              {% for image in images %}
+                {% if image contains 'src' %}
+                    {% if foundImage == 0 %}
+                    {% assign html = image | split:"/>" | first %}
+                    <time>{{ post.date | date:"%d %b %Y" }}</time>
+                    <h3>{{ post.title }}</h3>
+                    <hr>
+                    <div><img width="250" {{ html }} />{{ post.desc }}</div>
+                     {% assign foundImage = 1 %}
+                    {% endif %}
+             {% endfor %}
+        </div>
+     </li>
+ </a>
+    {% endif %}
+    {% endfor %}
+</ul>
 			
 			
 
