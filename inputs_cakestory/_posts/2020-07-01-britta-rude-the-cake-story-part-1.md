@@ -2,6 +2,7 @@
 layout: post
 title: "How can we make the cake as big as possible, and how can everybody get a piece of it?"
 date: 2020-07-01
+myexcerpt: Often we hear that inequality is bad for us. That it affects our possibility to grow, that it creates social frictions and unrest, and that it violates human rights. But what is inequality exactly? 
 image: /images/CakeStory_FeatureImage.jpg
 ---
 
