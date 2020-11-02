@@ -36,14 +36,12 @@ footer {
 }
 
 ul.posts { 
-    margin: 0px 0px 40px; 
+    margin: 0px 0px 0px; 
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
-    margin: 0;
-    display: block;
 }
 
 
