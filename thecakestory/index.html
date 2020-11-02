@@ -18,7 +18,7 @@ title: The Cake Story
                     <time>{{ post.date | date:"%d %b %Y" }}</time>
                     <h3>{{ post.title }}</h3>
                     <hr>
-                    <div><img width="250" {{ html }} />{{ post.desc }}</div>
+                    <div><img width="250" {{ html }} />{{ post.myexcerpt }}</div>
                      {% assign foundImage = 1 %}
                     {% endif %}
              {% endfor %}
@@ -28,7 +28,7 @@ title: The Cake Story
     {% endif %}
     {% endfor %}
 </ul>
-			
+		
 			
 
 
