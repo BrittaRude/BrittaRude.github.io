@@ -37,7 +37,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 10em;
+    font-size: 1.5em;
 }
 
 ul.posts li {
@@ -69,7 +69,6 @@ ul.inputs_DataScience li {
     width: 75px;
     height: 75px;
     object-fit: cover;
-    float: left;
 }
 
 .post-myexcerpt{
