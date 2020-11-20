@@ -41,7 +41,7 @@ ul.posts {
 }
 
 ul.posts li {
-    list-style: none;
+    font-size: 10em;
 }
 
 ul.posts li img {
