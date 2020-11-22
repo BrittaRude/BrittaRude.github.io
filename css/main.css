@@ -45,7 +45,7 @@ ul.posts li {
 }
 
 ul.posts li img {
-  float: left;
+  float: right;
   margin: 0 15px 0 0;
   width: 5em;
 }
