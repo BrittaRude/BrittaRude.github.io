@@ -42,6 +42,7 @@ ul.posts {
 
 ul.posts li {
      list-style: none;
+     margin: 10px 0;
 }
 
 ul.inputs_DataScience { 
@@ -63,7 +64,7 @@ ul.inputs_DataScience li {
     width: 75px;
     height: 75px;
     object-fit: cover;
-    float: right;
+    float: left;
 }
 
 .post-myexcerpt{
