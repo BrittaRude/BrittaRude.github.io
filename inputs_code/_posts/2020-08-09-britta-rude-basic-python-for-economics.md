@@ -32,7 +32,7 @@ Then open your prefered Python User Interface (as Jupyter Notebook, or Spyder) a
 import pandas as pd
 ```
 
-Now we can get started on some data mining. Let's look at a concrete example, as for example the Time Use Survey published by the government of Paraguay. Yo can find the data <a> href="https://www.dgeec.gov.py/microdatos/Encuesta-sobre-uso-del-tiempo.php"<here</a>. 
+Now we can get started on some data mining. Let's look at a concrete example, as for example the Time Use Survey published by the government of Paraguay. Yo can find the data <a> href="https://www.dgeec.gov.py/microdatos/Encuesta-sobre-uso-del-tiempo.php">here</a>. 
   
 First of all, lets upload the to Python via Python pandas. We have to use the read_csv command as our data is in csv-format. Let's then have a look at the columns included in the dataset, as well its shape and data types. Then let's rename some of the columns to better understand them. 
 
