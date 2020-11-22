@@ -44,12 +44,6 @@ ul.posts li {
      list-style: none;
 }
 
-ul.posts li img {
-  float: right;
-  margin: 0 15px 0 0;
-  width: 5em;
-}
-
 ul.inputs_DataScience { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
