@@ -2,7 +2,7 @@
 layout: post
 title: "Forecasting with Python - and how machine learning can help"
 date: 2020-11-22
-image: /images/Pandas.jpg
+image: /images/forecasting.jpg
 ---
 
 ## The art of forecasting with python 
