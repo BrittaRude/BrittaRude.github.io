@@ -5,7 +5,7 @@ date: 2020-22-11
 image: /images/Pandas.jpg
 ---
 
-## The art of forecasting with pyhthon 
+## The art of forecasting with python 
 
 Often we need to make predictions about the future. In the private sector we would like to know how certain markets relevant to our businesses develop in the next months or years to make the right investment decisions, and in the public sector we would like to know when to expect the next episode of economic decline. There is an entire art behind the development of future forecasts. 
 
@@ -42,4 +42,7 @@ plt.ylabel("Value (in 100 million")
 plt.savefig('C:/Users/Rude/Documents/World Bank/Forestry/Paper/Forecast/LinePlot.png')
 ```
 
+So we are all set up now to do our forecast. But first, let's have a look at which economic model we will use to do our forecast. 
+
+## The theory behind the practice - ARIMAX forecasting 
 
