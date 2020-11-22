@@ -65,6 +65,7 @@ ul.inputs_DataScience li {
     width: 75px;
     height: 75px;
     float: left;
+    object-fit: cover;
 }
 
 .post-myexcerpt{
