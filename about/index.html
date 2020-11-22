@@ -7,7 +7,7 @@ title: About me
 	<ul class="posts">
 		<li>
 		<img src="{{post.image}}" alt="" class="blog-roll-image" hspace="5"></img>
-		<span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 		</li>	
 	</ul>
 	{% endfor %}
