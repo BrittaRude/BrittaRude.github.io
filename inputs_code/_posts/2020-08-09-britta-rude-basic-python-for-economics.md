@@ -36,14 +36,23 @@ import pandas as pd
 
 Now we can get started on some data mining. Let's look at a concrete example, as for example the Time Use Survey published by the government of Paraguay. Yo can find the data <a> href="https://www.dgeec.gov.py/microdatos/Encuesta-sobre-uso-del-tiempo.php"<here</a>. 
   
-First of all, lets upload the to Python via Python pandas. We have to use the read_csv command as our data is in csv-format. Let's then have a look at the columns included in the dataset, as well its shape and data types. 
+First of all, lets upload the to Python via Python pandas. We have to use the read_csv command as our data is in csv-format. Let's then have a look at the columns included in the dataset, as well its shape and data types. Then let's rename some of the columns to better understand them. 
 
 ```python
 hhdata=pd.read_csv("C:/Users/comparablehh2018_stand.csv",  sep=';', na_values=" ")
 hhdata.columns
 hhdata.shape
 hhdata.dtypes
+hhdata.rename(columns = {'DPTOREP': 'Department', 'P02': 'Age', 'P03':'hhrole', 'P06':'Gender', 'P09': 'Civilstatus', 'POBREZAI': 'Povertycat', 'A02':'LaborStatus', 'A03':'LaborStatus1h', 'A04A':'NumberJobs', 'B12':'JobTitle', 'B01REC':'Occupation', 'B15': 'LaborUnion', 'B16T': 'MonthlySalary', 'B19': 'Paymentinkind', 'B20T':'Paymentinkind_amount', 'B29':'BusinessType', 'E01F': 'Familyhelp', 'E01I': 'Tekopora', 'E01L': 'Inkindprovision', 'V17':'LandOwnership'}, copy=False, inplace=True)
 ```
+
+One of the most important features for data mining in Python is filtering. Let's for example filter for all rural women in the dataset: 
+
+```python
+ruralwomen16 = hhdata.query('AREA==6 & Gender==6 & Age>16')
+```
+
+
 
 
 
