@@ -10,8 +10,8 @@ title: The Cake Story
 		<span class="post-meta">{{ post.date | date: date_format }} </span></li>
 		<li><h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3></li>
 		<li>
+		<img src="{{post.image}}" alt="" class="blog-roll-image" hspace="5">	
 		{{ post.myexcerpt | remove: '<p>' | remove: '</p>'  }}
-		<img src="{{post.image}}" alt="" class="blog-roll-image" hspace="5">
 		</li>
 	  {% endfor %}
 	</ul>
