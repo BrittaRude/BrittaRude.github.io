@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Forecasting with Python - and how machine learning can help"
-date: 2020-22-11
+date: 2020-11-22
 image: /images/Pandas.jpg
 ---
 
