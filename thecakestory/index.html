@@ -7,7 +7,6 @@ title: The Cake Story
 	<ul class="posts">
 	  {% for post in site.categories.inputs_cakestory %}
 		<li>
-		<img src="{{post.image}}" alt="" class="blog-roll-image" hspace="5"></img>
 		{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}<span class="post-meta">{{ post.date | date: date_format }} </span><h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
 		{{ post.myexcerpt }}
 		</li>
