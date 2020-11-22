@@ -13,3 +13,12 @@ Economists have tried to improve their predictions through modeling for decades 
 
 Let's know prepare the dataset for our purpose through grouping it by year. 
 
+```python
+dataset = pd.read_excel('C:/Users/FAOSTAT_data_11-13-2020.xls')
+
+demand = dataset[dataset["Element"]=="Import Quantity"]
+demand = demand[["Area", "Element", "Item", "Year", "Value"]]
+demand = demand.groupby("Year").sum().reset_index()
+demand.head()
+
+```
