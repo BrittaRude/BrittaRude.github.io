@@ -42,7 +42,7 @@ ul.posts {
 
 ul.posts li {
      list-style: none;
-     margin: auto;
+     margin: 5px auto 5px;
 }
 
 ul.inputs_DataScience { 
