@@ -23,12 +23,10 @@ Python is nearly like an endless universe with thousands of modules dedicated at
 
 To use _pandas_, we first need to install it. To install _pandas_, open your anaconda prompt and type: 
 
-
 ```python
 $pip install pandas
 ```
 Then open your prefered Python User Interface (as Jupyter Notebook, or Spyder) and load the package: 
-
 
 ```python
 import pandas as pd
@@ -52,7 +50,18 @@ One of the most important features for data mining in Python is filtering. Let's
 ruralwomen16 = hhdata.query('AREA==6 & Gender==6 & Age>16')
 ```
 
+As a next step, let's create a new variable indicating the employment status
 
+```python
+ruralwomen16['LaborStatus_Cat'] = 'No' 
+ruralwomen16['LaborStatus_Cat']=np.where(ruralwomen16['LaborStatus']==1,'Yes', ruralwomen16['LaborStatus_Cat'])
+ruralwomen16.LaborStatus_Cat.value_counts()
+```
 
+As a last step, we are going to save our new dataset as a csv file to our local computer. 
 
+```python
+ruralwomen.to_csv('C:/Users/ruralwomen.csv')
+```
 
+In my next blogpost, I am going to show you how to create graphs using Python. 
