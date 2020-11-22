@@ -21,3 +21,25 @@ demand = demand[["Area", "Element", "Item", "Year", "Value"]]
 demand = demand.groupby("Year").sum().reset_index()
 demand.head()
 ```
+
+To do forecasts in Python, we need to create a time series. This we do through passing a date-type variable to the index: 
+
+```python
+demand["Year_str"] = demand["Year"].astype(str)
+demand['Year_date'] = demand['Year_str'] + "-01-01"
+demand["Year_date"] = pd.to_datetime(demand["Year_date"])
+demand = demand.set_index("Year_date")
+demand.dtypes
+```
+
+Let's plot our graph now to see how the time series looks over time: 
+
+```python
+plt.figure(figsize=(14,8))
+ax = sns.lineplot(data=demand, x="Year", y="Value")
+plt.title('Global Import Quantity by Year (m3)', fontsize=12, fontweight='bold')
+plt.ylabel("Value (in 100 million")
+plt.savefig('C:/Users/Rude/Documents/World Bank/Forestry/Paper/Forecast/LinePlot.png')
+```
+
+
