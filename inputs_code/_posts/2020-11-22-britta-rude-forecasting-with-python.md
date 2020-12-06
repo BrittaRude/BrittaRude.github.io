@@ -52,6 +52,47 @@ There are a lot of ways to do forecasts, and a lot of different models which we 
 3. <b>Intgrated Moving Average (IMA)</b>: The integrated moving average part of an SARIMAX model comes from the fact that you take into account the past forecasting errors to correct your future forecasts. What does this means? Let's assume you have a time-series of 4 values, April, May, June and July. Now - as a first step, you predict the value in June based on the observed predictions in April and May. You then compare your actual value in June with the forecasted value, and take the deviation into account to make your prediction for July. You define the number of Moving Average terms you want to include into your model through the parameter q. 
 4. <b>Explanatory Variable (X)</b>: This means that the evolution of the time series of interest does not only depend on itself, but also on external variables. Wood demand, for example, might depend on how the economy in general evolves, and on population growth. This is what marks the difference between a univariate and a multivariate forecasting model. 
 
-But before starting to build or optimal forecasting model, we need to make our time-series stationary. Stationary means that the statistical properties like mean, variance, and autocorrelation of your dataset stay the same over time. This can be achieved through differencing our time series. Sometimes it is sufficient to difference our data once, but sometimes it might be necessary to difference it two, three or even more times. This you define through the parameter d. 
+## Making your data stationary 
+
+But before starting to build or optimal forecasting model, we need to make our time-series stationary. Stationary means that the statistical properties like mean, variance, and autocorrelation of your dataset stay the same over time. This can be achieved through <b>differencing</b> our time series. Sometimes it is sufficient to difference our data once, but sometimes it might be necessary to difference it two, three or even more times. This you define through the parameter d. 
+
+So, let's investigate if our data is stationary. There is a simple test for this, which is called the <b>Augmented Dickey-Fuller Test</b>. In Pyhton, there is a simple code for this: 
+
+```python
+from statsmodels.tsa.stattools import adfuller
+
+def ADF_test(timeseries, dataDesc):
+    print(' > Is the {} stationary ?'.format(dataDesc))
+    dftest = adfuller(timeseries.dropna(), autolag='AIC')
+    print('Test statistic = {:.3f}'.format(dftest[0]))
+    print('P-value = {:.3f}'.format(dftest[1]))
+    print('Critical values :')
+    for k, v in dftest[4].items():
+        print('\t{}: {} - The data is {} stationary with {}% confidence'.format(k, v, 'not' if v<dftest[0] else '', 100-int(k[:-1])))
+
+ADF_test(demand.Value,'raw data')
+```
+Looking at the AFD test, we can see that the data is not stationary.
+
+As an alternative, we can plot the rolling statistics, that is, the mean and standard deviation over time: 
+
+```python
+def test_stationarity(timeseries, title):
+    
+    #Determing rolling statistics
+    rolmean = pd.Series(timeseries).rolling(window=12).mean() 
+    rolstd = pd.Series(timeseries).rolling(window=12).std()
+    
+    fig, ax = plt.subplots(figsize=(16, 4))
+    ax.plot(timeseries, label= title)
+    ax.plot(rolmean, label='rolling mean');
+    ax.plot(rolstd, label='rolling std (x10)');
+    ax.legend() 
+    
+pd.options.display.float_format = '{:.8f}'.format
+test_stationarity(demand.Value,'raw data')
+```
+
+
 
 
