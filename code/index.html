@@ -2,10 +2,19 @@
 layout: default
 title: Code
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 
-	  {% for post in site.categories.inputs_code %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
+
+<h1>{{ page.title }}</h1>
+	{% for post in site.categories.inputs_cakestory %}
+	<ul class="posts">
+		<li>
+		<img src="{{post.image}}" alt="" class="blog-roll-image" hspace="5"></img>
+		{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}<span class="post-meta">{{ post.date | date: date_format }} </span>	<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</li>
+		<li>
+		{{ post.myexcerpt }}
+		</li>		
 	</ul>
+	{% endfor %}
+
+<p class="rss-subscribe">subscribe <a href="/code/atom.xml"> via RSS </a>
