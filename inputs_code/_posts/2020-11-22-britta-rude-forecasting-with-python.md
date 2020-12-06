@@ -94,7 +94,7 @@ test_stationarity(demand.Value,'raw data')
 We can take care of the non-stationary through detrending, or differencing. Detrending removes the underlying trend below your data, e.g. an ever increasing time-series. Differencing removes cyclical or seasonal patterns. You can alos combine both. We could do this manually now, but our optimal forecasting model will take care of both automatically, so no need to do this now. 
 
 
-## Get prepared for some machine learning - Testing and Training Datasets
+## Get prepared for some Machine Learning - Testing and Training Datasets
 
 How can we get to our optimal forecasting model? We need to be able to evaluate its performance. And therefore we need to create a testing and a training dataset. So let's split our dataset. In our case we will reserve all values after 2000 to evaluate our model. This is consistent with splitting the testing and training dataset by a proportion of 75 to 25. 
 
@@ -131,6 +131,8 @@ model.plot_diagnostics(figsize=(7,5))
 plt.show()
 ```
 
+<img src="/images/SARIMA_Diagnostics.png" alt="Diagnostics" style="max-width:50%;"/>
+
 What is actually happening behind the scenes of the auto_arima is a form of machine learning. The model trains the part of the data which we reserved as our training dataset, and then compares it the testing values. Below we can do this exercise manually for an ARIMA(1,1,1) model: 
 
 ```python
@@ -158,7 +160,53 @@ plt.title('Forecast vs Actuals')
 plt.legend(loc='upper left', fontsize=8)
 plt.show()
 ```
-<img src="/images/ARIMA_Training.png" alt="Global Wood Demand" style="max-width:50%;"/>
+<img src="/images/ARIMA_Training.png" alt="Training Dataset" style="max-width:50%;"/>
+
+## Adding an exogeneous variable 
+
+We can make our prediction better if we include variables into our model, that are correlated with global wood demand and might predict it. One example is GDP. For this purpose let's download the past GDP evolvement in constant-2010-US$ terms from The World Bank <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.KD">here</a> and the long-term forecast by the OECD in constant-2010-US$ terms <a href="https://data.oecd.org/gdp/real-gdp-long-term-forecast.htm">here</a>. I then create an excel file that contains both series and call it GDP_PastFuture. Let's upload the dataset to Python and merge it to our global wood demand: 
+
+```python
+worldgdp = pd.read_excel('C:/Users/Rude/Documents/World Bank/Forestry/Paper/Forecast/GDP_PastFuture.xlsx')
+
+#Merge
+data = pd.merge(demand, worldgdp, how="left", on="Year")
+
+#Time Series 
+data['Year_date'] = data['Year_str'] + "-01-01"
+data["Year_date"] = pd.to_datetime(data["Year_date"])
+data = data.set_index("Year_date")
+data.dtypes
+```
+
+Let's see if both time-series are correlated: 
+
+```python
+from scipy import stats
+stats.pearsonr(data['Value'], data['WorldGDP']) 
+data['Value'].corr(data['WorldGDP']) #0.988
+plt.scatter(data['Value'], data['WorldGDP'])
+```
+As you can see, GDP and Global Wood Demand are highly correlated with a value of nearly 1. So it might be a good idea to include it in our model through the following code: 
+
+```python
+sxmodel = pm.auto_arima(data[['Value']], exogenous=data[['WorldGDP']],
+                           start_p=1, start_q=1,
+                           test='adf',
+                           max_p=3, max_q=3, m=10,
+                           start_P=0, seasonal=True,
+                           d=None, D=1, trace=True,
+                           error_action='ignore',  
+                           suppress_warnings=True, 
+                           stepwise=True)
+
+sxmodel.summary()
+```
+
+## Last but not least: Do your Forecast
+
+
+
 
 
 
