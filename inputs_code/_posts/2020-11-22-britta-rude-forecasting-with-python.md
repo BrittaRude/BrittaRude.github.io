@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Forecasting with Python - and how machine learning can help"
+title: "Forecasting with Python - and how Machine Learning can help"
 date: 2020-11-22
 myexcerpt: Often we need to make predictions about the future. There is an entire art behind the development of future forecasts. Lately, Machine Learning has fed into the art of forecasting. This blog post gives an example of how to build a Forecasting Model in Python.
 image: /images/forecasting.jpg
