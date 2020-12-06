@@ -64,24 +64,17 @@ So, let's investigate if our data is stationary. There is a simple test for this
 
 ```python
 from statsmodels.tsa.stattools import adfuller
-
-def ADF_test(timeseries, dataDesc):
-    print(' > Is the {} stationary ?'.format(dataDesc))
-    dftest = adfuller(timeseries.dropna(), autolag='AIC')
-    print('Test statistic = {:.3f}'.format(dftest[0]))
-    print('P-value = {:.3f}'.format(dftest[1]))
-    print('Critical values :')
-    for k, v in dftest[4].items():
-        print('\t{}: {} - The data is {} stationary with {}% confidence'.format(k, v, 'not' if v<dftest[0] else '', 100-int(k[:-1])))
-
-ADF_test(demand.Value,'raw data')
+from numpy import log
+result = adfuller(demand.Value.dropna())
+print('ADF Statistic: %f' % result[0]) #ADF Statistic: 0.608666
+print('p-value: %f' % result[1]) #p-value: 0.987827 - greater than significance level
 ```
 Looking at the AFD test, we can see that the data is not stationary.
 
 As an alternative, we can plot the rolling statistics, that is, the mean and standard deviation over time: 
 
 ```python
-def test_stationarity(timeseries, title):
+ def test_stationarity(timeseries, title):
     
     #Determing rolling statistics
     rolmean = pd.Series(timeseries).rolling(window=12).mean() 
@@ -102,14 +95,67 @@ We can take care of the non-stationary through detrending, or differencing. Detr
 
 ## Get prepared for some machine learning - Testing and Training Datasets
 
-How can we get to our optimal forecasting model? We need to be able to evaluate its performance. And therefore we need to create a testing and a training dataset. So let's split our dataset. In our case we will reserve 5 time units to evaluate our model: 
+How can we get to our optimal forecasting model? We need to be able to evaluate its performance. And therefore we need to create a testing and a training dataset. So let's split our dataset. In our case we will reserve all values after 2000 to evaluate our model. This is consistent with splitting the testing and training dataset by a proportion of 75 to 25. 
 
 ```python
-y = demand.Value
-y_to_train = y[:'2013-01-01'] # dataset to train
-y_to_val = y['2014-01-01':] # last X months for test  
-predict_date = len(y) - len(y[:'2014-01-01']) # the number of data points for the test set
-#5 to predict
+train = demand.query("Year<2000")
+test = demand.query("Year>2000")
+y_train = train.Value
+y_test = test.Value
+```
+
+## Create your optimal SARIMAX forecasting model 
+
+I already talked about the different parameters of the SARIMAX model above. This is why you will often find the following connotation of the SARIMAX model: SARIMA(p,d,q)(P,D,Q). Python can easily help us with finding the optimal parameters (p,d,q) as well as (P,D,Q) through comparing all possible combinations of these parameters and choose the model with the least forecasting error, applying a criterion that is called the <b>AIC (Akaike Information Criterion)</b>. The AIC measures how well the a model fits the actual data and also accounts for the complexity of the model. Python picks the model with the lowest AIC for us: 
+
+```python
+from statsmodels.tsa.arima_model import ARIMA
+import pmdarima as pm
+smodel = pm.auto_arima(demand.Value, start_p=1, start_q=1,
+                         test='adf',
+                         max_p=3, max_q=3, m=10,
+                         start_P=0, seasonal=True,
+                         d=None, D=1, trace=True,
+                         error_action='ignore',  
+                         suppress_warnings=True, 
+                         stepwise=True)
+
+smodel.summary()
+```
+
+We can then check the robustness of our models through looking at the residuals: 
+
+```python
+model.plot_diagnostics(figsize=(7,5))
+plt.show()
+```
+
+What is actually happening behind the scenes of the auto_arima is a form of machine learning. The model trains the part of the data which we reserved as our training dataset, and then compares it the testing values. Below we can do this exercise manually for an ARIMA(1,1,1) model: 
+
+```python
+# Build Model
+# model = ARIMA(train, order=(3,2,1))  
+model = ARIMA(y_train, order=(1, 1, 1))  
+fitted = model.fit(disp=-1)  
+
+# Forecast
+fc, se, conf = fitted.forecast(19, alpha=0.05)  # 95% conf
+
+# Make as pandas series
+fc_series = pd.Series(fc, index=test.index)
+lower_series = pd.Series(conf[:, 0], index=test.index)
+upper_series = pd.Series(conf[:, 1], index=test.index)
+
+# Plot
+plt.figure(figsize=(12,5), dpi=100)
+plt.plot(y_train, label='training')
+plt.plot(y_test, label='actual')
+plt.plot(fc_series, label='forecast')
+plt.fill_between(lower_series.index, lower_series, upper_series, 
+                 color='k', alpha=.15)
+plt.title('Forecast vs Actuals')
+plt.legend(loc='upper left', fontsize=8)
+plt.show()
 ```
 
 
