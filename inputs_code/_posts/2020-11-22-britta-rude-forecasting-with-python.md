@@ -47,9 +47,13 @@ So we are all set up now to do our forecast. But first, let's have a look at whi
 ## The theory behind the practice - SARIMAX forecasting 
 
 There are a lot of ways to do forecasts, and a lot of different models which we can apply. In this blogpost I will just focus on one particular model, called the SARIMAX model, or Seasonal Autoregressive Integrated Moving Average with Explanatory Variable Model. Let's look at this one by one: 
+
 1. <b>Seasonal (S)</b>: Seasonal means that our data has a seasonal trend, as for example business cycles, which occur over and over again at a certain point in time. 
+
 2. <b>Autoregressive (AR)</b>: Autoregressive is a time series that depends on past values, that is, you autoregresse a future value on its past values. You define the number of past values you want to consider for your forecast, the so called order of your AR term through the parameter p. 
+
 3. <b>Intgrated Moving Average (IMA)</b>: The integrated moving average part of an SARIMAX model comes from the fact that you take into account the past forecasting errors to correct your future forecasts. What does this means? Let's assume you have a time-series of 4 values, April, May, June and July. Now - as a first step, you predict the value in June based on the observed predictions in April and May. You then compare your actual value in June with the forecasted value, and take the deviation into account to make your prediction for July. You define the number of Moving Average terms you want to include into your model through the parameter q. 
+
 4. <b>Explanatory Variable (X)</b>: This means that the evolution of the time series of interest does not only depend on itself, but also on external variables. Wood demand, for example, might depend on how the economy in general evolves, and on population growth. This is what marks the difference between a univariate and a multivariate forecasting model. 
 
 ## Making your data stationary 
@@ -91,6 +95,21 @@ def test_stationarity(timeseries, title):
     
 pd.options.display.float_format = '{:.8f}'.format
 test_stationarity(demand.Value,'raw data')
+```
+
+We can take care of the non-stationary through detrending, or differencing. Detrending removes the underlying trend below your data, e.g. an ever increasing time-series. Differencing removes cyclical or seasonal patterns. You can alos combine both. We could do this manually now, but our optimal forecasting model will take care of both automatically, so no need to do this now. 
+
+
+## Get prepared for some machine learning - Testing and Training Datasets
+
+How can we get to our optimal forecasting model? We need to be able to evaluate its performance. And therefore we need to create a testing and a training dataset. So let's split our dataset. In our case we will reserve 5 time units to evaluate our model: 
+
+```python
+y = demand.Value
+y_to_train = y[:'2013-01-01'] # dataset to train
+y_to_val = y['2014-01-01':] # last X months for test  
+predict_date = len(y) - len(y[:'2014-01-01']) # the number of data points for the test set
+#5 to predict
 ```
 
 
