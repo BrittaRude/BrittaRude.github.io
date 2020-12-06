@@ -5,7 +5,7 @@ date: 2020-11-22
 image: /images/forecasting.jpg
 ---
 
-## The art of forecasting with python 
+## The art of Forecasting with Python 
 
 Often we need to make predictions about the future. In the private sector we would like to know how certain markets relevant to our businesses develop in the next months or years to make the right investment decisions, and in the public sector we would like to know when to expect the next episode of economic decline. There is an entire art behind the development of future forecasts. 
 
@@ -45,7 +45,7 @@ plt.ylabel("Value (in 100 million")
 
 So we are all set up now to do our forecast. But first, let's have a look at which economic model we will use to do our forecast. 
 
-## The theory behind the practice - SARIMAX forecasting 
+## The Theory behind the Practice - SARIMAX Forecasting 
 
 There are a lot of ways to do forecasts, and a lot of different models which we can apply. In this blogpost I will just focus on one particular model, called the SARIMAX model, or Seasonal Autoregressive Integrated Moving Average with Explanatory Variable Model. Let's look at this one by one: 
 
@@ -105,7 +105,7 @@ y_train = train.Value
 y_test = test.Value
 ```
 
-## Create your optimal SARIMAX forecasting model 
+## Create your optimal SARIMAX Forecasting Model 
 
 I already talked about the different parameters of the SARIMAX model above. This is why you will often find the following connotation of the SARIMAX model: SARIMA(p,d,q)(P,D,Q). Python can easily help us with finding the optimal parameters (p,d,q) as well as (P,D,Q) through comparing all possible combinations of these parameters and choose the model with the least forecasting error, applying a criterion that is called the <b>AIC (Akaike Information Criterion)</b>. The AIC measures how well the a model fits the actual data and also accounts for the complexity of the model. Python picks the model with the lowest AIC for us: 
 
@@ -162,7 +162,7 @@ plt.show()
 ```
 <img src="/images/ARIMA_Training.png" alt="Training Dataset" style="max-width:50%;"/>
 
-## Adding an exogeneous variable 
+## Adding an Exogeneous Variable 
 
 We can make our prediction better if we include variables into our model, that are correlated with global wood demand and might predict it. One example is GDP. For this purpose let's download the past GDP evolvement in constant-2010-US$ terms from The World Bank <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.KD">here</a> and the long-term forecast by the OECD in constant-2010-US$ terms <a href="https://data.oecd.org/gdp/real-gdp-long-term-forecast.htm">here</a>. I then create an excel file that contains both series and call it GDP_PastFuture. Let's upload the dataset to Python and merge it to our global wood demand: 
 
@@ -205,7 +205,36 @@ sxmodel.summary()
 
 ## Last but not least: Do your Forecast
 
+Now that we have created our optimal model, let's make a prediction about how Global Wood Demand evolves during the next 10 years. 
 
+```python
+n_periods = 11
+fitted, confint = sxmodel.predict(n_periods=n_periods,
+                                  exogenous=worldgdp.query("Year>2019")[['WorldGDP']],
+                                  return_conf_int=True)
+
+index_of_fc = pd.Series(pd.date_range("2019-01-01", periods=n_periods, freq="Y"))
+
+# make series for plotting purpose
+fitted_series = pd.Series(fitted, index=index_of_fc)
+lower_series = pd.Series(confint[:, 0], index=index_of_fc)
+upper_series = pd.Series(confint[:, 1], index=index_of_fc)
+
+# Plot
+plt.plot(data.Value)
+plt.plot(-fitted_series, color='darkgreen')
+plt.fill_between(lower_series.index, 
+                 -lower_series, 
+                 -upper_series, 
+                 color='k', alpha=.15)
+
+plt.title("SARIMAX Forecast of Global Wood Demand (with GDP)")
+plt.show()
+```
+
+And voilá - we have made a prediction about the future in less than one hour, using machine learning and python: 
+
+<img src="/images/Forecast_SARIMAX.png" alt="Training Dataset" style="max-width:50%;"/>
 
 
 
