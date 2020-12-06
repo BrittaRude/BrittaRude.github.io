@@ -39,8 +39,9 @@ plt.figure(figsize=(14,8))
 ax = sns.lineplot(data=demand, x="Year", y="Value")
 plt.title('Global Import Quantity by Year (m3)', fontsize=12, fontweight='bold')
 plt.ylabel("Value (in 100 million")
-plt.savefig('C:/Users/Rude/Documents/World Bank/Forestry/Paper/Forecast/LinePlot.png')
 ```
+
+<img src="/images/LinePlot.jpg" alt="Global Wood Demand" style="max-width:50%;"/>
 
 So we are all set up now to do our forecast. But first, let's have a look at which economic model we will use to do our forecast. 
 
