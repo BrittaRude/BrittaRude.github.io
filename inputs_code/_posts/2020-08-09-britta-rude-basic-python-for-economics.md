@@ -2,6 +2,7 @@
 layout: post
 title: "Python Basics for Economics - Uploading datasets"
 date: 2020-08-08
+myexcerpt: Python is a programming language that can be used for a lot of different purposes. Its flexiblity, user-friendliness, as well as easy applicability make it one of the most-used programming languages. But how can we use Python for Data Science exactly? This is an introduction about how to upload datasets. 
 image: /images/Pandas.jpg
 ---
 
