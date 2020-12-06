@@ -41,7 +41,7 @@ plt.title('Global Import Quantity by Year (m3)', fontsize=12, fontweight='bold')
 plt.ylabel("Value (in 100 million")
 ```
 
-<img src="/images/LinePlot.jpg" alt="Global Wood Demand" style="max-width:50%;"/>
+<img src="/images/LinePlot.png" alt="Global Wood Demand" style="max-width:50%;"/>
 
 So we are all set up now to do our forecast. But first, let's have a look at which economic model we will use to do our forecast. 
 
@@ -158,6 +158,7 @@ plt.title('Forecast vs Actuals')
 plt.legend(loc='upper left', fontsize=8)
 plt.show()
 ```
+<img src="/images/ARIMA_Training.png" alt="Global Wood Demand" style="max-width:50%;"/>
 
 
 
