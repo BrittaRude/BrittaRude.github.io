@@ -237,6 +237,8 @@ And voilá - we have made a prediction about the future in less than one hour, u
 
 <img src="/images/Forecast_SARIMAX.png" alt="Training Dataset" style="max-width:50%;"/>
 
+Of course, we have to critically evaluate our forecasting model, and in the best of the cases compare it to alternative models to be able to identify the best fit. How can we do that? Read my next blogpost, in which I compare several forecasting models and show you, which metrics to use to choose the best one among severals. 
+
 
 
 
