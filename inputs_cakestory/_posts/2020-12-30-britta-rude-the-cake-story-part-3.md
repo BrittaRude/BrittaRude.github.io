@@ -10,17 +10,23 @@ image: /images/Cake3.jpg
 
 Since the start of the pandemic, U.S. billionaires have gained an additional 1 trillion US-Dollar [(Statista)]( https://www.statista.com/chart/22068/change-in-wealth-of-billionaires-during-pandemic/). This is an increase of more than 34 percent since March 2020. At the same time, [The World Bank]( https://www.worldbank.org/en/news/press-release/2020/10/07/covid-19-to-add-as-many-as-150-million-extreme-poor-by-2021) estimates that the pandemic pushed 88 million to 115 million people into extreme poverty in 2020, a figure that could rise to 150 million in 2021. This gives a taste of the long-run economic impact of the pandemic on inequality, but runs short on the overall effect the pandemic has on the most vulnerable populations. What has the pandemic taught us about inequality? It has drawn a clear picture of what multidimensional poverty really means. 
 
-<img src="/images/Pandemic.jpg" alt="Pandemic" style="max-width:50%;"/>
+<img src="/images/Pandemic.jpg" alt="Pandemic" style="float:left;margin: 2px 2px 2px 2px;max-width:50%;"/>
 
 ## A health crisis: The developing world and its health system
 
-When the pandemic hit South America in mid-March this year, Latin American governments reacted immediately, implementing strict and long lockdowns. This came as a surprise to some people as there were still relatively little cases. But the health infrastructure in the developing world lags behind the one in the developed world. While Japan has 13 hospital beds per 1,000 inhabitants and Germany 8 hospital beds per 1,000 inhabitants, there are only 1.7 hospital beds per 1,000 inhabitants in Colombia, 1.1 in Costa Rica, 1.0 in Mexico and a stunning 0.5 in India [(OECD)]( https://data.oecd.org/healtheqt/hospital-beds.htm). 
+When the pandemic hit South America in mid-March this year, Latin American governments reacted immediately, implementing strict and long lockdowns. This came as a surprise to some people as there were still relatively little cases. But the health infrastructure in the developing world lags behind the one in the developed world. Let's have a look at three numbers that can give us a taste of that: 
 
-<img src="/images/hospitalbeds.png" alt="hospitalbeds" style="float:left;margin: 2px 2px 2px 2px;max-width:50%;"/>
+<img src="/images/hospitalbeds.png" alt="hospitalbeds" style="max-width:50%;"/>
 
-When looking at more complicated health technology, as the number of x-ray machines, the discrepancy becomes even more evident. While the US has 45 x-ray machines per 1 Mio inhabitants, Colombia has 1. While Switzerland has 40, Mexico has 6 [(OECD)](https://data.oecd.org/healtheqt/computed-tomography-ct-scanners.htm#indicator-chart). 
+<ul>
+<li>While Japan has 13 hospital beds per 1,000 inhabitants and Germany 8 hospital beds per 1,000 inhabitants, there are only 1.7 hospital beds per 1,000 inhabitants in Colombia, 1.1 in Costa Rica, 1.0 in Mexico and a stunning 0.5 in India [(OECD)]( https://data.oecd.org/healtheqt/hospital-beds.htm).</li> 
+  
+When looking at more complicated health technology, as the number of x-ray machines, the discrepancy becomes even more evident. While the US has 45 x-ray machines per 1 Mio inhabitants, Colombia has 1. While Switzerland has 40, Mexico has 6 [(OECD)](https://data.oecd.org/healtheqt/computed-tomography-ct-scanners.htm#indicator-chart). </li>
 
-One can go even broader and look at current health expenditure per capita (in current international US-Dollar). While the Dem. Rep. of Congo spends 30.72 US-Dollar per capita on health, Afghanistan spends 186.41 US-Dollar per capita and Peru 766.64 US-Dollar. On the contrary, high-income countries spend on average 5.971 US-Dollar per capita on health, with the US leading the list (10.623 US-Dollar). This data makes clear that the poor are less prepared to confront a global health crisis, as the COVID-19 pandemic. In the beginning of the crisis this led to a complete collapse of the health system in the Guayaquil area in Ecuador, and dead bodies lying on the streets [(El Periodico)]( https://www.elperiodico.com/es/internacional/20200402/muertos-en-las-calles-la-imagen-que-resume-la-crisis-sanitaria-en-ecuador-7914370).  In addition to that, the poorest often live in poor neighborhoods, lacking sanitation as well as space to implement social distancing, or hygiene measures.
+<li>One can go even broader and look at current health expenditure per capita (in current international US-Dollar). While the Dem. Rep. of Congo spends 30.72 US-Dollar per capita on health, Afghanistan spends 186.41 US-Dollar per capita and Peru 766.64 US-Dollar. On the contrary, high-income countries spend on average 5.971 US-Dollar per capita on health, with the US leading the list (10.623 US-Dollar).</li>
+</ul>
+
+This data makes clear that the poor are less prepared to confront a global health crisis, as the COVID-19 pandemic. In the beginning of the crisis this led to a complete collapse of the health system in the Guayaquil area in Ecuador, and dead bodies lying on the streets [(El Periodico)]( https://www.elperiodico.com/es/internacional/20200402/muertos-en-las-calles-la-imagen-que-resume-la-crisis-sanitaria-en-ecuador-7914370).  In addition to that, the poorest often live in poor neighborhoods, lacking sanitation as well as space to implement social distancing, or hygiene measures.
 
 ## An economic crisis: Economic slowdown, liquidity and an increased debt burden. 
 
