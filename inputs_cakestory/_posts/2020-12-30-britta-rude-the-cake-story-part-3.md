@@ -10,7 +10,7 @@ image: /images/Cake3.jpg
 
 Since the start of the pandemic, U.S. billionaires have gained an additional 1 trillion US-Dollar [(Statista)]( https://www.statista.com/chart/22068/change-in-wealth-of-billionaires-during-pandemic/). This is an increase of more than 34 percent since March 2020. At the same time, [The World Bank]( https://www.worldbank.org/en/news/press-release/2020/10/07/covid-19-to-add-as-many-as-150-million-extreme-poor-by-2021) estimates that the pandemic pushed 88 million to 115 million people into extreme poverty in 2020, a figure that could rise to 150 million in 2021. This gives a taste of the long-run economic impact of the pandemic on inequality, but runs short on the overall effect the pandemic has on the most vulnerable populations. What has the pandemic taught us about inequality? It has drawn a clear picture of what multidimensional poverty really means. 
 
-<img src="/images/Pandemic.jpg" alt="Pandemic" style="float:left;margin: 2px 2px 2px 2px;max-width:50%;"/>
+<img src="/images/Pandemic.jpg" alt="Pandemic" style="max-width:50%;"/>
 
 ## A health crisis: The developing world and its health system
 
