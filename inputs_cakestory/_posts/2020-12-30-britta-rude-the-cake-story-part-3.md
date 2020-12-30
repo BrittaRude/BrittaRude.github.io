@@ -21,7 +21,7 @@ When the pandemic hit South America in mid-March this year, Latin American gover
 <ul>
 <li>While Japan has 13 hospital beds per 1,000 inhabitants and Germany 8 hospital beds per 1,000 inhabitants, there are only 1.7 hospital beds per 1,000 inhabitants in Colombia, 1.1 in Costa Rica, 1.0 in Mexico and a stunning 0.5 in India [(OECD)]( https://data.oecd.org/healtheqt/hospital-beds.htm).</li> 
   
-When looking at more complicated health technology, as the number of x-ray machines, the discrepancy becomes even more evident. While the US has 45 x-ray machines per 1 Mio inhabitants, Colombia has 1. While Switzerland has 40, Mexico has 6 [(OECD)](https://data.oecd.org/healtheqt/computed-tomography-ct-scanners.htm#indicator-chart). </li>
+<li>When looking at more complicated health technology, as the number of x-ray machines, the discrepancy becomes even more evident. While the US has 45 x-ray machines per 1 Mio inhabitants, Colombia has 1. While Switzerland has 40, Mexico has 6 [(OECD)](https://data.oecd.org/healtheqt/computed-tomography-ct-scanners.htm#indicator-chart). </li>
 
 <li>One can go even broader and look at current health expenditure per capita (in current international US-Dollar). While the Dem. Rep. of Congo spends 30.72 US-Dollar per capita on health, Afghanistan spends 186.41 US-Dollar per capita and Peru 766.64 US-Dollar. On the contrary, high-income countries spend on average 5.971 US-Dollar per capita on health, with the US leading the list (10.623 US-Dollar).</li>
 </ul>
