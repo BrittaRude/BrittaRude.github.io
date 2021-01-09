@@ -18,7 +18,7 @@ image: /images/Explore.jpg
 
 ## Policy Briefs
 
-- "A Forest's Worth: Policy options for a sustainable and inclusive forest economy in Paraguay" (forthcoming), joint work with [The World Bank](https://www.worldbank.org/en/topic/forests).
+- World Bank. 2020. A Forest’s Worth : Policy Options for a Sustainable and Inclusive Forest Economy in Paraguay. Country Forest Note;. World Bank, Washington, DC. © World Bank. [https://openknowledge.worldbank.org/handle/10986/34988](https://openknowledge.worldbank.org/handle/10986/34988) License: CC BY 3.0 IGO.
 
 - Britta Rude, 2021. "The effects of Covid-19: Applying a gender and migration lense to the employment structure in Germany" (forthcoming), ifo Schnelldienst, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, January
 
