@@ -20,7 +20,7 @@ image: /images/Explore.jpg
 
 - World Bank. 2020. A Forest’s Worth : Policy Options for a Sustainable and Inclusive Forest Economy in Paraguay. Country Forest Note;. World Bank, Washington, DC. © World Bank. [https://openknowledge.worldbank.org/handle/10986/34988](https://openknowledge.worldbank.org/handle/10986/34988) License: CC BY 3.0 IGO.
 
-- Britta Rude, 2021. "The effects of Covid-19: Applying a gender and migration lense to the employment structure in Germany" (forthcoming), ifo Schnelldienst, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, January
+- Britta Rude, 2021. "The effects of Covid-19: Applying a gender and migration lens to the employment structure in Germany" (forthcoming), ifo Schnelldienst, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, January
 
 - Britta Rude, 2020. "[Refugee Children and COVID-19. How do we protect Germany's most vulnerable?](https://www.ifo.de/publikationen/2020/aufsatz-zeitschrift/gefluechtete-kinder-und-covid-19-corona-als-brennglas), ifo Schnelldienst, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, 73.12 (2020): 46-57.
 
