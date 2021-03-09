@@ -30,9 +30,9 @@ image: /images/Explore.jpg
 
 ## Policy Briefs - Unpublished
 
-- The World Bank, 2019. Gender Assessment of the Forestry Sector in Paraguay. 
+- The World Bank, 2020. Gender Assessment of the Forestry Sector in Paraguay. 
 
-- The World Bank, 2019. Financial and economic rate of returns of forest plantations in Paraguay. 
+- The World Bank, 2020. Financial and economic rate of returns of forest plantations in Paraguay. 
 
 - The World Bank, 2021. Poverty Section. 
 
