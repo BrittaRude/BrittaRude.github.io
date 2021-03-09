@@ -5,7 +5,7 @@ date: 2020-10-24
 image: /images/Explore.jpg
 ---
 
-## Work in Progress 
+## Academic Work in Progress 
 
 - Britta Rude, 2020. "Can we grow with our children? The effects of an integrated early childhood development program." 
 
@@ -22,7 +22,7 @@ image: /images/Explore.jpg
 
 - Britta Rude & Bennet Niederhöfer & Fabio Ferrara, 2021. "[Deforestation and Migration](https://ideas.repec.org/a/ces/ifofor/v22y2021i01p49-57.html)," CESifo Forum, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, vol. 22(01), pages 49-57, January.
 
-- Britta Rude, 2021. "[The effects of Covid-19: Applying a gender and migration lens to the employment structure in Germany], ifo Schnelldienst, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, vol. 74(01), pages 49-52, January.
+- Britta Rude, 2021. "[The effects of Covid-19: Applying a gender and migration lens to the employment structure in Germany](https://ideas.repec.org/a/ces/ifosdt/v74y2021i01p49-52.html), ifo Schnelldienst, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, vol. 74(01), pages 49-52, January.
 
 - Britta Rude, 2020. "[Refugee Children and COVID-19. How do we protect Germany's most vulnerable?](https://www.ifo.de/publikationen/2020/aufsatz-zeitschrift/gefluechtete-kinder-und-covid-19-corona-als-brennglas), ifo Schnelldienst, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, 73.12 (2020): 46-57.
 
@@ -30,6 +30,14 @@ image: /images/Explore.jpg
 
 ## Policy Briefs - Unpublished
 
-- The World Bank, 2019. 
+- The World Bank, 2019. Gender Assessment of the Forestry Sector in Paraguay. 
+
+- The World Bank, 2019. Financial and economic rate of returns of forest plantations in Paraguay. 
+
+- The World Bank, 2021. Poverty Section. 
+
+- The World Bank, 2021. The effect of poverty-level wages on unemployment and overall welfare. 
+
+- The World Bank, 2021. Small-area estimates of poverty indicators and the Fay-Herriot Model. 
 
  
