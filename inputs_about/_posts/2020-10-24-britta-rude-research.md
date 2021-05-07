@@ -20,6 +20,8 @@ image: /images/Explore.jpg
 
 - World Bank. 2020. A Forest’s Worth : Policy Options for a Sustainable and Inclusive Forest Economy in Paraguay. Country Forest Note;. World Bank, Washington, DC. © World Bank. [https://openknowledge.worldbank.org/handle/10986/34988](https://openknowledge.worldbank.org/handle/10986/34988) License: CC BY 3.0 IGO.
 
+- Sofia Eigner, Simon Meemken, Bennet Niederhoefer and Britta Rude, 2021. "Legalizing up to 2 million Venezuelans: Is Colombia leading the way into a migration-friendly future?", CESiFO Forum, forthcoming.  
+
 - Britta Rude & Bennet Niederhöfer & Fabio Ferrara, 2021. "[Deforestation and Migration](https://ideas.repec.org/a/ces/ifofor/v22y2021i01p49-57.html)," CESifo Forum, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, vol. 22(01), pages 49-57, January.
 
 - Britta Rude, 2021. "[The effects of Covid-19: Applying a gender and migration lens to the employment structure in Germany](https://ideas.repec.org/a/ces/ifosdt/v74y2021i01p49-52.html), ifo Schnelldienst, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, vol. 74(01), pages 49-52, January.
@@ -39,5 +41,7 @@ image: /images/Explore.jpg
 - The World Bank, 2021. The effect of poverty-level wages on unemployment and overall welfare. 
 
 - The World Bank, 2021. Small-area estimates of poverty indicators and the Fay-Herriot Model. 
+
+- The World Bank, 2021. Assessing vulnerability to poverty through the Vulnerability Tool. 
 
  
