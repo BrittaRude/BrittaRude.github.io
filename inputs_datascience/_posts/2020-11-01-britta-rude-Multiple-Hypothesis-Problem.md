@@ -15,8 +15,11 @@ Often we are interest in a variety of different outcomes when analyzing the effe
 Statisticians have developed several methods to correct for this problem. One is the Bonferroni correction, which divides the significance level by the number of hypothesis. Another one is the False Discovery Rate (the proportion of false positives among all significant results). Another possibility is to apply the positive False Discovery Rate (fixing  the  rejection  region,  then  estimating the significance level). A recent [post](https://medium.com/idinsight-blog/more-outcomes-more-problems-a-practical-guide-to-multiple-hypothesis-testing-in-impact-98da5037b26) compares the different approaches and highlights when they might fit best. 
 
 To summarize, the main approaches are as follows: 
+
 - Bonferroni: The p-value is equal to the significance level divided by the number of hypothesis - The downside is that this increases the probability of rejecting a hypothesis when there is no effect
+
 - FWER and sequential adjustments: the p-value is equal to the minimum of multiplying a decending sequence (starting from the number of hypotheses m) with the p-value of each respective hypothesis - This method is most appropriate when you want to guard against any form of false positive.  
+
 - FDR and pFDR: Here you account for the false-discovery rate (FDR), which is the share of the number of times a null hypothesis is false characterized as significant over the total amount of rejected hypotheses. 
 
 ## Multiple Hypothesis Testing - How can we apply it? 
