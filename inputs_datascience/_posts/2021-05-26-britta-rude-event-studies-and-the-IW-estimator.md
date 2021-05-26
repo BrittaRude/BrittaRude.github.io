@@ -12,7 +12,7 @@ Event studies are used often in economic research to analyze the effect of polic
 
 A recent paper by [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) points out important pitfall with this empirial approach: 
 
-- The coefficients on the relative time periods (e.g. 1) are linear combinations of its own relative periods, but also of the other relative periods. 
+- The coefficients on the relative time periods (e.g. 1) are linear combinations of its own relative periods, but also of the other relative periods (e.g. of -1). 
 
 - This results in a contamination of each relative time periods' coefficient through the other relative periods if treatment heterogeneity does not apply. 
 
