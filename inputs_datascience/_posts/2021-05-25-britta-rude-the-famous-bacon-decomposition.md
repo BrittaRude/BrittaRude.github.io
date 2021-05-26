@@ -2,7 +2,7 @@
 layout: post
 usemathjax: true 
 title: "The famous Bacon Decomposition"
-date: 2021-05-26
+date: 2021-05-25
 image: /images/DataScience_FeatureImage.jpg
 ---
 
