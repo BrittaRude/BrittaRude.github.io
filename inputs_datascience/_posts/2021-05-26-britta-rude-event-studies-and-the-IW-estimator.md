@@ -20,6 +20,8 @@ A recent paper by [Sun and Abraham (2020)](http://economics.mit.edu/files/14964)
 
 - The underlying weights behind the linear combinations have no policy-implications. 
 
-- Using alternative weights, based on the cohort shares, results in estimators that are more robust to treatment effect heterogeneity. 
+- Using alternative weights, based on the cohort shares, results in estimators that are more robust to treatment effect heterogeneity. The new treatment effect is a weighted average of the underlying treatment effects. 
+
+
 
 
