@@ -26,12 +26,16 @@ A recent paper by [Sun and Abraham (2020)](http://economics.mit.edu/files/14964)
 
 As [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) correctly state, the assumption of treatment heterogeneity is quite a strong one to make. It means that each cohort experiences the same treatment effects path. That is, the treatment effect for state A in period 1 (subject to a minimum wage increase in August 2017) is the same as the one for State B in period 1 (subject to a minimum wage increase in December 2017). Dynamic treatment effects can arise when e.g. treatment effects differ by age and the age composition then differs by cohorts. Even when controlling for age the treatment affect may vary over time if invidiuals select into treatment timings depending on their age. Another example are macroeconomic conditions (e.g. fluctuations in the business cycle). 
 
+## The problem of pre-trend testing 
+
+This has huge implications for empirical work. Traditionally, economists have used pre-trends to establish if the identification assumption of parallel trends is satisfied. But Sun and Abraham's work has clearly shown how problematic this is (at least in the case of heterogeneous treatment effects). Good then that Sun an Abraham have already developed a new estimator that is robust to treatment effect heterogeneity. 
+
 
 
 
 ## Putting it all to practice 
 
-Sun and Abraham (2020) have developed a stata code with which you can plot the eventstudy weights called and assess the degree of contamination in your setup [eventstudyweights] (https://ideas.repec.org/c/boc/bocode/s458833.html). 
+Sun and Abraham (2020) have developed a stata code with which you can plot the eventstudy weights called and assess the degree of contamination in your setup [eventstudyweights](https://ideas.repec.org/c/boc/bocode/s458833.html). The IW estimator can be implemented via the command [eventstudyinteract](https://github.com/lsun20/EventStudyInteract). 
 
 
 
