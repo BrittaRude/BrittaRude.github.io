@@ -32,18 +32,19 @@ This has huge implications for empirical work. Traditionally, economists have us
 
 ## A practical application 
 
+### 3 different assumptions - do they apply? 
+
 The authors illustrate their findings using a concrete example, namely the paper by [Dobkin et al. (2018)](). In their paper the researchers study the economic effects of hospitalization, applying an event study with dynamic treatment effects (namely the effects on out-of-pocket medical spending and labor earnings). In the case of the paper there are 4 cohorts as individuals report being admitted to a hospital for 4 different points in time. As outlined by Abraham and Sun one should check 3 assumptions when implementing a Event-Study: 
 
 - Parallel trends (Assumption 1): The parallel trend is unlikely to apply in this case, as individuals who end up in a hospital are likely to experience different health trends already before being admitted to a hospital when compared to those individuals not ending up in a hospital. This is why [Dobkin et al. (2018)]() restrict the assumption to those individuals who were ever hospitalized. 
 
 - No anticipation behavior (Assumption 2): As the treatment is restricted to unexpected hospitalization it is unlikely that individuals will be able to anticipate when they will end up in a hospital. 
 
-- Treatment effect heterogeneity (Assumption 3): Abraham and Sun show that for out-of-pocket medical spending the effect of hospitalization is likely to be heterogeneous across individuals from different waves. This is due to the fact that those ending up in the hospital in later waves are automatically older. And age, on the other hand, is correlated with health insurance, which then again influences out-of-pocket medical spending. Similarly, individuals who ended up in hospitals during the financial crisis might find it more difficult to return to their job after being released then those being admitted after or before the crisis. 
+- Treatment effect heterogeneity (Assumption 3): Abraham and Sun show that for out-of-pocket medical spending the effect of hospitalization is likely to be heterogeneous across individuals from different waves. This is due to the fact that those ending up in the hospital in later waves are automatically older. And age, on the other hand, is correlated with health insurance, which then again influences out-of-pocket medical spending. Similarly, individuals who ended up in hospitals during the financial crisis might find it more difficult to return to their job after being released than those being admitted after or before the crisis. 
 
- 
+### Heterogenous effects, hospitalization and the IW estimator
 
-
-
+Sun and Abraham then show the implications of their findings through plotting the estimator on the second pre-treatmen period (period -2). Plotting the decomposition of this estimator shows that it is influenced by the lags of the treatment (periods 1-4). This means that the estimator on -2 actually does not isolate the pre-trends. They next estimate the IW estimator and show that the results differ slightly. 
 
 ## Putting it all to practice 
 
