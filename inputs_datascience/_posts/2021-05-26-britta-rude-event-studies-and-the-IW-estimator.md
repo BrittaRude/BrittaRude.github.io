@@ -14,13 +14,15 @@ A recent paper by [Sun and Abraham (2020)](http://economics.mit.edu/files/14964)
 
 - The coefficients on the relative time periods (e.g. 1) are linear combinations of its own relative periods, but also of the other relative periods (e.g. of -1). 
 
-- This results in a contamination of each relative time periods' coefficient through the other relative periods if treatment heterogeneity does not apply. 
+- This results in a contamination of each relative time periods' coefficient through the other relative periods if there is treatment heterogeneity. 
 
-- The practice of using treatment leads as parallel pretrends is problematic. 
+- The practice of using treatment leads as parallel pretrends is problematic in this case. 
 
-- The underlying weights behind the linear combinations have no policy-implications. 
+- The underlying weights behind the linear combinations have no policy-implications and are difficult to interpret. 
 
-- Using alternative weights, based on the cohort shares, results in estimators that are more robust to treatment effect heterogeneity. The new treatment effect is a weighted average of the underlying treatment effects. 
+- Using alternative weights, based on the cohort shares, results in estimators that are more robust to treatment effect heterogeneity. The new treatment effect is a weighted average of the underlying treatment effects called the IW estimator.
+
+
 
 
 
