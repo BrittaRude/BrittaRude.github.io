@@ -29,6 +29,10 @@ As [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) correctly stat
 
 
 
+## Putting it all to practice 
+
+Sun and Abraham (2020) have developed a stata code with which you can plot the eventstudy weights called and assess the degree of contamination in your setup [eventstudyweights] (https://ideas.repec.org/c/boc/bocode/s458833.html). 
+
 
 
 
