@@ -34,9 +34,9 @@ This has huge implications for empirical work. Traditionally, economists have us
 
 ### 3 different assumptions - do they apply? 
 
-The authors illustrate their findings using a concrete example, namely the paper by [Dobkin et al. (2018)](). In their paper the researchers study the economic effects of hospitalization, applying an event study with dynamic treatment effects (namely the effects on out-of-pocket medical spending and labor earnings). In the case of the paper there are 4 cohorts as individuals report being admitted to a hospital for 4 different points in time. As outlined by Abraham and Sun one should check 3 assumptions when implementing a Event-Study: 
+The authors illustrate their findings using a concrete example, namely the paper by [Dobkin et al. (2018)](https://economics.mit.edu/files/13738). In their paper the researchers study the economic effects of hospitalization, applying an event study with dynamic treatment effects (namely the effects on out-of-pocket medical spending and labor earnings). In the case of the paper there are 4 cohorts as individuals report being admitted to a hospital for 4 different points in time. As outlined by Abraham and Sun one should check 3 assumptions when implementing a Event-Study: 
 
-- Parallel trends (Assumption 1): The parallel trend is unlikely to apply in this case, as individuals who end up in a hospital are likely to experience different health trends already before being admitted to a hospital when compared to those individuals not ending up in a hospital. This is why [Dobkin et al. (2018)]() restrict the assumption to those individuals who were ever hospitalized. 
+- Parallel trends (Assumption 1): The parallel trend is unlikely to apply in this case, as individuals who end up in a hospital are likely to experience different health trends already before being admitted to a hospital when compared to those individuals not ending up in a hospital. This is why [Dobkin et al. (2018)](https://economics.mit.edu/files/13738) restrict the assumption to those individuals who were ever hospitalized. 
 
 - No anticipation behavior (Assumption 2): As the treatment is restricted to unexpected hospitalization it is unlikely that individuals will be able to anticipate when they will end up in a hospital. 
 
