@@ -28,11 +28,11 @@ As [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) correctly stat
 
 ## The problem of pre-trend testing 
 
-This has huge implications for empirical work. Traditionally, economists have used pre-trends to establish if the identification assumption of parallel trends is satisfied. But Sun and Abraham's work has clearly shown how problematic this is (at least in the case of heterogeneous treatment effects). Good then that Sun an Abraham have already developed a new estimator that is robust to treatment effect heterogeneity - the IW estimator (interaction-weighted estimator). The estimator is basically a weighted average of treatment weights, but the IW estimator draws from weights that are equal to cohort-shares. The estimator is consistent under parallel trends and no anticipation behavior. 
+This has huge implications for empirical work. Traditionally, economists have used pre-trends to establish if the identification assumption of parallel trends is satisfied. But Sun and Abraham's work has clearly shown how problematic this is (at least in the case of heterogeneous treatment effects). Good then that Sun an Abraham have already developed a new estimator that is robust to treatment effect heterogeneity - the IW estimator (interaction-weighted estimator). The estimator is basically a weighted average of treatment effects and draws from weights which are equal to cohort-shares. The estimator is consistent under parallel trends and no anticipation behavior. 
 
 ## A practical application 
 
-
+The authors illustrate their findings using a concrete example, namely the paper by [Dobkin et al. (2018)](). In their paper the researchers study the economic effects of hospitalization, applying an event study with dynamic treatment effects (namely the effects on out-of-pocket medical spending and labor earnings).   
 
 
 
