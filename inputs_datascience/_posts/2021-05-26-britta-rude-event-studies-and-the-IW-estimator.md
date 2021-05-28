@@ -22,6 +22,11 @@ A recent paper by [Sun and Abraham (2020)](http://economics.mit.edu/files/14964)
 
 - Using alternative weights, based on the cohort shares, results in estimators that are more robust to treatment effect heterogeneity. The new treatment effect is a weighted average of the underlying treatment effects called the IW estimator.
 
+## But wait a minute - what do heterogeneous treatment effects actually mean? 
+
+As [Sun and Abraham (2020)](http://economics.mit.edu/files/14964) correctly state, the assumption of treatment heterogeneity is quite a strong one to make. It means that each cohort experiences the same treatment effects path. That is, the treatment effect for state A in period 1 (subject to a minimum wage increase in August 2017) is the same as the one for State B in period 1 (subject to a minimum wage increase in December 2017). Dynamic treatment effects can arise when e.g. treatment effects differ by age and the age composition then differs by cohorts. Even when controlling for age the treatment affect may vary over time if invidiuals select into treatment timings depending on their age. Another example are macroeconomic conditions (e.g. fluctuations in the business cycle). 
+
+
 
 
 
