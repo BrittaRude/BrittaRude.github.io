@@ -10,10 +10,10 @@ image: /images/Robots.jpg
 
 The trends in Robotization, digitalization and artifical intelligence are unreversable by now. 
 
-# Schumpeter's Theory of Creative Destruction
+## Schumpeter's Theory of Creative Destruction
 
-# I, Robot - And Evidence from the US 
+## I, Robot - And Evidence from the US 
 
-# Ex-Machina - And Evidence from Germany 
+## Ex-Machina - And Evidence from Germany 
 
-# Transformers - What about the developing world? 
+## Transformers - What about the developing world? 
