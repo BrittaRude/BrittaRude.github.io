@@ -10,11 +10,16 @@ image: /images/Robots.jpg
 
 The trends in robotization are unreversable by now. Figure X shows the number of robot installations per 1,000 employed people by geographic regions. The number of robot installations per year have spiked over time, but certain regions are leading this increase while others fall behind. Robotization is mainly concentrated in the manufacturing sector as can be seen in ... but other sectors have picked up on robotization. Figure X shows that the manufacturing sector play an important role in the East Asia & Pacific region where it makes up for 22.8 percent of GDP. It only accounts for 10.7 percent of GDP in Sub-Saharan Africa. 
 
-<img src="/images/Pandemic.jpg" alt="Pandemic" style="max-width:50%;"/>
+<img src="/images/ManufacturingValueAdded.png" alt="Manufacturing" style="max-width:50%;"/>
 
 ## Schumpeter's Theory of Creative Destruction
 
 ## I, Robot - And Evidence from the US 
+
+Recent evidence from the US shows that robots have negative effects on wages and employmnent [Acemoglu and Restrepo (2020)](https://economics.mit.edu/files/19696). The researchers at MIT and Boston University explore the labor market effects of an increased exposure to robots at the commuting-zone level. This is based on the fact that, according to the authors, robots and workers compete on the labor market and that robots potentially displace some of the human workforce (a phenomenon they call the displacement effect). The authors find sizable effects, namely that an increase of 1 robot per 1,000 workers from 1993 to 2007 recuded wages by nearly 1 percent and the employment-to-population ratio by nearly 0.39 percentage points, relative to a commuting-zone without robots. This means that one new robot decreases employment by 6 workers. 
+
+But robotization does not only have negative effects. It leads to productivity increases and decreases in prices of those goods produced by robots [Acemoglu and Restrepo (2020)](https://economics.mit.edu/files/19696). When taking account of these positive side effects, the overall effect of robotization is still negative but by much less. In this case one new robot decreases employment by 3.3 workers. 
+
 
 ## Ex-Machina - And Evidence from Germany 
 
