@@ -16,7 +16,7 @@ The trends in robotization are unreversable by now. Figure X shows the number of
 
 ## I, Robot - And Evidence from the US 
 
-<img src="/images/robots_us.jpg" alt="robots_us" style="float:left;margin: 2px 2px 2px 2px;max-width:22%;"/>
+<img src="/images/robots_us.jpg" alt="robots_us" style="float:left;margin: 2px 2px 2px 2px;max-width:20%;"/>
 
 Recent evidence from the US shows that robots have negative effects on wages and employmnent [Acemoglu and Restrepo (2020)](https://economics.mit.edu/files/19696). The researchers at MIT and Boston University explore the labor market effects of an increased exposure to robots at the commuting-zone level. This is based on the fact that, according to the authors, robots and workers compete on the labor market and that robots potentially displace some of the human workforce (a phenomenon they call the displacement effect). The authors find sizable effects, namely that an increase of 1 robot per 1,000 workers from 1993 to 2007 recuded wages by nearly 1 percent and the employment-to-population ratio by nearly 0.39 percentage points, relative to a commuting-zone without robots. This means that one new robot decreases employment by 6 workers. 
 But robotization does not only have negative effects. It leads to productivity increases and decreases in prices of those goods produced by robots [Acemoglu and Restrepo (2020)](https://economics.mit.edu/files/19696). When taking account of these positive side effects, the overall effect of robotization is still negative but by much less. In this case one new robot decreases employment by 3.3 workers.  
