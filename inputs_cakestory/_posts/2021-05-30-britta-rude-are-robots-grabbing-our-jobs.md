@@ -17,10 +17,13 @@ The trends in robotization are unreversable by now. Figure X shows the number of
 ## I, Robot - And Evidence from the US 
 
 Recent evidence from the US shows that robots have negative effects on wages and employmnent [Acemoglu and Restrepo (2020)](https://economics.mit.edu/files/19696). The researchers at MIT and Boston University explore the labor market effects of an increased exposure to robots at the commuting-zone level. This is based on the fact that, according to the authors, robots and workers compete on the labor market and that robots potentially displace some of the human workforce (a phenomenon they call the displacement effect). The authors find sizable effects, namely that an increase of 1 robot per 1,000 workers from 1993 to 2007 recuded wages by nearly 1 percent and the employment-to-population ratio by nearly 0.39 percentage points, relative to a commuting-zone without robots. This means that one new robot decreases employment by 6 workers. 
+But robotization does not only have negative effects. It leads to productivity increases and decreases in prices of those goods produced by robots [Acemoglu and Restrepo (2020)](https://economics.mit.edu/files/19696). When taking account of these positive side effects, the overall effect of robotization is still negative but by much less. In this case one new robot decreases employment by 3.3 workers.  
 
-But robotization does not only have negative effects. It leads to productivity increases and decreases in prices of those goods produced by robots [Acemoglu and Restrepo (2020)](https://economics.mit.edu/files/19696). When taking account of these positive side effects, the overall effect of robotization is still negative but by much less. In this case one new robot decreases employment by 3.3 workers. 
+So what about inequality? [Acemoglu and Restrepo (2020)](https://economics.mit.edu/files/19696) find that certain groups are more affected by robots than others. Specifically, effects are more marked for the manufacturing sector and those industries which concentrate a larger number of robots. Additionally, the effects are more pronounced for workers conducting routine manual jobs as well as blue-collar workers. 
 
 
 ## Ex-Machina - And Evidence from Germany 
 
 ## Transformers - What about the developing world? 
+
+The pioneer paper by [Graetz and Michaels (2018)](https://direct.mit.edu/rest/article/100/5/753/58489/Robots-at-Work) look at robotization in different industries and 17 different countries from 1993 to 2007. They find that, overall, an increase in robot adoption leads to an increase in overall productivity as well as wages and a decrease in prices. Still, it has negative employment effects on the low-skilled. 
