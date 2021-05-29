@@ -21,10 +21,18 @@ The trends in robotization are unreversable by now. Figure X shows the number of
 Recent evidence from the US shows that robots have negative effects on wages and employmnent [Acemoglu and Restrepo (2020)](https://economics.mit.edu/files/19696). The researchers at MIT and Boston University explore the labor market effects of an increased exposure to robots at the commuting-zone level. This is based on the fact that, according to the authors, robots and workers compete on the labor market and that robots potentially displace some of the human workforce (a phenomenon they call the displacement effect). The authors find sizable effects, namely that an increase of 1 robot per 1,000 workers from 1993 to 2007 recuded wages by nearly 1 percent and the employment-to-population ratio by nearly 0.39 percentage points, relative to a commuting-zone without robots. This means that one new robot decreases employment by 6 workers. 
 But robotization does not only have negative effects. It leads to productivity increases and decreases in prices of those goods produced by robots [Acemoglu and Restrepo (2020)](https://economics.mit.edu/files/19696). When taking account of these positive side effects, the overall effect of robotization is still negative but by much less. In this case one new robot decreases employment by 3.3 workers.  
 
-So what about inequality? [Acemoglu and Restrepo (2020)](https://economics.mit.edu/files/19696) find that certain groups are more affected by robots than others. Specifically, effects are more marked for the manufacturing sector and those industries which concentrate a larger number of robots. Additionally, the effects are more pronounced for workers conducting routine manual jobs as well as blue-collar workers. The researchers also look at the effects by education group and find negative impacts on all workers, independently of their educations status. Still, when looking at the wage distribution, they show that those earning less than the average are the ones most affected by the wage decrease. The fact that robot adoption does not result in positive impacts for the high-skilled means that robots are not complementary to their tasks and increase their productivity (as is the case in other forms of technological change, as for example in the IT sector). 
+So what about inequality? [Acemoglu and Restrepo (2020)](https://economics.mit.edu/files/19696) find that certain groups are more affected by robots than others. Specifically, effects are more marked for the manufacturing sector and those industries which concentrate a larger number of robots. Additionally, the effects are more pronounced for workers conducting routine manual jobs as well as blue-collar workers. The researchers also look at the effects by education group and find negative impacts on all workers, independently of their educations status. Still, when looking at the wage distribution, they show that those earning less than the average are the ones most affected by the wage decrease. The fact that robot adoption does not result in positive impacts for the high-skilled means that robots are not complementary to their tasks and increase their productivity (as is the case in other forms of technological change, as for example in the IT sector). On the contrary, research by [Feng an Graetz](https://academic-oup-com.emedien.ub.uni-muenchen.de/ej/article/130/631/2249/5831197) find that automation leads to job polarization. This means that low-skilled and high-skilled workers are unaffected by automation, and that it is the middle-skilled experiencing most of the negative impacts. Consequently, wages increase both in the low-wage employment as well as high-wage employment. They show that this is driven by firms' decision making. When confronted with two tasks that are equally automatable, firms tend to automate the one that requires more training over the one characterized by a higher engineering complexity. 
 
 
-## Ex-Machina - And Evidence from Germany 
+## Ex-Machina - And Evidence from Europe
+
+#Germany 
+
+Dauth paper 
+
+#France 
+
+Presenter at ifo 
 
 ## Transformers - What about the developing world? 
 
