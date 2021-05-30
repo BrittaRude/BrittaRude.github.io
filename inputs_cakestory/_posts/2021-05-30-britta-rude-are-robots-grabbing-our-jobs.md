@@ -34,7 +34,7 @@ Dauth paper
 
 #France 
 
-<img src="/images/robots_us.jpg" alt="robots_france" style="float:left;margin: 2px 2px 2px 2px;max-width:21%;"/>
+<img src="/images/robots_france.jpg" alt="robots_france" style="float:left;margin: 2px 2px 2px 2px;max-width:21%;"/>
 
 A recent paper conducting analysis using firm-level data from France comes to very different results than the ones found for the US. In contrast to Acemglu and Restrepo (2020) the authors of [What Are the Labor and Product Market Effects of Automation?New Evidence from France](https://scholar.harvard.edu/files/aghion/files/what_are_the_labor_and_product_market_effects_of_automation_jan2020.pdf) find that automation leads to an increased labor demand, higher profits, lower consumer prices and higher sales. It therefore has an overall positive effect. Employment effects are even positive for unskilled industrial workers. This could be an indicator for the productivity effect (an increase in productivity driven by robotization) outweighting the displacement effect (robots substituting for workers) [Aghion et al (2020)](https://scholar.harvard.edu/files/aghion/files/what_are_the_labor_and_product_market_effects_of_automation_jan2020.pdf). Consequently, in a globalized world, in which robotization is unstoppable by now, it might be damaging to introduce protective mechanisms aiming at securing employment against robots. Firms placed in countries without those mechanisms might outperform those placed in protected economies through the induced productivity gains. Additionally, in the case of France, there are no significant effects of robot adoption on inequalitiy. 
 
