@@ -28,7 +28,7 @@ On the contrary, research by [Feng an Graetz](https://academic-oup-com.emedien.u
 
 ## Ex-Machina - And Evidence from Europe
 
-Let's move away from the US and have a look at Europe. Similar to the US, researchers have become more and more interested in studying the effects of robots on local labor markets. In 2018, an analysis by [Chiacchio et al. (2018)](https://www.bruegel.org/2018/04/the-impact-of-industrial-robots-on-eu-employment-and-wages-a-local-labour-market-approach/) finds that, when looking at a total of 6 countries in the EU, one additional robot decreases the employment-to-population ratio by 0.16 to 0.20 percentage points. The young as well as middle-educated are the once most affected by these negative employment effects, and the authors find no evidence on wage growth. These effects are significant but half of those observed in the US. 
+Let's move away from the US and have a look at Europe. Similar to the US, researchers have become more and more interested in studying the effects of robots on local labor markets. In 2018, an analysis by [Chiacchio et al. (2018)](https://www.bruegel.org/2018/04/the-impact-of-industrial-robots-on-eu-employment-and-wages-a-local-labour-market-approach/) finds that, when looking at a total of 6 countries in the EU, one additional robot decreases the employment-to-population ratio by 0.16 to 0.20 percentage points. The young as well as middle-educated are the ones most affected by these negative employment effects, and the authors find no evidence on wage growth. These effects are significant but half of those observed in the US. 
 
 <b><i>Germany. </i></b> 
  
