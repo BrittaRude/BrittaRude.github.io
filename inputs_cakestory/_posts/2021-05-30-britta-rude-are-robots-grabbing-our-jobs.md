@@ -8,9 +8,7 @@ image: /images/Robots.jpg
 
 ## The rise of the machines - Are Science Fiction movies becoming true?
 
-The trends in robotization are unreversable by now. The [International Ferederation of Robotics (IFR)](https://ifr.org/ifr-press-releases/news/record-2.7-million-robots-work-in-factories-around-the-globe) shows that the number of installed robots has grown by 85 percent - only in the last 5 years (2014-2019). Asia is playing an increased role in this dynamic. It accounts for 2/3 of the newly installed robots in 2019. The figure below shows that the manufacturing sector plays an important role in the East Asia & Pacific region where it makes up for 22.8 percent of GDP. It only accounts for 10.7 percent of GDP in Sub-Saharan Africa. 
-
-<img src="/images/ManufacturingValueAdded.png" alt="Manufacturing" style="max-width:50%;"/>
+The trends in robotization are unreversable by now. The [International Ferederation of Robotics (IFR)](https://ifr.org/ifr-press-releases/news/record-2.7-million-robots-work-in-factories-around-the-globe) shows that the number of installed robots has grown by 85 percent - only in the last 5 years (2014-2019). Asia is playing an increasing role in this dynamic. It accounts for 2/3 of the newly installed robots in 2019. It is not surprising that the effects or robotics have caught the eye of the public debate. How are they influencing our labor markets? Are they really grabbing our jobs, and if yes, which ones? And what are their effects on inequality? 
 
 ## Schumpeter's Theory of Creative Destruction
 
