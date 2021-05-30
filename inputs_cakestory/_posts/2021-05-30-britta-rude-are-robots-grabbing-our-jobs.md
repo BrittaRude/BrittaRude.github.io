@@ -28,12 +28,10 @@ On the contrary, research by [Feng an Graetz](https://academic-oup-com.emedien.u
 
 ## Ex-Machina - And Evidence from Europe
 
-#Germany 
+Let's move away from the US and have a look at Europe. Similar to the US, researchers have become more and more interested in studying the effects of robots on local labor markets. In 2018, an analysis by [Chiacchio et al. (2018)](https://www.bruegel.org/2018/04/the-impact-of-industrial-robots-on-eu-employment-and-wages-a-local-labour-market-approach/) finds that, when looking at a total of 6 countries in the EU, one additional robot decreases the employment-to-population ratio by 0.16 to 0.20 percentage points. The young as well as middle-educated are the once most affected by these negative employment effects, and the authors find no evidence on wage growth. 
 
-Dauth paper 
-
+<b><i>Germany. </i></b> 
  
-
 <img src="/images/robots_france.jpg" alt="robots_france" style="float:left;margin: 2px 2px 2px 2px;max-width:21%;"/>
 
 <b><i>France. </i></b> A recent paper conducting analysis using firm-level data from France comes to very different results than the ones found for the US. In contrast to Acemglu and Restrepo (2020) the authors of [What Are the Labor and Product Market Effects of Automation?New Evidence from France](https://scholar.harvard.edu/files/aghion/files/what_are_the_labor_and_product_market_effects_of_automation_jan2020.pdf) find that automation leads to an increased labor demand, higher profits, lower consumer prices and higher sales. It therefore has an overall positive effect. Employment effects are even positive for unskilled industrial workers. This could be an indicator for the productivity effect (an increase in productivity driven by robotization) outweighting the displacement effect (robots substituting for workers) [Aghion et al (2020)](https://scholar.harvard.edu/files/aghion/files/what_are_the_labor_and_product_market_effects_of_automation_jan2020.pdf). Consequently, in a globalized world, in which robotization is unstoppable by now, it might be damaging to introduce protective mechanisms aiming at securing employment against robots. Firms placed in countries without those mechanisms might outperform those placed in protected economies through the induced productivity gains. Additionally, in the case of France, there are no significant effects of robot adoption on inequalitiy. 
@@ -41,3 +39,5 @@ Dauth paper
 ## Transformers - What about the developing world? 
 
 The pioneer paper by [Graetz and Michaels (2018)](https://direct.mit.edu/rest/article/100/5/753/58489/Robots-at-Work) looks at robotization in different industries and 17 different countries from 1993 to 2007. They find that, overall, an increase in robot adoption leads to an increase in overall productivity as well as wages and a decrease in prices. Still, it has negative employment effects on the low-skilled. 
+
+Add paper [Uneven Growth: Automation's Impact on Income and Wealth Inequality](https://www.nber.org/papers/w28440)
