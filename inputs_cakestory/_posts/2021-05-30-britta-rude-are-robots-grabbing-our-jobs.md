@@ -40,9 +40,9 @@ On the contrary, research by [Feng an Graetz](https://academic-oup-com.emedien.u
 
 ## Wall-E - And Evidence from Japan 
 
-<img src="/images/robots_japan.jpg" alt="robots_japan" style="float:left;margin: 2px 2px 2px 2px;max-width:23%;"/>
+<img src="/images/robots_japan.jpg" alt="robots_japan" style="float:right;margin: 2px 2px 2px 2px;max-width:23%;"/>
 
-Asia has become a driving force behind the adoption of robotics worldwide. So how do the effects observed in Asian markets differ from the ones spotted in the US and EU? Research by [Eggleston et al. (2021)](https://www.nber.org/papers/w28322) looks at the effects of service sector robotics in Japan, using establishment-level data. 
+Asia has become a driving force behind the adoption of robotics worldwide. So how do the effects observed in Asian markets differ from the ones spotted in the US and EU? Research by [Eggleston et al. (2021)](https://www.nber.org/papers/w28322) looks at the effects of service sector robotics in Japan, using establishment-level data. To encounter some of the challenges induced due to Japan's aging population, the country has encouraged the implementation of service robots in nursing homes. These robots have led to an increase in the number of nurses in caring homes. Still, these new positions are marked by flexible and irregular employment contracts. Additionally, the researchers observe a wage decrease for regular nurses. This could be driven by an increase of part-time work (the reduction of hours worked). 
 
 ## Transformers - What about the developing world? 
 
