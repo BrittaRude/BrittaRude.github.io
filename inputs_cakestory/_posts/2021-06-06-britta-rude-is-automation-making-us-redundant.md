@@ -14,11 +14,11 @@ The [Cambridge Dictionary](https://dictionary.cambridge.org/de/worterbuch/englis
 
 Influential work by Autor, Levy and Murnane (ALM) from MIT revolutionized the way economists analyzed the way we look at skill demand ([Autor, Levy and Murnane (2003)](https://economics.mit.edu/files/11600)). Earlier work defined skills as the average education level of workers in a given occupation. ALM (2003) broke up this definition to introducing a distinction between skills and tasks. Here, a task is "a unit of work activity that produces output" while a skill is "a workers' stock of capabilities for performing various task". The authors applied this new distinction to study the effects of computerization on the demand for skills as well as the distribution of tasks between humans and machines. To study this effect, they differentiate between three different types of tasks: 
 
-1. Routine tasks. A routine tasks is a task that is sufficiently well defined to be carried out by a machine or a worker in a far-away country. Additionally, it is marked by repetitive, precise and well-understood procedures. An example would be bookkeeping, or working at an assembly line. These tasks are mostly carried out by the middle-skilled. 
+1. <b><i>Routine tasks</b></i>. A routine tasks is a task that is sufficiently well defined to be carried out by a machine or a worker in a far-away country. Additionally, it is marked by repetitive, precise and well-understood procedures. An example would be bookkeeping, or working at an assembly line. These tasks are mostly carried out by the middle-skilled. 
 
-2. Abstract tasks. An abstract task is a task that requires problem-solving, intuition, persuasion as well as creativity. An example would be managerial or analytical tasks, as well as working in engineering or science. These tasks are mostly carried out by the highly-educated. 
+2. <b><i>Abstract tasks</b></i>. An abstract task is a task that requires problem-solving, intuition, persuasion as well as creativity. An example would be managerial or analytical tasks, as well as working in engineering or science. These tasks are mostly carried out by the highly-educated. 
 
-3. Manual tasks. A manual task is a task characterized by situational adaptability, visual and language recognition, as well as in-person interactions. Cooking food, driving a vehicle or cleaning are tasks that fall below this category. 
+3. <b><i>Manual tasks</b></i>. A manual task is a task characterized by situational adaptability, visual and language recognition, as well as in-person interactions. Cooking food, driving a vehicle or cleaning are tasks that fall below this category. 
 
 ## Technological change and different tasks - are we becoming redundant? 
 
