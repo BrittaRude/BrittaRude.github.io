@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Is automation making us redundant?"
-date: 2021-05-30
+date: 2021-06-06
 myexcerpt: The industry 4.0 transformation consists of several technological advances, reaching from robotics, over IT and digitisation, to artificial intelligence and machine learning. One thing that all have in common is automation. Is the automation of human tasks making us redundant?  
 image: /images/automation.jpg
 ---
@@ -22,6 +22,6 @@ Influential work by Autor, Levy and Murnane (ALM) from MIT revolutionized the wa
 
 ## Technological change and different tasks - are we becoming redundant? 
 
-[Autor, Levy and Murnane (2003)](https://economics.mit.edu/files/11600) start to look at the effect of technological change via focusing on computerization. They find that it is mainly the routine-tasks that are increasingly being replaced by computers. In addition to that, these tasks are increasingly conducted by workers living in foreign countries. In addition to that, workers conducting abstract as well as manual tasks benefit from computerization through an increase in productivity. As an example, managers become more efficient as computers help them to process, organize and filter information. 
+[Autor, Levy and Murnane (2003)](https://economics.mit.edu/files/11600) start to look at the effect of technological change via focusing on computerization. They find that it is mainly the routine-tasks that are increasingly being replaced by computers. In addition to that, these tasks are increasingly conducted by workers living in foreign countries. In addition to that, workers conducting abstract as well as manual tasks benefit from computerization through an increase in productivity. As an example, managers become more efficient as computers help them to process, organize and filter information. [Autor, Levy and Murnane (2003)](https://economics.mit.edu/files/11600) also find an increase in the share of labor conducting manual tasks. This could be evidence for labor being displaced in routine-tasks moving towards manual tasks. 
 
 
