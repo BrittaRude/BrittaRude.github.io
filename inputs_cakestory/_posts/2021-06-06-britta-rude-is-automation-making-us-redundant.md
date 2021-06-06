@@ -22,6 +22,6 @@ Influential work by Autor, Levy and Murnane (ALM) from MIT revolutionized the wa
 
 ## Technological change and different tasks - are we becoming redundant? 
 
-[Autor, Levy and Murnane (2003)](https://economics.mit.edu/files/11600) start to look at the effect of technological change via focusing on computerization. They find that it is mainly the routine-tasks that are increasingly being replaced by computers.  
+[Autor, Levy and Murnane (2003)](https://economics.mit.edu/files/11600) start to look at the effect of technological change via focusing on computerization. They find that it is mainly the routine-tasks that are increasingly being replaced by computers. In addition to that, these tasks are increasingly conducted by workers living in foreign countries. In addition to that, workers conducting abstract as well as manual tasks benefit from computerization through an increase in productivity. As an example, managers become more efficient as computers help them to process, organize and filter information. 
 
 
