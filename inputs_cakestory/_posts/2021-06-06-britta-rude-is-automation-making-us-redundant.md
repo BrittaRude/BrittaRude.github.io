@@ -34,7 +34,7 @@ In 2013, [Autor and Dorn (2013)](https://economics.mit.edu/files/11601) document
 
 ## Now, are we becoming redundant due to increased automation? 
 
-Well, the answer to this is yes and no. Similar to what has been observed for the effects of robotics (see my [previous blogpost](https://brittarude.github.io/blog/2021/05/30/britta-rude-are-robots-grabbing-our-jobs)) there are losers and winners to technological change. While in the case of robotics it is mostly the low-skilled manufacturing workers being replaced, when focusing on computerization it seems to be the low-skilled non-service workers which are most affected. Not surprisingly, the high-skilled benefit from computerization through productivity increases. Still, there are certaing groups among the low-skilled, which grow due to an increase in computer technology. 
+Well, the answer to this is yes and no. Similar to what has been observed for the effects of robotics (see my [previous blogpost](https://brittarude.github.io/blog/2021/05/30/britta-rude-are-robots-grabbing-our-jobs)) there are losers and winners to technological change. While in the case of robotics it is mostly the low-skilled manufacturing workers being replaced, when focusing on computerization it seems to be the low-skilled non-service workers which are most affected. Not surprisingly, the high-skilled benefit from computerization through productivity increases. Still, there are certaing groups among the low-skilled, which grow due to an increase in computer technology. Those are the service occupations, which experience not just an increase in employment but also earnings. 
 
 
 
