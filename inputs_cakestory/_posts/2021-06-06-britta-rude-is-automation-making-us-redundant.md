@@ -28,9 +28,7 @@ Influential work by Autor, Levy and Murnane (ALM) from MIT revolutionized the wa
 
 ## Why is there job as well as wage polarization in the US? 
 
-[Autor and Dorn (2013)](https://economics.mit.edu/files/11601) document that there is job as well as wage polarization between 1980 and 2005 in the US. This means that there is job growth among the low-skilled as well as high-skilled, but not the middle-skilled. Similarly, real-wages have grown for the low-skilled as well as high-skilled, but not middle-skilled. 
-
-In 2013, [Autor and Dorn (2013)](https://economics.mit.edu/files/11601) apply a similar model to analyze the growth of low-skilled service jobs and the polarization of the US Labour Market. They explain the observed polarization through the different exposure of local labor markets to routine tasks. While those labor markets marked by a high share of routine tasks experienced an increase in the adoption of information technology, others did not. This led to a reallocation of low-skilled labor into service occupations in these labor markets as well as an inflow of high-skilled labor, finally resulting in wage as well as job polarization. 
+In 2013, [Autor and Dorn (2013)](https://economics.mit.edu/files/11601) document that there is job as well as wage polarization between 1980 and 2005 in the US. This means that there is job growth among the low-skilled as well as high-skilled, but not the middle-skilled. Similarly, real-wages have grown for the low-skilled as well as high-skilled, but not middle-skilled. [Autor and Dorn (2013)](https://economics.mit.edu/files/11601) explain the observed polarization through the different exposure of local labor markets to routine tasks. While those labor markets marked by a high share of routine tasks experienced an increase in the adoption of information technology, others did not. This led to a reallocation of low-skilled labor into service occupations in these labor markets as well as an inflow of high-skilled labor, finally resulting in wage as well as job polarization. 
 
 
 
