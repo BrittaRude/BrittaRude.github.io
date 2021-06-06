@@ -12,7 +12,7 @@ The [Cambridge Dictionary](https://dictionary.cambridge.org/de/worterbuch/englis
 
 ## Tasks versus skills - and why the conceptual difference is important when talking automation
 
-Influential work by Autor, Levy and Murnane (ALM) from MIT revolutionized the way economists analyzed the way we look at skill demand ([Autor, Levy and Murnane (2003)](https://economics.mit.edu/files/11600)). Earlier work defined skills as the average education level of workers in a given occupation. ALM (2003) broke up this definition to introducing a distinction between skills and tasks. Here, a task is "a unit of work activity that produces output" while a skill is "a workers' stock of capabilities for performing various task". The authors applied this new distinction to study the effects of computerization on the demand for skills as well as the distribution of tasks between humans and machines. To study this effect, they differentiate between three different types of tasks: 
+Influential work by Autor, Levy and Murnane (ALM) from MIT revolutionized the way economists look at skill demand ([Autor, Levy and Murnane (2003)](https://economics.mit.edu/files/11600)). Earlier work defined skills as the average education level of workers in a given occupation. ALM (2003) broke up this definition to introducing a distinction between skills and tasks. In their definition, a task is "a unit of work activity that produces output" while a skill is "a workers' stock of capabilities for performing various task". The authors applied this new distinction to study the effects of computerization on the demand for skills as well as the distribution of tasks between humans and machines. To study this effect, they differentiate between three different types of tasks: 
 
 1. <b><i>Routine tasks</i></b>. A routine tasks is a task that is sufficiently well defined to be carried out by a machine or a worker in a far-away country. Additionally, it is marked by repetitive, precise and well-understood procedures. An example would be bookkeeping, or working at an assembly line. These tasks are mostly carried out by the middle-skilled. 
 
@@ -22,9 +22,11 @@ Influential work by Autor, Levy and Murnane (ALM) from MIT revolutionized the wa
 
 ## Technological change and different tasks - are we becoming redundant? 
 
-<img src="/images/automation.jpg" alt="automation" style="float:left;margin: 2px 2px 2px 2px;max-width:21%;"/>
 *© Maxim Hopman*
+<img src="/images/automation.jpg" alt="automation" style="float:left;margin: 2px 2px 2px 2px;max-width:50%;"/>
 
-[Autor, Levy and Murnane (2003)](https://economics.mit.edu/files/11600) start to look at the effect of technological change via focusing on computerization. They find that it is mainly the routine-tasks that are increasingly being replaced by computers. In addition to that, these tasks are increasingly conducted by workers living in foreign countries. In addition to that, workers conducting abstract as well as manual tasks benefit from computerization through an increase in productivity. As an example, managers become more efficient as computers help them to process, organize and filter information. [Autor, Levy and Murnane (2003)](https://economics.mit.edu/files/11600) also find an increase in the share of labor conducting manual tasks. This could be evidence for labor being displaced in routine-tasks moving towards manual tasks. 
+[Autor, Levy and Murnane (2003)](https://economics.mit.edu/files/11600) start to look at the effect of technological change via focusing on computerization. They find that it is mainly the routine-tasks that are increasingly being replaced by computers. In addition to that, these tasks are increasingly conducted by workers living in foreign countries. Moreover, workers conducting abstract as well as manual tasks benefit from computerization through an increase in productivity. As an example, managers become more efficient as computers help them to process, organize and filter information. [Autor, Levy and Murnane (2003)](https://economics.mit.edu/files/11600) also find an increase in the share of labor conducting manual tasks. This could be evidence for labor being displaced in routine-tasks moving towards manual tasks. In 2013, [Autor and Price](https://economics.mit.edu/files/11600) conduct an update of thier analysis and find that one of hte preious findings seem not to hold for more recent periods. There is a moderate decline between 2000 and 2006 in both non-routine analytical and non-routine interpersonal tasks. 
+
+
 
 
