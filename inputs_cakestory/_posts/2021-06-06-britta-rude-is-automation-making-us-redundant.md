@@ -32,6 +32,10 @@ In 2013, [Autor and Dorn (2013)](https://economics.mit.edu/files/11601) document
 
 [Autor and Dorn (2013)](https://economics.mit.edu/files/11601) define service occupations as occupations in which one cares or assist another person (e.g. food service workers, gardeners, cleaners, or health aids as well as hairdressers, among others). These occupations are typically low-skilled occupations. The share of workers in service occupations have grown by over 30 percent between 1980 and 2005. The authors explain this by consumer preferences as well as computerization being able to substitute certain low-skilled tasks but not in-person service tasks. The researchers confirm this through applying a more sophisticated version of the ALM methodology. As they see service occupations forming part of the "manual task" category, this is in line with the predictions of the ALM model. Additionally, they show that this is indeed driven by computerization and not by deindustrialization, offshoring, rising demand for home production or increased low-skilled immigration. Moreover, the increased adoption of computer technology goes hand in hand with an increase in high-skilled labor. 
 
+## Now, are we becoming redundant due to increased automation? 
+
+Well, the answer to this is yes and no. Similar to what has been observed for the effects of robotics (see my [previous blogpost](https://brittarude.github.io/blog/2021/05/30/britta-rude-are-robots-grabbing-our-jobs)) there are losers and winners to technological change. While in the case of robotics it is mostly the low-skilled manufacturing workers being replaced, when focusing on computerization it seems to be the low-skilled non-service workers which are most affected. Not surprisingly, the high-skilled benefit from computerization through productivity increases. Still, there are certaing groups among the low-skilled, which grow due to an increase in computer technology. 
+
 
 
 
