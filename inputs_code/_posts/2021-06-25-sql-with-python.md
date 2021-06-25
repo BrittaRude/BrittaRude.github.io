@@ -57,4 +57,14 @@ connection = create_connection("E:\\example.sqlite")
 ```
 A new database is created in your root directory calles example.sqlite. 
 
+## Create tables in SQL through Python 
+
+Now let's create tables (a form of organizing unstructured data) in our SQLite database. In order to execute queries, we need to use cursor.execute(). Instead of typing this command directly, we will define a function using cursos.execute(): 
+
+```python
+connection = create_connection("E:\\example.sqlite")
+```
+
+
+
 
