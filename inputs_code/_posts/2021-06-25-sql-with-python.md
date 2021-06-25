@@ -103,6 +103,6 @@ VALUES
   ('Mexico', 1.3, 'Americas', 'Southamerica');
 """
 ````
-The country table will fill the countryid column automatically, by incrementing order. 
+The country table will fill in the countryid column automatically, by incrementing order. 
 
 
