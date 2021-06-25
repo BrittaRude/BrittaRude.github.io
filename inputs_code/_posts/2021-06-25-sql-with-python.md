@@ -123,5 +123,21 @@ def execute_read_query(connection, query):
         print(f"The error '{e}' occurred")
 ```
 
+As a first try, let's collect all columns from our country table: 
 
+```python
+select_countries = "SELECT * from countries"
+countries = execute_read_query(connection, select_countries)
+
+for country in countries:
+    print(country)
+```
+
+## Retrieve information from two different tables in a relational database
+
+Let's now assume that next to our countries table there is a table with subnational regions and their respective GDP values in our Relational Database Management System. Let's assume that we want to subtract the countries with their respective GDP values as well as the subregions with their respective GDP values. To executive, we first have to join the two tables. 
+
+```python
+execute_query(connection, create_country_table)  
+```
 
