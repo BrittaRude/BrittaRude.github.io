@@ -2,13 +2,13 @@
 layout: post
 title: "Relational Database Management Systems and Python - The case of SQL "
 date: 2021-06-25
-myexcerpt: Often, especially in the case of big data, information is stored in relational database management systems. How can access information saved in these systems through Python? How can we take advantage of this data structure to extract only the information we really need to be more data-efficient? 
+myexcerpt: Often, especially in the case of big data, information is stored in relational database management systems. How can we access information saved in these systems through Python? How can we take advantage of this data structure to extract only the information we really need to be more data-efficient? 
 image: /images/Database.jpg
 ---
 
 ## Relational Database Management Systems and Python 
 
-<img src="/images/Database.jpg" alt="database" style="float:left;margin: 2px 2px 2px 2px;max-width:50%;"/>
+<img src="/images/Database.jpg" alt="database" style="float:left;margin: 2px 2px 2px 2px;max-width:45%;"/>
 
 Often, especially in the case of big data, information is stored in relational database management systems instead of simple spreadsheets (one example is [Patstat](https://www.epo.org/searching-for-patents/business/patstat.html)). When we then want to analyze this data, it may make sense to first filter these large sources of information for what we really need instead of extracting the entire database to our analysis tool, such as R and Python. One example of a relational database management system is [SQLite](https://www.sqlite.org/index.html) or [Amazon Athena](https://aws.amazon.com/athena/?nc=sn&loc=0&whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc). SQL, on the other hand, is a structured query language to retrieve information from portable database resources, such as SQLite. Python, then again, comes along with several SQL libraries. These libraries make it possible to directly connect with SQLite, MySQL, and PostgreSQL databases [Foto by Tobias Fischer]. 
 
