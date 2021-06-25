@@ -29,7 +29,7 @@ frompyathenajdbc import connect
 # creating the connection function
 conn=connect(access_key='XX',secret_key='XY',region_name='eu-central-1',schema_name='default',s3_staging_dir='s3://aws-athena-query-results-980872539443-eu-central-1/')
 ```
-This is similar for the case of SQLite (inspired by [Real Python](https://realpython.com/python-sql-libraries/): 
+This is similar for the case of SQLite (inspired by [Real Python](https://realpython.com/python-sql-libraries/)): 
 
 ```python
 #Import packages
