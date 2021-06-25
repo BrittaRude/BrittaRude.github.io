@@ -71,7 +71,7 @@ def execute_query(connection, query):
     except Error as e:
         print(f"The error '{e}' occurred")
 ```
-The above function will execute the query or hand out an error message. Let's create our table next. We will create a table containing country-level information about GDP. 
+The above function will execute the query or hand out an error message. Let's create our table next. We will create a table containing country-level information about GDP, containing 5 columns: 
 
 ```python
 create_country_table = """
@@ -84,7 +84,25 @@ CREATE TABLE IF NOT EXISTS countries (
 );
 """
 ```
+We now have to execute: 
 
+```python
+execute_query(connection, create_country_table)  
+```
+We now have an empty table with 5 columns. How can we fill this table with values? Let's use our execute_query() function, but fill it with a different sub-command, which we will call create_countries: 
 
+```python
+create_countries = """
+INSERT INTO
+  countries (countryid, countryname, GDP, continent, region)
+VALUES
+  ('Germany', 3.8, 'Europe', 'Central Europe'),
+  ('Spain', 1.4, 'Europe', 'South Europe'),
+  ('France', 2.7, 'Europe', 'Central Europe'),
+  ('Colombia', 0.3, 'Americas', 'Soutamerica'),
+  ('Mexico', 1.3, 'Americas', 'Southamerica');
+"""
+````
+The country table will fill the countryid column automatically, by incrementing order. 
 
 
