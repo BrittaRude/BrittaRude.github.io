@@ -62,8 +62,26 @@ A new database is created in your root directory calles example.sqlite.
 Now let's create tables (a form of organizing unstructured data) in our SQLite database. In order to execute queries, we need to use cursor.execute(). Instead of typing this command directly, we will define a function using cursos.execute(): 
 
 ```python
-connection = create_connection("E:\\example.sqlite")
+def execute_query(connection, query):
+    cursor = connection.cursor()
+    try:
+        cursor.execute(query)
+        connection.commit()
+        print("Query executed successfully")
+    except Error as e:
+        print(f"The error '{e}' occurred")
 ```
+The above function will execute the query or hand out an error message. Let's create our table next. We will create a table containing country-level information about GDP. 
+
+create_country_table = """
+CREATE TABLE IF NOT EXISTS countries (
+  countryid INTEGER PRIMARY KEY AUTOINCREMENT,
+  countryname TEXT NOT NULL,
+  GDP INTEGER,
+  continent TEXT,
+  region TEXT
+);
+"""
 
 
 
