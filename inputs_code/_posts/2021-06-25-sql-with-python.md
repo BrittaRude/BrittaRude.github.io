@@ -3,7 +3,7 @@ layout: post
 title: "Relational Database Management Systems and Python - The case of SQL "
 date: 2021-06-25
 myexcerpt: 
-image: /images/forecasting.jpg
+image: /images/database.jpg
 ---
 
 ## Relational Database Management Systems and Python 
