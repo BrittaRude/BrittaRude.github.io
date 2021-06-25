@@ -89,7 +89,7 @@ We now have to execute:
 ```python
 execute_query(connection, create_country_table)  
 ```
-We now have an empty table with 5 columns. How can we fill this table with values? Let's use our execute_query() function, but fill it with a different sub-command, which we will call create_countries: 
+We now have an empty table with 5 columns. How can we fill this table with values? Let's use our execute_query() function, but fill it with a different sub-command, which we will call create_countries. The logic behind this is that we store our INSERT INTO query as a string and then exectue it through execute_query. 
 
 ```python
 create_countries = """
@@ -102,7 +102,26 @@ VALUES
   ('Colombia', 0.3, 'Americas', 'Soutamerica'),
   ('Mexico', 1.3, 'Americas', 'Southamerica');
 """
+
+execute_query(connection, create_countries)   
 ````
 The country table will fill in the countryid column automatically, by incrementing order. 
+
+## How to filter information
+
+This is probably the most valuable and important thing we will learn in this post - how do we filter databases with high amounts of information for what we really need? We can do this through defining a function similar to our previous cursor.execute(), but including .fetchall() (something that we need to select subsets of our overall dataset): 
+
+```python
+def execute_read_query(connection, query):
+    cursor = connection.cursor()
+    result = None
+    try:
+        cursor.execute(query)
+        result = cursor.fetchall()
+        return result
+    except Error as e:
+        print(f"The error '{e}' occurred")
+```
+
 
 
