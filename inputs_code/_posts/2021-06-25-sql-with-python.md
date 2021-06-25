@@ -20,7 +20,7 @@ from pandasql import load_births
 births = load_births()
 ```
 
-Before retrieving information from a relational database management system, we need to connect to it. In the case of Athena, this can be easily done via the PyAthenaJDBC wrapper and defining a function that will help us to connect. In our example we need credentials (an access and a secret key) to connect to the database. 
+Before retrieving information from a relational database management system, we need to connect to it. In the case of Athena, this can be easily done via the PyAthenaJDBC wrapper and defining a function that will help us to connect. In our example we need credentials (an access and a secret key) to connect to the database. We also define our working directory through s3_staging_dir. 
 
 ```python
 frompyathenajdbc import connect
