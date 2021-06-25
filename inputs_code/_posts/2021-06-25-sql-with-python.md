@@ -2,7 +2,7 @@
 layout: post
 title: "Relational Database Management Systems and Python - The case of SQL "
 date: 2021-06-25
-myexcerpt: 
+myexcerpt: Often, especially in the case of big data, information is stored in relational database management systems. How can access information saves in these systems through Python? How can we take advantage of this data structure to extract only the information we really need to be more data-efficient? 
 image: /images/database.jpg
 ---
 
