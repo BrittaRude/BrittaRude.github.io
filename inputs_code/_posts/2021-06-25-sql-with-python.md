@@ -73,6 +73,7 @@ def execute_query(connection, query):
 ```
 The above function will execute the query or hand out an error message. Let's create our table next. We will create a table containing country-level information about GDP. 
 
+```python
 create_country_table = """
 CREATE TABLE IF NOT EXISTS countries (
   countryid INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -82,6 +83,7 @@ CREATE TABLE IF NOT EXISTS countries (
   region TEXT
 );
 """
+```
 
 
 
