@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Relational Database Management Systems and Python - The case of SQUL "
-date: 2020-11-22
+date: 2021-06-25
 myexcerpt: 
 image: /images/forecasting.jpg
 ---
