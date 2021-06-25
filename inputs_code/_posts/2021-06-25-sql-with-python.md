@@ -158,3 +158,5 @@ for country_subcountry in country_subcountries:
 ```
 You can also select data from more than 2 data tables through incorporating multiple joins (see [RealPython](https://realpython.com/python-sql-libraries/) for an example). 
 
+There are many more options of how to make use of information stored in Relational Database Management Systems. We can for example count the number of subregions per country through the command COUNT and GROUP BY. We can also filter on the matched observations in our two respective databases through WHERE, and many more. You will get the grip as soon as you start experimenting with Pyhton and SQL on your own. 
+
