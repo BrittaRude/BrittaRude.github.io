@@ -138,6 +138,21 @@ for country in countries:
 Let's now assume that next to our countries table there is a table with subnational regions and their respective GDP values in our Relational Database Management System. Let's assume that we want to subtract the countries with their respective GDP values as well as the subregions with their respective GDP values. To executive, we first have to join the two tables. 
 
 ```python
-execute_query(connection, create_country_table)  
+select_countries_subcountries = """
+SELECT
+  countries.countryid,
+  countries.GDP,
+  subcountries.subcountryid
+  subcountries.subGDP
+FROM
+  posts
+  INNER JOIN users ON countries.countryid = subcountries.country_countryid
+"""
+
+country_subcountries = execute_read_query(connection, select_users_posts)
+
+for country_subcountry in country_subcountries:
+    print(country_subcountry)
 ```
+You can also select data from more than 2 data tables through incorporating multiple joins (see [RealPython](https://realpython.com/python-sql-libraries/) for an example). 
 
