@@ -50,4 +50,11 @@ print("Connection to SQLite DB successful")
 return connection
 ```
 
+The above code creates a function .create_connection() which connects to an SQL Database through a predefined path, or creates a new SQL Database in case none is found in the final datapath. So let's execute to see what happens: 
+
+```python
+connection = create_connection("E:\\example.sqlite")
+```
+A new database is created in your root directory calles example.sqlite. 
+
 
