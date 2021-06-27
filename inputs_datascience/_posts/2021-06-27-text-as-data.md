@@ -3,7 +3,7 @@ layout: post
 usemathjax: true 
 title: "Text as data - How is digital text changing the way we see our world?"
 date: 2021-06-27
-image: /images/DataScience_FeatureImage.jpg
+image: /images/digital_text.jpg
 ---
 
 ## How is text data changing our data environment? 
