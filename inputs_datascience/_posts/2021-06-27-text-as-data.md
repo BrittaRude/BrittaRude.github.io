@@ -34,7 +34,7 @@ The resulting London Feel Good Factor shows that people are happier on Thursday,
 
 Another area in which digital text has been used is in the analysis of labor markets. More and more job vacancies are migrated to online formats. This means that we can get a better understanding of labor demand in real time and connect it to specific skill requirements.  
 
-<img src="/images/digital_text3.jpg" alt="automation" style="float:left;margin: 2px 2px 2px 2px;max-width:28%;"/>
+<img src="/images/digital_text3.jpg" alt="automation" style="float:left;margin: 2px 2px 2px 2px;max-width:30%;"/>
 
 [CEDEFOP]( https://www.cedefop.europa.eu/files/5572_en.pdf), for example, has mapped the online job portal landscape in all EU member states. With this it is possible to map the features of the online job market and identify trends in skill demands. Online job vacancy data might help us to increase the match between labor demand and supply. Another example is work by [Acemoglu et al. (2020)]( https://www.nber.org/papers/w28257). The researchers use information from online job vacancies to study the impact of AI on labor markets. They classify establishments as AI-exposed when their workers engage in AI-related tasks. This information is completely based on information extracted from online job vacancies. [Foto by Samantha Borges]
 
