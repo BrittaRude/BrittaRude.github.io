@@ -44,4 +44,11 @@ image: /images/Explore.jpg
 
 - The World Bank, 2021. Assessing vulnerability to poverty through the Vulnerability Tool. 
 
+## Conferences
+
+- [XIV Meeting on Labour Economics (JEL), 2021](https://editorialexpress.com/conference/JEL2021/program/JEL2021.html#15)
+- [CRC Summer School 2021: Science-Based Policy Advice](https://berlin-econ.de/event/crc-summer-school-2021-science-based-policy-advice)
+- [Workshop on Labour Economics, 2021 - IAAEU](https://www.iaaeg.de/en/economic-team/events/archive/27-oekonomische-abteilung/veranstaltungen/624-workshop-on-labour-economics-2021-english#home)
+- [ifo CEMIR Workshop, 2020](https://www.ifo.de/en/event/ifo-cemir-seminars) 
+
  
