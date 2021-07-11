@@ -10,6 +10,8 @@ image: /images/github.jpg
 
 We more and more work in Jupyter Notebook. How can we show our codebooks as a blogpost on github pages? There is an easy command to convert our .ipynb files to .md files, namely nbconvert. We can do this easily in our Anaconda Prompt. But first, we have to change the directory we are working in to the one of .ipynb file. 
 
+<img src="/images/github.jpg" alt="database" style="float:left;margin: 2px 2px 2px 2px;max-width:40%;"/>
+
 To do this, open Anaconda Prompt and type: 
 
 ```
@@ -24,4 +26,4 @@ jupyter nbconvert --to markdown  notebook.ipynb
 
 This then creates a *notebook.md* file with the markdown text of our blog post. Additionally, it creates a folder called *notebook_folder* with all images of the blogpost. 
 
-Lastly, upload the *notebook.md* file to the *_posts* folder of your github page. You will also need to adjust the source code for your images. Therefore, upload the *notebook_folder* to the *images* folder of your github pages repository.  
+Lastly, upload the *notebook.md* file to the *_posts* folder of your github page. You will also need to adjust the source code for your images. Therefore, upload the *notebook_folder* to the *images* folder of your github pages repository. [*Picture by Roman Synkevych*] 
