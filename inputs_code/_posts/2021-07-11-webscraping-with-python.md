@@ -7,11 +7,13 @@ image: /images/webscraping.jpg
 ---
 
 
-## How can we extract information on websites?  
+## How can we extract information on websites? 
+
+<img src="/images/webscraping.jpg" alt="database" style="float:left;margin: 2px 2px 2px 2px;max-width:40%;"/>
 
 The internet has created large amounts of unstructured data. Most of it we can access through websites. How can we create structured data accessing information published on websites? Python is a great way to do that. Have a look at some examples, accessing the html source code underlying websites through Python.
 
-This tutorial follows this tutorial on Web Scraping with Python by [Piyush Trivedi](https://www.youtube.com/channel/UCpYUJY4zvLQ_wmmCVVJ9Ajw) https://www.youtube.com/watch?v=I-ITLsE8SgM as well as this one https://www.youtube.com/watch?v=ng2o98k983k developed by [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g). 
+This tutorial follows this tutorial on Web Scraping with Python by [Piyush Trivedi](https://www.youtube.com/channel/UCpYUJY4zvLQ_wmmCVVJ9Ajw) https://www.youtube.com/watch?v=I-ITLsE8SgM as well as this one https://www.youtube.com/watch?v=ng2o98k983k developed by [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g). [*Foto by Diego PH*]
 
 ### First, let's import our packages!
 
