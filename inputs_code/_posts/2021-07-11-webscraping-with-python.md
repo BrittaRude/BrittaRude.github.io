@@ -11,7 +11,7 @@ image: /images/webscraping.jpg
 
 The internet has created large amounts of unstructured data. Most of it we can access through websites. How can we create structured data accessing information published on websites? Python is a great way to do that. Have a look at some examples, accessing the html source code underlying websites through Python.
 
-This tutorial follows this tutorial on Web Scraping with Python by [Piyush Trivedi](https://www.youtube.com/channel/UCpYUJY4zvLQ_wmmCVVJ9Ajw) https://www.youtube.com/watch?v=I-ITLsE8SgM as well as this one https://www.youtube.com/watch?v=ng2o98k983k developed by Corey Schafer [https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g]. 
+This tutorial follows this tutorial on Web Scraping with Python by [Piyush Trivedi](https://www.youtube.com/channel/UCpYUJY4zvLQ_wmmCVVJ9Ajw) https://www.youtube.com/watch?v=I-ITLsE8SgM as well as this one https://www.youtube.com/watch?v=ng2o98k983k developed by [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g). 
 
 ### First, let's import our packages!
 
@@ -236,13 +236,6 @@ csv_writer = csv.writer(csv_file)
 #Define columnnames
 csv_writer.writerow(['headline', 'summary'])
 ```
-
-
-
-
-    18
-
-
 
 Now we add the csv_writer to our loop to fill in the information into the created csv file 
 
