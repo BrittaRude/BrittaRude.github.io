@@ -1,10 +1,19 @@
-# Web Scraping in Python 
+---
+layout: post
+title: "Web Scraping with Python"
+date: 2021-07-11
+myexcerpt: The internet has created large amounts of unstructured data. Most of it we can access through websites. How can we create structured data accessing information published on websites? Python is a great way to do that. Have a look at some examples, accessing the html source code underlying websites through Python. 
+image: /images/webscraping.jpg
+---
 
-This file follows this tutorial on Web Scraping with Python: https://www.youtube.com/watch?v=I-ITLsE8SgM 
 
-It also follows this tutorial on Web Scraping with Python: https://www.youtube.com/watch?v=ng2o98k983k
+## How can we extract information on websites?  
 
+The internet has created large amounts of unstructured data. Most of it we can access through websites. How can we create structured data accessing information published on websites? Python is a great way to do that. Have a look at some examples, accessing the html source code underlying websites through Python.
 
+This tutorial follows this tutorial on Web Scraping with Python by [Piyush Trivedi](https://www.youtube.com/channel/UCpYUJY4zvLQ_wmmCVVJ9Ajw) https://www.youtube.com/watch?v=I-ITLsE8SgM as well as this one https://www.youtube.com/watch?v=ng2o98k983k developed by Corey Schafer [https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g]. 
+
+### First, let's import our packages!
 
 ```python
 import requests
@@ -19,7 +28,7 @@ import csv
 url = 'https://economictimes.indiatimes.com/markets/stocks/news'
 ```
 
-### User agent
+### Let's get a user agent
 
 We need to find our user agent. Therefore, type "find user agent" in mozilla firefox. 
 
@@ -30,7 +39,7 @@ headers={
 }
 ```
 
-### Request
+### Let's create a request
 
 Request will return a response object. We need to get the source text through headers or through requests.get().text in the end.
 
@@ -39,7 +48,7 @@ Request will return a response object. We need to get the source text through he
 r= requests.get(url, {'headers':headers})
 ```
 
-### BeautifulSoup
+### Creating our BeautifulSoup object
 
 Let's create our BeautifulSoup object. All we need for that is our html file as well as a parser. In our case, we use the html parser. 
 
@@ -47,6 +56,7 @@ Let's create our BeautifulSoup object. All we need for that is our html file as 
 ```python
 soup = bs4.BeautifulSoup(r.text,'html.parser')
 ```
+### Html files and Python
 
 Let's now have a look at our html file. There are different methods to print out our html file. One is print(), and the other one is find_all(). 
 
@@ -363,7 +373,7 @@ print(summary)
     In this video, we will be learning how to create and extract zip archives. We will start by using the zipfile module, and then we will see how to do this using the shutil module. We will learn how to do this with single files and directories, as well as learning how to use gzip as well. Let’s get started…
     
 
-#### Get link to video for this code
+### Getting the link to the video for this code
 
 The source of the video is in an iframe. The source item is the link to the embeded version of the video, not the video iteself, but Youtube videos have a video id. The questionmark identifies where the query parameters start and is not part of hte ID. We need to parse the ID from the URL.
 
@@ -379,7 +389,7 @@ print(vid_src)
     https://www.youtube.com/embed/z0gguhEmWiY?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent
     
 
-#### We want the value from the source attribute of the tag
+### We want the value from the source attribute of the tag
 
 We can access it like a dictionary and say that we want the source attribute of the tag. We need to parse the URL string to grab the id of the video. 
 
@@ -423,7 +433,7 @@ print(vid_id)
     z0gguhEmWiY
     
 
-#### Let's create our own youtube link using this video id
+### Let's create our own youtube link using this video id
 
 
 
@@ -436,7 +446,7 @@ print(yt_link)
     https://youtube.com/watch?v=z0gguhEmWiY
     
 
-#### Let's loop over all articles
+### Let's loop over all articles
 
 
 ```python
@@ -494,7 +504,7 @@ for article in soup.find_all('article'):
     TypeError: 'NoneType' object is not subscriptable
 
 
-#### We have to account for the articles without videos!
+### We have to account for the articles without videos!
 
 We need to use a try and except in Python
 
