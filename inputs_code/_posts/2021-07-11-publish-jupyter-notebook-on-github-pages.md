@@ -3,7 +3,7 @@ layout: post
 title: "Publish a jupyter notebook as a blogpost on your github pages"
 date: 2021-07-11
 myexcerpt: We more and more work in Jupyter Notebook. How can we show our codebooks as a blogpost on github pages? 
-image: /images/Database.jpg
+image: /images/github.jpg
 ---
 
 ## Converting a Jupyter Notebook to a blogpost on Github pages
