@@ -9,7 +9,7 @@ image: /images/webscraping.jpg
 
 ## How can we extract information on websites? 
 
-<img src="/images/webscraping.jpg" alt="database" style="float:left;margin: 2px 2px 2px 2px;max-width:40%;"/>
+<img src="/images/webscraping.jpg" alt="database" style="float:left;margin: 2px 2px 2px 2px;max-width:30%;"/>
 
 The internet has created large amounts of unstructured data. Most of it we can access through websites. How can we create structured data accessing information published on websites? Python is a great way to do that. Have a look at some examples, accessing the html source code underlying websites through Python.
 
