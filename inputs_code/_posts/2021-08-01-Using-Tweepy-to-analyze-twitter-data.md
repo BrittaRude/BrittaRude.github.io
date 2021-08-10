@@ -132,7 +132,7 @@ The .Cursos has handed out an object which we can loop over to access the inform
 * The user 
 * The date
 
-### Accessing the text of the tweets in a cursor object. 
+## Accessing the text of the tweets in a cursor object. 
 
 Let's loop over the .Cursos object and extract the text of each tweet. 
 
@@ -143,7 +143,7 @@ for tweet in tweets:
     print(tweet.text)    
 ```
 
-### Collect the text in the tweets as a list
+## Collect the text in the tweets as a list
 
 Now let's use list comprehension
 
@@ -161,7 +161,7 @@ tweets = tw.Cursor(api.search,
 
 
 
-### Take care of retweets 
+## Take care of retweets 
 
 People tend to share (retweet) content created by others. Sometimes we want to eliminate these retweets, as they can be interpreted as dublicates. There is a command called *-filter:retweets* which can help us to take care of this. 
 
