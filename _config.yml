@@ -13,6 +13,7 @@ plugins:
 #header_pages:
 # - about.md
 # generate social links in footer
-social_links:
-    github: BrittaRude
+minima: 
+  social_links:
+    github:   BrittaRude
     linkedin: britta-rude-712301a4
