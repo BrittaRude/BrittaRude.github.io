@@ -1,6 +1,17 @@
-# Analyzing twitter data with python using Tweepy 
+---
+layout: post
+title: "Using Tweepy to analyze Twitter Data with Python"
+date: 2021-08-01
+myexcerpt: Twitter data contains large amounts of data. Users express feelings, opinions, make statements or political claims. Twitter data has large potentials for sentiment analysis or to analyze attitudes. The downside is that it is quite messy. Python can help us to access the twitter universe more easily. This post gives an overview of how to use tweepy. 
+image: /images/tweepy.jpg
+---
 
-In this notebook we will have a first look on how to analyze twitter data with Python. We will use the tweepy package to do so. For more information on tweepy see: https://docs.tweepy.org/en/stable/auth_tutorial.html 
+
+# How can we use Python to analyze Twitter Data? The power of Tweepy.  
+
+Twitter data contains large amounts of data. Users express feelings, opinions, make statements or political claims. Twitter data has large potentials for sentiment analysis or to analyze attitudes. The downside is that it is quite messy. Python can help us to access the twitter universe more easily. In this notebook we will have a first look on how to analyze twitter data with Python. We will use the tweepy package to do so. For more information on tweepy see: https://docs.tweepy.org/en/stable/auth_tutorial.html 
+
+<img src="/images/tweepy.jpg" alt="database" style="float:left;margin: 2px 2px 2px 2px;max-width:15%;"/>
 
 
 ```python
@@ -896,17 +907,7 @@ tweet_df.head()
 
 ```python
 tweet_df['user loc'].hist();
-```
-
-
-    
-![png](Tweepy_files/Tweepy_41_0.png)
-    
+```  
 
 
 There are several problems when using location data in Twitter. This blogpost summarizes it quite well: https://towardsdatascience.com/twitter-location-analysis-c488c967a41f
-
-
-```python
-
-```
