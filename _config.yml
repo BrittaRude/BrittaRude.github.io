@@ -1,3 +1,4 @@
+markdown: kramdown 
 theme: minima
 title: Welcome to my homepage!
 description: Here I want to share the topics I am most passionate about
@@ -8,3 +9,4 @@ google_analytics: G-HP9FYEDLCW
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  
