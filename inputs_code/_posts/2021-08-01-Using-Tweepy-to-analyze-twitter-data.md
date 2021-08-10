@@ -53,25 +53,37 @@ Twitter tweets are objects which contain a variety of information. It containts 
 Twitter tweets are rendered in JavaScript Object Notation (JSON). We can then access the JSON information through specific queries taking advantage of our *Tweepy* infrastructure.     
 
 In general, a **twitter object** consists of the following items (a twitter object can consist of up to 150 attributes!): 
+
 1. Twitter text
+
 2. A user ID
+
 3. A timestamp of when it is posted
+
 4. Geo metadata shared by the user (only sometimes)
 
 Each tweet also generates **entity objects** (hashtags, urls, media, and others). 
 
 The **user object**, on the other hand, is another object containing different items describing the twitter user. In general, the following items describe a twitter user: 
+
 1. id (is always the same)
+
 2. name (can change)
+
 3. location (can be empty)
+
 4. description (can be empty)
+
 5. followers count
+
 6. friends count
 
 among others. For a detailed overview see: https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/user
 
 The third type of object released by twitter is a **geo object**. The geo object containts the location information of a tweet. This can be an exact location of a "bounding box" indicating the region of a tweet. The following items are associated with a geo object: 
+
 1. Place (always present when a tweet is geo-tagged)
+
 2. Coordinates (only available under the *exact location* scenario
 
 For deatiled information on geo objects see: https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/geo
@@ -85,6 +97,7 @@ But before getting started, have a look at the different terms you can access he
 This works through a query. Our query will consist of two things: 
     
 1. The search term: #sexualharassment
+
 2. The start date of our search
 
 
@@ -176,7 +189,7 @@ tweets = tw.Cursor(api.search,
 ```
 
 
-### Let's find out who tweets about sexual harassment 
+## Let's find out who tweets about sexual harassment 
 
 We can access the other items contained in a twitter tweet, such as the user's id or location 
 
@@ -192,7 +205,7 @@ users_locs
 ```
 
 
-### Create a pandas dataframe from a list of tweet data
+## Create a pandas dataframe from a list of tweet data
 
 
 ```python
@@ -204,7 +217,7 @@ tweet_text
 
 
 
-### You can customize your twitter queries
+## You can customize your twitter queries
 
 
 ```python
@@ -222,7 +235,7 @@ all_tweets[:5]
 
 
 
-### Let's filter on a specific location
+## Let's filter on a specific location
 
 There are two sources of information for geocoded data in twitter: 
 
@@ -239,7 +252,7 @@ You can filter for the location using Twitter's operators, which are listed here
 
 You can find an overview of how to filter for locations here: https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location
 
-#### Let's filter for a place using the twitter tweet place operator
+## Let's filter for a place using the twitter tweet place operator
 
 
 ```python
@@ -257,7 +270,7 @@ all_tweets[:5]
 
 
 
-#### Let's filter on a specific location and extract the location together with the text
+## Let's filter on a specific location and extract the location together with the text
 
 **The below filters for the user's location**
 
@@ -276,7 +289,7 @@ users_locs
 ```
 
 
-#### Let's filter for a twitter tweet's location using the place_country operator
+## Let's filter for a twitter tweet's location using the place_country operator
 
 **The below filters for all tweets which are geocoded. These automatically have a country code and we filter for tweets in Germany.**
 
@@ -330,7 +343,7 @@ all_tweets
 
 
 
-#### Another way to filter for a twitter tweet's location is using coordinates 
+## Another way to filter for a twitter tweet's location is using coordinates 
 
 This is possible through accessing the *bounding box* object. The longitude and latitude of the Tweet’s location, as a collection in the form [longitude, latitude]. The radius must be less than 25 miles. 
 
@@ -356,7 +369,7 @@ all_tweets
 ```
 
 
-### Let's create a pandas dataframe from our tweets
+## Let's create a pandas dataframe from our tweets
 
 
 ```python
