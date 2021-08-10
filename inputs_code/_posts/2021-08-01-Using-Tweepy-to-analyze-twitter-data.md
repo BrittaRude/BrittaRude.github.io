@@ -226,9 +226,6 @@ all_tweets = [tweet.text for tweet in tweets]
 all_tweets[:5]
 ```
 
-
-
-
 ## Let's filter on a specific location
 
 There are two sources of information for geocoded data in twitter: 
@@ -262,8 +259,6 @@ all_tweets = [tweet.text for tweet in tweets]
 all_tweets[:5]
 ```
 
-
-
 ## Let's filter on a specific location and extract the location together with the text
 
 **The below filters for the user's location**
@@ -281,7 +276,6 @@ tweets = tw.Cursor(api.search,
 users_locs = [[tweet.text, tweet.user.location] for tweet in tweets]
 users_locs
 ```
-
 
 ## Let's filter for a twitter tweet's location using the place_country operator
 
@@ -301,8 +295,6 @@ all_tweets = [tweet.text for tweet in tweets]
 all_tweets[:5]
 ```
 
-
-
 ```python
 new_search = "sexuellebelästigung -filter:retweets"
 
@@ -315,8 +307,6 @@ tweets = tw.Cursor(api.search,
 users_locs = [[tweet.text, tweet.user.location, tweet.place] for tweet in tweets]
 users_locs
 ```
-
-
 
 ```python
 new_search = "sexuellebelästigung OR sexualharassment -filter:retweets"
@@ -334,7 +324,6 @@ all_tweets = [tweet.text for tweet in tweets]
 ```python
 all_tweets
 ```
-
 
 
 ## Another way to filter for a twitter tweet's location is using coordinates 
