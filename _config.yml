@@ -1,10 +1,18 @@
 theme: minima
 title: Welcome to my homepage!
 description: Here I want to share the topics I am most passionate about
-owner: 
-  name: Britta Rude 
+author: 
+  name: Britta Rude
+  email: britta.rude@gmx.net
 permalink: /blog/:year/:month/:day/:title
 google_analytics: G-HP9FYEDLCW
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+#header_pages:
+# - about.md
+# generate social links in footer
+social_links:
+    github: BrittaRude
+    linkedin: britta-rude-712301a4
