@@ -13,9 +13,6 @@ image: /images/Tweepy.jpg
 
 Twitter data contains large amounts of data. Users express feelings, opinions, make statements or political claims. Twitter data has large potentials for sentiment analysis or to analyze attitudes. The downside is that it is quite messy. Python can help us to access the twitter universe more easily. In this notebook we will have a first look on how to analyze twitter data with Python. We will use the tweepy package to do so. For more information on tweepy see: https://docs.tweepy.org/en/stable/auth_tutorial.html 
 
-
-
-
 ```python
 import os
 import tweepy as tw
@@ -24,9 +21,7 @@ import pandas as pd
 
 ## Enter keys
 
-#Retrieve the access token and access key from the developer platform. Go to Dashboard - Project App - and click on the key symbol. In my case: https://developer.twitter.com/en/portal/projects/1414266105841917952/apps/21388601/keys
-
-
+Retrieve the access token and access key from the developer platform. Go to Dashboard - Project App - and click on the key symbol.
 
 ```python
 consumer_key= 'XXX'
@@ -38,7 +33,6 @@ access_token_secret= 'XXX'
 ## Authentification process
 
 Let's connect to the API through our credentials. 
-
 
 ```python
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
