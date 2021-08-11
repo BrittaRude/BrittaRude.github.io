@@ -1,6 +1,6 @@
 theme: minima
 title: Welcome to my homepage!
-description: Here I want to share the topics I am most passionate about
+description: Data Science and Inequality - Here I want to share what I am most passionate about.
 author: 
   name: Britta Rude
   email: britta.rude@gmx.net
@@ -12,6 +12,7 @@ plugins:
   - jekyll-seo-tag
 #header_pages:
 # - about.md
+# - thecakestory.md
 # generate social links in footer
 minima: 
   social_links:
