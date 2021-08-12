@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Counting words on twitter"
+date: 2021-08-05
+myexcerpt: We might be interested in analyzing the kind of words that are published within a certain subarea. How can we systemize and clean the text published in twitter posts to extract more useful information? This blogposts shows you how!  
+image: /images/words.webp
+---
+
+
 # Twitter Word Count Analysis
 
 In this notebook we will learn how to count and clean twitter data. We will follow this tutorial here: https://www.earthdatascience.org/courses/use-data-open-source-python/intro-to-apis/calculate-tweet-word-frequencies-in-python/
