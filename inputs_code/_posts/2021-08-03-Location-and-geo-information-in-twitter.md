@@ -22,8 +22,6 @@ There are two sources of information for geocoded data in twitter:
 
 Geographic information is provided in [LONG, LAT] order. For more information on location data in twitter see [this link](https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location).
 
-You can filter for the location using Twitter's operators, which are listed [here](https://developer.twitter.com/en/docs/twitter-api/enterprise/rules-and-filtering/enterprise-operators#listofoperators).
-
 ### The tweet location
 
 There are two different categories with respect to geographic information on twitter tweets: 
@@ -31,12 +29,15 @@ There are two different categories with respect to geographic information on twi
 1. **Point Coordinates**: Tweets from GPS enabled devices will have point coordinates. The only information present here is the point coordinate (latitude/longitude). The JSON code is associated with two attributes - the *geo* attribute (showing [latitude, LONGITUDE]) and the *coordinates* attribute (showing [LONGITUDE, latitude]). 
 2. **Twitter places**: A twitter place is a 4 lon-lat coordinate polygon. Twitter places contain information on the polygon coordinates, a display name, the type of the twitter place as well as the country. The JSON code consists of two attributes: The *place* atrribute (here you can find the place id, type, country code and country) as well as the *bounding box* (here you can find the coordinates of the underlying polygon). 
 
-**There are several possibilities to filter for locations:**
+**There are several possibilities to filter for tweet locations:**
 
+* The *has:geo* operator: With this operator you can filter for tweets containing *point coordinates* or *twitter places*. 
 * The *place* operator: This operator filters for tweets with a specific location or Twitter place ID. 
 * The *place_country* operator: Here you can filter for tweets which match the ISO alpha-2 characteristics, which you can find [here](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). 
+* The *point radius* operator: With this operator you can specify a circular geographic area and filter for tweets coming from this area. To do this, we have to define a circle: The maximum radius is 25 miles and we can then define its central point. More concretely speakig define: *point_radius:[lon lat radius]* in your query.
+* The *bounding_box* operator: Similar to the above, here you can define a specific area and filter on tweets coming from this area. But instead of a circle the shape is a box. We can define a central point and the length of the box (the maximum length being 25 miles). More concretely speakig define: *bounding_box:[west_long south_lat east_long north_lat]* in your query. 
 
-You can find an overview of how to filter for locations [here](https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location). 
+You can find an overview of how to filter for locations [here](https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location) or [here](https://developer.twitter.com/en/docs/twitter-api/enterprise/rules-and-filtering/enterprise-operators#listofoperators).
 
 ## Let's filter for a place using the twitter tweet place operator
 
