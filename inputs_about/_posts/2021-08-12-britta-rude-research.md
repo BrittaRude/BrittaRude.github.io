@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Research"
-date: 2020-10-24
+date: 2021-08-12
 image: /images/Explore.jpg
 ---
 
@@ -11,7 +11,7 @@ image: /images/Explore.jpg
 
 - Yvonne Giesing & Nadzeya Laurentsyeva & Britta Rude, 2020. “Technological Change and the Demand for Immigration“, part of the EU H2020 project PILLARS.
 
-- Ilpo Kauppinen & Michele Battisti & Britta Rude, 2020. "When migrants migrate."
+- Ilpo Kauppinen & Michele Battisti & Britta Rude, 2020. "Leading the way towards less discrimination and morediversity? The power of more diversity in leadership."
 
 - Britta Rude, 2020. "The effects of deforestation on poverty and household well-being."
 
@@ -20,7 +20,9 @@ image: /images/Explore.jpg
 
 - World Bank. 2020. A Forest’s Worth : Policy Options for a Sustainable and Inclusive Forest Economy in Paraguay. Country Forest Note;. World Bank, Washington, DC. © World Bank. [https://openknowledge.worldbank.org/handle/10986/34988](https://openknowledge.worldbank.org/handle/10986/34988) License: CC BY 3.0 IGO.
 
-- Sofia Eigner, Simon Meemken, Bennet Niederhoefer and Britta Rude, 2021. "Legalizing up to 2 million Venezuelans: Is Colombia leading the way into a migration-friendly future?", CESiFO Forum, forthcoming.  
+- Sultan Alhabsi and Britta Rude, 2021. "Refugee education 4.0? The potentials and pitfalls of EdTech for refugee education." Cesifo Forum, forthcoming. 
+
+- Sofia Eigner, Simon Meemken, Bennet Niederhoefer and Britta Rude, 2021. "[Legalizing up to 2 million Venezuelans: Is Colombia leading the way into a migration-friendly future?](https://www.cesifo.org/de/publikationen/2021/aufsatz-zeitschrift/legalizing-2-million-venezuelans-colombia-leading-way-more)". CESifo Forum. Vol. 22. No. 04. ifo Institute-Leibniz Institute for Economic Research at the University of Munich, 2021. 
 
 - Britta Rude & Bennet Niederhöfer & Fabio Ferrara, 2021. "[Deforestation and Migration](https://ideas.repec.org/a/ces/ifofor/v22y2021i01p49-57.html)," CESifo Forum, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, vol. 22(01), pages 49-57, January.
 
