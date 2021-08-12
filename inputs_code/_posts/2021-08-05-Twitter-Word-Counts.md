@@ -352,7 +352,7 @@ plt.show()
 
 
     
-![png](02TwitterWordCounts_files/02TwitterWordCounts_22_0.png)
+![png](images/02TwitterWordCounts_22_0.png)
     
 
 
@@ -509,7 +509,7 @@ plt.show()
 
 
     
-![png](02TwitterWordCounts_files/02TwitterWordCounts_33_0.png)
+![png](images/02TwitterWordCounts_33_0.png)
     
 
 
@@ -696,7 +696,7 @@ plt.show()
 
 
     
-![png](02TwitterWordCounts_files/02TwitterWordCounts_42_0.png)
+![png](images/02TwitterWordCounts_42_0.png)
     
 
 
