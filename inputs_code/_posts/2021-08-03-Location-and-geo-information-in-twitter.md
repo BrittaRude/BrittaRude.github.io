@@ -37,9 +37,25 @@ There are two different categories with respect to geographic information on twi
 * The *point radius* operator: With this operator you can specify a circular geographic area and filter for tweets coming from this area. To do this, we have to define a circle: The maximum radius is 25 miles and we can then define its central point. More concretely speakig define: *point_radius:[lon lat radius]* in your query.
 * The *bounding_box* operator: Similar to the above, here you can define a specific area and filter on tweets coming from this area. But instead of a circle the shape is a box. We can define a central point and the length of the box (the maximum length being 25 miles). More concretely speakig define: *bounding_box:[west_long south_lat east_long north_lat]* in your query. 
 
+### The user location 
+
+Twitter users might not have their GPS on while tweeting but might indicate some form of geographic information in their profile. In case that users publish information about their location in their profile section, you can retrieve the following information: the user's location as well as the related country, country code, region, sub region, full name as well as coordiantes (in Longitude/Latitude). 
+
+**There are several possibilities to filter for profile locations:**
+
+* The *has:profile_geo* operator: Here you can filter for twitter tweets from users who specify their home location at least at the country level. 
+* The *profile_country* operator: This informatoin filters for twitter users who have the Profile Geo enrichment enabled and contains the underlying country code.
+* The *profile_region* operator: Through this operator it is possible to match a region in string format to tweets from twitter users with enabled Geo enrichment. 
+* The *profile_locality* operator: This filters for tweets based on a specific user location. 
+* The *profile_subregion* operator: This information is based on the location data of Twitter Users with enabled Profile Geo enrichment. Here you can filter for counties or metro area.  
+* The *bio_location* operator: Here you can filter for all locations by twitter users. This filter does not depend on the Profile Geo enrichment. The downside is that this information is user-generated and might not actually reflect a real location (e.g. a user might be a world inhabitant). 
+* The *bio* operator: It might be that somebody describes their current location or home in their profile description (similar of what many instagram users do). You can access this information through the *bio* operator. 
+
 You can find an overview of how to filter for locations [here](https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location) or [here](https://developer.twitter.com/en/docs/twitter-api/enterprise/rules-and-filtering/enterprise-operators#listofoperators).
 
-## Let's filter for a place using the twitter tweet place operator
+## Let's put it to practice and filter for some locations: 
+
+### Let's filter for a place using the twitter tweet place operator
 
 
 ```python
@@ -55,7 +71,7 @@ all_tweets = [tweet.text for tweet in tweets]
 all_tweets[:5]
 ```
 
-## Let's filter on a specific location and extract the location together with the text
+### Let's filter on a specific location and extract the location together with the text
 
 **The below filters for the user's location**
 
@@ -73,7 +89,7 @@ users_locs = [[tweet.text, tweet.user.location] for tweet in tweets]
 users_locs
 ```
 
-## Let's filter for a twitter tweet's location using the place_country operator
+### Let's filter for a twitter tweet's location using the place_country operator
 
 **The below filters for all tweets which are geocoded. These automatically have a country code and we filter for tweets in Germany.**
 
@@ -122,7 +138,7 @@ all_tweets
 ```
 
 
-## Another way to filter for a twitter tweet's location is using coordinates 
+### Another way to filter for a twitter tweet's location is using coordinates 
 
 This is possible through accessing the *bounding box* object. The longitude and latitude of the Tweet’s location, as a collection in the form [longitude, latitude]. The radius must be less than 25 miles. 
 
@@ -148,7 +164,7 @@ all_tweets
 ```
 
 
-## Let's create a pandas dataframe from our tweets
+### Let's create a pandas dataframe from our tweets
 
 
 ```python
