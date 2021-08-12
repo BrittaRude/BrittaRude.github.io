@@ -39,15 +39,17 @@ There are two different categories with respect to geographic information on twi
 
 ### The user location 
 
-Twitter users might not have their GPS on while tweeting but might indicate some form of geographic information in their profile. In case that users publish information about their location in their profile section, you can retrieve the following information: the user's location as well as the related country, country code, region, sub region, full name as well as coordiantes (in Longitude/Latitude). 
+Twitter users might not have their GPS on while tweeting but might indicate some form of geographic information in their profile. In case that users publish information about their location in their profile section, you can access the information in the *user.location* attribute within the *user object* in JSON. 
+
+In a second step, Twitter's *Profile Geo Enrichment* adds structural data to this information. This is done via geocoding and normalizing location strings where possible. From this, you can retrieve the following information: the user's location as well as the related country, country code, region, sub region, full name as well as coordiantes (in Longitude/Latitude). For a concrete example on how this looks like see [here](https://developer.twitter.com/en/docs/twitter-api/enterprise/enrichments/overview/profile-geo). As indicated on [this page](https://developer.twitter.com/en/docs/twitter-api/enterprise/enrichments/overview/profile-geo) there are several limitations with the Profile Geo enrichment. 
 
 **There are several possibilities to filter for profile locations:**
 
 * The *has:profile_geo* operator: Here you can filter for twitter tweets from users who specify their home location at least at the country level. 
-* The *profile_country* operator: This informatoin filters for twitter users who have the Profile Geo enrichment enabled and contains the underlying country code.
-* The *profile_region* operator: Through this operator it is possible to match a region in string format to tweets from twitter users with enabled Geo enrichment. 
+* The *profile_country* operator: This information contains the underlying country code of the user's profile location.
+* The *profile_region* operator: Through this operator it is possible to match a region in string format to tweets from twitter users. 
 * The *profile_locality* operator: This filters for tweets based on a specific user location. 
-* The *profile_subregion* operator: This information is based on the location data of Twitter Users with enabled Profile Geo enrichment. Here you can filter for counties or metro area.  
+* The *profile_subregion* operator: This information is based on the location data of Twitter Users. Here you can filter for counties or metro area.  
 * The *bio_location* operator: Here you can filter for all locations by twitter users. This filter does not depend on the Profile Geo enrichment. The downside is that this information is user-generated and might not actually reflect a real location (e.g. a user might be a world inhabitant). 
 * The *bio* operator: It might be that somebody describes their current location or home in their profile description (similar of what many instagram users do). You can access this information through the *bio* operator. 
 
