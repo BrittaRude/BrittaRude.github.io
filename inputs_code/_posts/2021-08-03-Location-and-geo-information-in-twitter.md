@@ -3,7 +3,7 @@ layout: post
 title: "Extracting geographic location information from twitter"
 date: 2021-08-01
 myexcerpt: Some twitter users publish information about locations in twitter. They might indicate their place of residence or tweet from a specific location. They might also mention a location in their tweet either by simple words or by hashtags. How can we access this information from twitter and make use of it? 
-image: /images/Tweepy.jpg
+image: /images/geodata.jpg
 ---
 
 
