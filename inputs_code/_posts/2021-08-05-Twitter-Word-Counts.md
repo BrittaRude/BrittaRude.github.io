@@ -7,9 +7,11 @@ image: /images/words.webp
 ---
 
 
-# Twitter Word Count Analysis
+## Twitter Word Count Analysis
 
-In this notebook we will learn how to count and clean twitter data. We will follow this tutorial here: https://www.earthdatascience.org/courses/use-data-open-source-python/intro-to-apis/calculate-tweet-word-frequencies-in-python/
+<img src="/images/words.webp" alt="words" style="float:left;margin: 2px 2px 2px 2px;max-width:30%;"/>
+
+We might be interested in analyzing the kind of words that are published within a certain subarea. How can we systemize and clean the text published in twitter posts to extract more useful information? In this notebook we will learn how to count and clean twitter data. We will follow this tutorial here: https://www.earthdatascience.org/courses/use-data-open-source-python/intro-to-apis/calculate-tweet-word-frequencies-in-python/
 
 
 ```python
