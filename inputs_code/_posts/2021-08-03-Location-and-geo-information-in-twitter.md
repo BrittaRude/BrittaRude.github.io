@@ -11,7 +11,7 @@ image: /images/geodata.webp
 
 <img src="/images/geodata.webp" alt="geodata" style="float:left;margin: 2px 2px 2px 2px;max-width:20%;"/>
 
-Some twitter users publish information about locations in twitter. They might indicate their place of residence or tweet from a specific location. They might also mention a location in their tweet either by simple words or by hashtags. How can we access this information from twitter and make use of it? This blogpost gives an overview of the different forms of location information in twitter tweets and gives some examples on how to access this kind of information. *[Foto by Kyle Glenn]
+Some twitter users publish information about locations in twitter. They might indicate their place of residence or tweet from a specific location. They might also mention a location in their tweet either by simple words or by hashtags. How can we access this information from twitter and make use of it? This blogpost gives an overview of the different forms of location information in twitter tweets and gives some examples on how to access this kind of information. *[Foto by Kyle Glenn]*
 
 ## Let's filter on a specific location
 
