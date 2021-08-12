@@ -30,7 +30,7 @@ import nltk
 from nltk.corpus import stopwords
 ```
 
-# Authentification 
+## Authentification 
 
 
 ```python
@@ -47,7 +47,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tw.API(auth, wait_on_rate_limit=True)
 ```
 
-# Let's create a python list from 1,000 random tweets in twitter
+## Let's create a python list from 1,000 random tweets in twitter
 
 
 ```python
@@ -75,7 +75,7 @@ all_tweets[:5]
 
 
 
-# Let's clean our text data
+## Let's clean our text data
 
 Twitter data is messy, but there are several methods we can apply to clean it. Next we will do the follow: 
     
@@ -700,9 +700,3 @@ plt.show()
     
 ![png](images/02TwitterWordCounts_42_0.png)
     
-
-
-
-```python
-
-```
