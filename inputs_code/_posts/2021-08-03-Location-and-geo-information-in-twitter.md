@@ -20,13 +20,13 @@ There are two sources of information for geocoded data in twitter:
 
 Geographic information is provided in [LONG, LAT] order. For more information on location data in twitter see [this link](https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location).
 
-You can filter for the location using Twitter's operators, which are listed here: https://developer.twitter.com/en/docs/twitter-api/enterprise/rules-and-filtering/enterprise-operators#listofoperators
+You can filter for the location using Twitter's operators, which are listed [here](https://developer.twitter.com/en/docs/twitter-api/enterprise/rules-and-filtering/enterprise-operators#listofoperators).
 
 **There are several possibilities to filter for locations:**
 * The *place* operator: This operator filters for tweets with a specific location or Twitter place ID. 
-* The *place_country* operator: Here you can filter for tweets which match the ISO alpha-2 characteristics, which you can find here: http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+* The *place_country* operator: Here you can filter for tweets which match the ISO alpha-2 characteristics, which you can find [here](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). 
 
-You can find an overview of how to filter for locations here: https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location
+You can find an overview of how to filter for locations [here](https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location). 
 
 ## Let's filter for a place using the twitter tweet place operator
 
@@ -162,7 +162,7 @@ tweet_df.head()
 tweet_df['user loc'].hist();
 ```  
 
-There are several problems when using location data in Twitter. This blogpost summarizes it quite well: https://towardsdatascience.com/twitter-location-analysis-c488c967a41f
+There are several problems when using location data in Twitter. This [blogpost](https://towardsdatascience.com/twitter-location-analysis-c488c967a41f) summarizes it quite well. 
 
 
 
