@@ -23,10 +23,10 @@ from nltk.corpus import stopwords
 
 
 ```python
-consumer_key= 'KqaJFQefk2n75nAMPCqYXCpxj'
-consumer_secret= 'n4QF4mx9I7rNiO1qmZmXY4Fa3X1ElNkFT30iiV6iEyGFgOCzJ1'
-access_token= '1414208609609715712-joELONwWS0UQTASpN0oK63LmxE9DFz'
-access_token_secret= 'rF7X53e7wEliPHv0m46V3WfeikHtLBEb8pusMhTPwIjLi'
+consumer_key= 'XX'
+consumer_secret= 'XX'
+access_token= 'XX'
+access_token_secret= 'XX'
 ```
 
 
