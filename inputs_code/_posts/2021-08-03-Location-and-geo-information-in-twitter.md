@@ -18,7 +18,7 @@ There are two sources of information for geocoded data in twitter:
 1. The tweet location (Available if users share their location at the time of the tweet)
 2. The account location (Available if users share their home location in their public profile) 
 
-Geographic information is provided in [LONG, LAT] order. For more information on location data in twitter see: https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location
+Geographic information is provided in [LONG, LAT] order. For more information on location data in twitter see [this link](https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location).
 
 You can filter for the location using Twitter's operators, which are listed here: https://developer.twitter.com/en/docs/twitter-api/enterprise/rules-and-filtering/enterprise-operators#listofoperators
 
