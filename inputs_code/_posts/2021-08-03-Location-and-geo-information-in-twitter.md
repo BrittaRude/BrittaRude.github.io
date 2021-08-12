@@ -1,7 +1,15 @@
+---
+layout: post
+title: "Extracting geographic location information from twitter"
+date: 2021-08-01
+myexcerpt: Some twitter users publish information about locations in twitter. They might indicate their place of residence or tweet from a specific location. They might also mention a location in their tweet either by simple words or by hashtags. How can we access this information from twitter and make use of it? 
+image: /images/Tweepy.jpg
+---
 
 
+## How can we use Python to analyze Twitter Data? The power of Tweepy.  
 
-
+Some twitter users publish information about locations in twitter. They might indicate their place of residence or tweet from a specific location. They might also mention a location in their tweet either by simple words or by hashtags. How can we access this information from twitter and make use of it? This blogpost gives an overview of the different forms of location information in twitter tweets and gives some examples on how to access this kind of information. 
 
 ## Let's filter on a specific location
 
@@ -24,7 +32,7 @@ You can find an overview of how to filter for locations here: https://developer.
 
 
 ```python
-new_search = "sexualharassment+workplace -filter:retweets"
+new_search = "EdTech -filter:retweets"
 
 tweets = tw.Cursor(api.search,
                    q=new_search,
@@ -42,7 +50,7 @@ all_tweets[:5]
 
 
 ```python
-new_search = "sexualharassment+workplace -filter:retweets"
+new_search = "EdTech -filter:retweets"
 
 tweets = tw.Cursor(api.search,
                    q=new_search,
@@ -60,7 +68,7 @@ users_locs
 
 
 ```python
-new_search = "sexuellebelästigung -filter:retweets"
+new_search = "EdTech -filter:retweets"
 
 tweets = tw.Cursor(api.search,
                    q=new_search,
@@ -73,7 +81,7 @@ all_tweets[:5]
 ```
 
 ```python
-new_search = "sexuellebelästigung -filter:retweets"
+new_search = "EdTech -filter:retweets"
 
 tweets = tw.Cursor(api.search,
                    q=new_search,
@@ -86,7 +94,7 @@ users_locs
 ```
 
 ```python
-new_search = "sexuellebelästigung OR sexualharassment -filter:retweets"
+new_search = "EdTech -filter:retweets"
 
 tweets = tw.Cursor(api.search,
                    q=new_search,
@@ -110,7 +118,7 @@ This is possible through accessing the *bounding box* object. The longitude and 
 
 ```python
 #Let's search for tweets in Munich 
-new_search = "sexuellebelästigung OR sexualharassment -filter:retweets"
+new_search = "EdTech -filter:retweets"
 geoc = "48.137154, 11.576124, 25mi"
 
 tweets = tw.Cursor(api.search,
@@ -133,7 +141,7 @@ all_tweets
 
 
 ```python
-new_search = "sexuellebelästigung -filter:retweets"
+new_search = "EdTech -filter:retweets"
 
 tweets = tw.Cursor(api.search,
                    q=new_search,
@@ -153,7 +161,6 @@ tweet_df.head()
 ```python
 tweet_df['user loc'].hist();
 ```  
-
 
 There are several problems when using location data in Twitter. This blogpost summarizes it quite well: https://towardsdatascience.com/twitter-location-analysis-c488c967a41f
 
