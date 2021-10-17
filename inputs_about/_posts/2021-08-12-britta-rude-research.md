@@ -18,6 +18,8 @@ image: /images/Explore.jpg
 
 ## Policy Briefs
 
+- Albrecht, Clara, Britta Rude, and Tanja Stitteneder. "[Afghanistan's Geschlechternotstand](https://www.ifo.de/publikationen/2021/aufsatz-zeitschrift/ifo-migrationsmonitor-afghanistan-im-freien-fall-rueckkehr)." ifo Schnelldienst 74.10 (2021): 71-81.
+
 - Albrecht, Clara, Britta Rude, and Tanja Stitteneder. "[ifo Migrationsmonitor: Afghanistan im freien Fall–Rückkehr der Taliban und Flucht als letzter Ausweg](https://www.ifo.de/publikationen/2021/aufsatz-zeitschrift/ifo-migrationsmonitor-afghanistan-im-freien-fall-rueckkehr)." ifo Schnelldienst 74.10 (2021): 71-81.
 
 - Sultan Alhabsi and Britta Rude, 2021. "[Refugee education 4.0? The potentials and pitfalls of EdTech for refugee education.](https://www.cesifo.org/DocDL/CESifo-Forum-2021-5-alhabsi-rude-edtech-refugee-september.pdf)" Brexit and European Finance: Prolonged Limbo (2021): 43.  
