@@ -18,9 +18,9 @@ image: /images/Explore.jpg
 
 ## Policy Briefs
 
-- World Bank. 2020. A Forest’s Worth : Policy Options for a Sustainable and Inclusive Forest Economy in Paraguay. Country Forest Note;. World Bank, Washington, DC. © World Bank. [https://openknowledge.worldbank.org/handle/10986/34988](https://openknowledge.worldbank.org/handle/10986/34988) License: CC BY 3.0 IGO.
+- Albrecht, Clara, Britta Rude, and Tanja Stitteneder. "[ifo Migrationsmonitor: Afghanistan im freien Fall–Rückkehr der Taliban und Flucht als letzter Ausweg](https://www.ifo.de/publikationen/2021/aufsatz-zeitschrift/ifo-migrationsmonitor-afghanistan-im-freien-fall-rueckkehr)." ifo Schnelldienst 74.10 (2021): 71-81.
 
-- Sultan Alhabsi and Britta Rude, 2021. "Refugee education 4.0? The potentials and pitfalls of EdTech for refugee education." Cesifo Forum, forthcoming. 
+- Sultan Alhabsi and Britta Rude, 2021. "[Refugee education 4.0? The potentials and pitfalls of EdTech for refugee education.](https://www.cesifo.org/DocDL/CESifo-Forum-2021-5-alhabsi-rude-edtech-refugee-september.pdf)" Brexit and European Finance: Prolonged Limbo (2021): 43.  
 
 - Sofia Eigner, Simon Meemken, Bennet Niederhoefer and Britta Rude, 2021. "[Legalizing up to 2 million Venezuelans: Is Colombia leading the way into a migration-friendly future?](https://www.cesifo.org/de/publikationen/2021/aufsatz-zeitschrift/legalizing-2-million-venezuelans-colombia-leading-way-more)". CESifo Forum. Vol. 22. No. 04. ifo Institute-Leibniz Institute for Economic Research at the University of Munich, 2021. 
 
@@ -31,6 +31,8 @@ image: /images/Explore.jpg
 - Britta Rude, 2020. "[Refugee Children and COVID-19. How do we protect Germany's most vulnerable?](https://www.ifo.de/publikationen/2020/aufsatz-zeitschrift/gefluechtete-kinder-und-covid-19-corona-als-brennglas), ifo Schnelldienst, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, 73.12 (2020): 46-57.
 
 - Britta Rude & Bennet Niederhöfer & Fabio Ferrara, 2020. "[ifo Migrationsmonitor: Entwaldung und Migration](https://ideas.repec.org/a/ces/ifosdt/v73y2020i09p66-74.html)," ifo Schnelldienst, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, vol. 73(09), pages 66-74, September.
+
+- World Bank. 2020. A Forest’s Worth : Policy Options for a Sustainable and Inclusive Forest Economy in Paraguay. Country Forest Note;. World Bank, Washington, DC. © World Bank. [https://openknowledge.worldbank.org/handle/10986/34988](https://openknowledge.worldbank.org/handle/10986/34988) License: CC BY 3.0 IGO.
 
 ## Policy Briefs - Unpublished
 
