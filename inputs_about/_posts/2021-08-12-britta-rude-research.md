@@ -18,7 +18,7 @@ image: /images/Explore.jpg
 
 ## Policy Briefs
 
-- Albrecht, Clara, Britta Rude, and Tanja Stitteneder. "Afghanistan's Geschlechternotstand." ifo Schnelldienst. Forthcoming.
+- Albrecht, Clara, Britta Rude, and Tanja Stitteneder. "Afghanistans Geschlechternotstand." ifo Schnelldienst. Forthcoming.
 
 - Albrecht, Clara, Britta Rude, and Tanja Stitteneder. "[ifo Migrationsmonitor: Afghanistan im freien Fall–Rückkehr der Taliban und Flucht als letzter Ausweg](https://www.ifo.de/publikationen/2021/aufsatz-zeitschrift/ifo-migrationsmonitor-afghanistan-im-freien-fall-rueckkehr)." ifo Schnelldienst 74.10 (2021): 71-81.
 
