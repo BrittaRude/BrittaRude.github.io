@@ -5,7 +5,7 @@ author:
   name: Britta Rude
   email: britta.rude@gmx.net
 permalink: /blog/:year/:month/:day/:title
-google_analytics: G-HP9FYEDLCW
+google_analytics: UA-186358575-1
 plugins:
   - jekyll-feed
   - jekyll-sitemap
