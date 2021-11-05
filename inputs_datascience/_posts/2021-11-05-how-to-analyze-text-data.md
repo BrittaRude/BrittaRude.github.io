@@ -6,7 +6,7 @@ date: 2021-11-05
 image: /images/digital_text.jpg
 ---
 
-In a [recent blogpost] I talked about the fact that we have large amounts of text data piling up everywhere around us, sitting ready for our analysis! But how can we actually analyze this data? And what are some questions we can ask when using text data? The problem with text data is that many analytical models cannot read text by itself, something that text data analysts often call *Text Feature Extraction*. This means that we have to find ways to transform text into numeric features. There are several ways to do this. Let’s have a look at some examples. For the code behind these example see [here]( https://sanjayasubedi.com.np/nlp/nlp-feature-extraction/). 
+In a [recent blogpost](https://brittarude.github.io/blog/2021/06/27/text-as-data) I talked about the fact that we have large amounts of text data piling up everywhere around us, sitting ready for our analysis! But how can we actually analyze this data? And what are some questions we can ask when using text data? The problem with text data is that many analytical models cannot read text by itself, something that text data analysts often call *Text Feature Extraction*. This means that we have to find ways to transform text into numeric features. There are several ways to do this. Let’s have a look at some examples. For the code behind these example see [here]( https://sanjayasubedi.com.np/nlp/nlp-feature-extraction/). 
 
 ## Binary encoding 
 
@@ -22,11 +22,11 @@ Now, comparing our *document* of three sentences to this corpus requires us the 
 [“Yesterday was a sunny day”, “Today is not a sunny day”, “Today is a rainy day”]
 Our feature matrix, when compared to our alphabetically sorted corpus, would then be a *3x9* matrix, looking something like this: 
 
-1 1 0 0 0 1 0 1 0 
+[1 1 0 0 0 1 0 1 0] 
 
-1 1 1 1  0 1 1 0 0 
+[1 1 1 1  0 1 1 0 0] 
 
-1 1 1 0 1 0 1 0 0 
+[1 1 1 0 1 0 1 0 0] 
 
 Now, this is a simple numeric representation of text data, which machine learning models or other analytical models can process. The insight of this feature matrix, on the other hand, might not be very valuable. So, let’s try to find a method that extracts some more value from our text data. 
 
@@ -38,9 +38,9 @@ This will result in the following corpus:
 [a, but, day, is, not, rainy, sunny, Today, was, Yesterday]
 When comparing our example to the pre-established corpus, we will encounter the following feature matrix of size *2x10*: 
 
-1 0 1 0 0 0 1 0 1 0 
+[1 0 1 0 0 0 1 0 1 0] 
 
-2 1 2 1 1  0 1 1 0 0
+[2 1 2 1 1  0 1 1 0 0]
 
 As the words *a* and *day* are mentioned twice in our second example sentence, the value is 2 in our feature matrix. So this is some kind of weighting mechanism, giving higher weights to the words which come up more often in our document. 
 Simply counting the number of occurrences of words might not be very valuable neither, as words like “a” or “as” occurring quite frequently in written document might receive a lot of attention without having a lot of value for our analysis. This is why there are a variety of different counting methods (one example is the *TF-IDF* method, which gives higher weight to words occurring less frequently).  
