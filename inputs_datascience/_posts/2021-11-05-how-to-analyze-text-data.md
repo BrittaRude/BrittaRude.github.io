@@ -60,4 +60,4 @@ Topic modeling does not cluster your data, but is similar in a sense that it ret
 
 ## Summing up - how can we analyze text data? 
 
-Summing up, the magic behind analyzing text data is transforming it into numerical value first. This numeric transformation can help you to then feed text data into analytical models and rely on machine learning algorithms for further analysis. Some ideas of how to make use of text data is to cluster data or find common themes in the text at hand.  
+Summing up, the magic behind analyzing text data is transforming it into numerical values first. This numeric transformation can help you to then feed text data into analytical models and rely on machine learning algorithms for further analysis. Some ideas of how to make use of text data is to cluster data or find common themes in the text at hand.  
