@@ -6,7 +6,7 @@ date: 2021-11-05
 image: /images/digital_text4.jpg
 ---
 
-In a [recent blogpost](https://brittarude.github.io/blog/2021/06/27/text-as-data) I talked about the fact that we have large amounts of text data piling up everywhere around us, sitting ready for our analysis! But how can we actually analyze this data? And what are some questions we can ask when using text data? The problem with text data is that many analytical models cannot read text by itself, something that text data analysts often call *Text Feature Extraction*. This means that we have to find ways to transform text into numeric features. There are several ways to do this. Let’s have a look at some examples. For the code behind these example see [here]( https://sanjayasubedi.com.np/nlp/nlp-feature-extraction/). 
+In a [recent blogpost](https://brittarude.github.io/blog/2021/06/27/text-as-data) I talked about the fact that we have large amounts of text data piling up everywhere around us, sitting ready for our analysis! But how can we actually analyze this data? And what are some questions we can ask when using text data? The problem with text data is that many analytical models cannot read text by itself, something that text data analysts often call *Text Feature Extraction*. This means that we have to find ways to transform text into numeric features. There are several ways to do this. Let’s have a look at some examples. For the code behind these example see [here]( https://sanjayasubedi.com.np/nlp/nlp-feature-extraction/). *(Picture by Ula Kúzma)*
 
 <img src="/images/digital_text.jpg" alt="automation" style="float:left;margin: 2px 2px 2px 2px;max-width:28%;"/>
 
