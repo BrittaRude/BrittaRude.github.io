@@ -3,14 +3,14 @@ layout: post
 usemathjax: true 
 title: "Text as data - How is digital text changing the way we see our world?"
 date: 2021-06-27
-image: /images/digital_text4.jpg
+image: /images/digital_text.jpg
 ---
 
 ## How is text data changing our data environment? 
 
 Digitalization has brought along a large amount of digital text. Text data is a new form of data, lining up next to the masses of binary and numeric data, and recently more researchers have started to ask themselves the question about how to use it. Text data generates a new data source, containing rich information, which can create a mirror of reality in real time. Additionally, accessing it might be much cheaper than relying on traditional survey designs, and small sample problems are normally not an issue. How is text data changing the way we see our world? And how can we make productive use of it? *(Picture by Ula Kúzma)*
 
-<img src="/images/digital_text4.jpg" alt="automation" style="float:left;margin: 2px 2px 2px 2px;max-width:28%;"/>
+<img src="/images/digital_text.jpg" alt="automation" style="float:left;margin: 2px 2px 2px 2px;max-width:28%;"/>
 
 A recent example of how text data can be put into practice is the creation of a real time metric of welfare (see [here](https://arxiv.org/ftp/arxiv/papers/2001/2001.03401.pdf)). Instead of using self-reported information from surveys on wellbeing and happiness, the researchers use unstructured online media text. Unstructured online media text is especially pertinent for this purpose, as a large amount of users communicate their emotions in real-time. Another example is the usage of online job adds to gain a better understanding of labor demand and skill mismatches (see for example this project by [CEDEFOP]( https://www.cedefop.europa.eu/de/data-visualisations/skills-online-vacancies)). [Foto by Jason Leung]
 
