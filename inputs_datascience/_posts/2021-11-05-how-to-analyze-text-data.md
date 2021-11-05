@@ -8,7 +8,7 @@ image: /images/digital_text4.jpg
 
 <img src="/images/digital_text4.jpg" alt="automation" style="float:left;margin: 2px 2px 2px 2px;max-width:14%;"/>
 
-In a [recent blogpost](https://brittarude.github.io/blog/2021/06/27/text-as-data) I talked about the fact that we have large amounts of text data piling up everywhere around us, sitting ready for our analysis! But how can we actually analyze this data? And what are some questions we can ask when using text data? The problem with text data is that many analytical models cannot read text by itself, something that text data analysts often call *Text Feature Extraction*. This means that we have to find ways to transform text into numeric features. There are several ways to do this. Let’s have a look at some examples. For the code behind these example see [here]( https://sanjayasubedi.com.np/nlp/nlp-feature-extraction/). *(Picture by Ula Kúzma)*
+In a [recent blogpost](https://brittarude.github.io/blog/2021/06/27/text-as-data) I talked about the fact that we have large amounts of text data piling up everywhere around us, sitting ready for our analysis! But how can we actually analyze this data? And what are some questions we can ask when using text data? The problem with text data is that many analytical models cannot read text by itself. This means that we have to find ways to transform text into numeric features, something that text data analysts often call *Text Feature Extraction*. There are several ways to do this. Let’s have a look at some examples. For the code behind these example see [here]( https://sanjayasubedi.com.np/nlp/nlp-feature-extraction/). *(Picture by Ula Kúzma)*
 
 ## Binary encoding 
 
@@ -20,7 +20,7 @@ What binary encoding does now is that it compares text to this pre-established c
 
 What we do is to loop through every word of our corpus and set it to 1 if it exists in our example sentence. You might have noticed that the word “saw” is completely ignored in our example sentence, as it is not included in our pre-defined corpus. It is therefore recommended to establish a sufficiently large corpus, containing as many words as possible. The python library *sklearn* already does that for us, for example. Especially the [CountVectorize]( sklearn.feature_extraction.text.CountVectorizer — scikit-learn 1.0.1 documentation) package can help us with that. Let’s have a look at a more complicated example now, a *document* consisting of 3 sentences: “Yesterday was a sunny day. Today is not a sunny day. Today is a rainy day.” Our corpus, if sorted alphabetically, will look like this: 
 [a, day, is, not, rainy, sunny, Today, was, Yesterday]
-Now, comparing our *document* of three sentences to this corpus requires us the create a list of these three sentences first, which would look something like this: 
+Now, comparing our *document* of three sentences to this corpus requires us to create a list of these three sentences first, which would look something like this: 
 [“Yesterday was a sunny day”, “Today is not a sunny day”, “Today is a rainy day”]
 Our feature matrix, when compared to our alphabetically sorted corpus, would then be a *3x9* matrix, looking something like this: 
 
@@ -57,3 +57,7 @@ The problem with the K-Means Clustering method is that you need to know the exac
 ## Topic Modeling 
 
 Topic modeling does not cluster your data, but is similar in a sense that it retrieves a number of topics prevalent in your text data. It can help us to summarize documents, find hidden themes in written text, or tag a large amount of different papers. Let’s assume that you have a number of 100 news articles. You do not know these articles and would like to know which topics they are covering. Text processing algorithms can help you with that. One example is the [Non Negative Matrix Factorization (NMF) method]( https://sanjayasubedi.com.np/nlp/nlp-with-python-topic-modeling/) or [Latent Dirichlet Allocation]( https://sanjayasubedi.com.np/nlp/nlp-with-python-topic-modeling/). 
+
+## Summing up - how can we analyze text data? 
+
+Summing up, the magic behind analyzing text data is transforming it into numerical value first. This numeric transformation can help you to then feed text data into analytical models and rely on machine learning algorithms for further analysis. Some ideas of how to make use of text data is to cluster data or find common themes in the text at hand.  
