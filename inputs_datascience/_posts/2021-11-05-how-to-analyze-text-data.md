@@ -16,7 +16,7 @@ In text analysis, a dataset is often called *corpus*. So, let’s take an exampl
 [Every, morning, I, bike, to, work, passing, a, blue, car]. 
 What binary encoding does now is that it compares text to this pre-established corpus. Let’s have a look at the sentence: “I saw a blue car.” The binary transformation of this sentence will look as follows: 
 
-[0, 0, 1, 0, 0, 0, 0, 1, 1, 1]    
+[0 0 1 0 0 0 0 1 1 1]    
 
 What we do is to loop through every word of our corpus and set it to 1 if it exists in our example sentence. You might have noticed that the word “saw” is completely ignored in our example sentence, as it is not included in our pre-defined corpus. It is therefore recommended to establish a sufficiently large corpus, containing as many words as possible. The python library *sklearn* already does that for us, for example. Especially the [CountVectorize]( sklearn.feature_extraction.text.CountVectorizer — scikit-learn 1.0.1 documentation) package can help us with that. Let’s have a look at a more complicated example now, a *document* consisting of 3 sentences: “Yesterday was a sunny day. Today is not a sunny day. Today is a rainy day.” Our corpus, if sorted alphabetically, will look like this: 
 [a, day, is, not, rainy, sunny, Today, was, Yesterday]
