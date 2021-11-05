@@ -8,7 +8,7 @@ image: /images/digital_text4.jpg
 
 ## How is text data changing our data environment? 
 
-Digitalization has brought along a large amount of digital text. Text data is a new form of data, lining up next to the masses of binary and numeric data, and recently more researchers have started to ask themselves the question about how to use it. Text data generates a new data source, containing rich information, which can create a mirror of reality in real time. Additionally, accessing it might be much cheaper than relying on traditional survey designs, and small sample problems are normally not an issue. How is text data changing the way we see our world? And how can we make productive use of it? 
+Digitalization has brought along a large amount of digital text. Text data is a new form of data, lining up next to the masses of binary and numeric data, and recently more researchers have started to ask themselves the question about how to use it. Text data generates a new data source, containing rich information, which can create a mirror of reality in real time. Additionally, accessing it might be much cheaper than relying on traditional survey designs, and small sample problems are normally not an issue. How is text data changing the way we see our world? And how can we make productive use of it? *(Picture by Ula Kúzma)*
 
 <img src="/images/digital_text4.jpg" alt="automation" style="float:left;margin: 2px 2px 2px 2px;max-width:28%;"/>
 
