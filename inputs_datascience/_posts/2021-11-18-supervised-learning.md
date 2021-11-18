@@ -6,7 +6,7 @@ date: 2021-11-18
 image: /images/ML0.jpg
 ---
 
-<img src="/images/ML0.jpg" alt="ML" style="float:left;margin: 2px 2px 2px 2px;max-width:30%;"/>
+<img src="/images/ML0.jpg" alt="ML" style="float:left;margin: 2px 2px 2px 2px;max-width:35%;"/>
 
 Machine Learning 1.0.1. – What is Supervised Learning? 
 Machine Learning is becoming more and more present in Data Science, but also other fields and areas. But what is that, actually – Machine Learning? The name already speaks for itself: We teach machines to learn on their own. Quite abstract, you think? Not at all! Let’s have a look at a concrete example of Machine Learning, which is Supervised Learning. In this blog post we will look at some important concepts of Machine Learning, such as Over- and Underfitting, Loss Functions, Optimizers, Gradient Descents, the Learning Rate and Regularization.  
