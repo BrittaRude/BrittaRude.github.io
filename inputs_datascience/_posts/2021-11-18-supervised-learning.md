@@ -6,12 +6,16 @@ date: 2021-11-18
 image: /images/ML0.jpg
 ---
 
-<img src="/images/ML0.jpg" alt="ML" style="float:left;margin: 2px 2px 2px 2px;max-width:26%;"/>
+<img src="/images/ML0.jpg" alt="ML" style="float:left;margin: 2px 2px 2px 2px;max-width:30%;"/>
 
 Machine Learning 1.0.1. – What is Supervised Learning? 
 Machine Learning is becoming more and more present in Data Science, but also other fields and areas. But what is that, actually – Machine Learning? The name already speaks for itself: We teach machines to learn on their own. Quite abstract, you think? Not at all! Let’s have a look at a concrete example of Machine Learning, which is Supervised Learning. In this blog post we will look at some important concepts of Machine Learning, such as Over- and Underfitting, Loss Functions, Optimizers, Gradient Descents, the Learning Rate and Regularization.  
 
 ## A simple example: Classifying a large number of newspaper articles into 5 different categories 
+
+
+<img src="/images/ML0.jpg" alt="ML" style="float:right;margin: 2px 2px 2px 2px;max-width:30%;"/>
+
 Let’s assume you have a set of newspaper articles which you want to classify into 5 different categories: Politics, Economics, Sports, Entertainment and Others. If you have 5 different newspaper you might still be able to do this on your own. But what about 500 newspaper articles? It might be quite tedious and take a lot of time to do this. And here is where machine learning can help. Instead of looking at each 500 newspaper article one by one you can just do this exercise for a small subset of newspapers (let’s say 5 percent, which would be 50 newspaper articles). You then feed this information to a machine and *train* the model based on this 50 newspaper articles and the respective categories. On the basis of this information, the model will then *learn* to code the rest of the 450 newspaper articles. You can even evaluate the effectiveness of your trained model, but more about this later. First, let’s try to understand a bit better how this model training exactly looks like. 
 
 ## What is behind the training of a machine? An intuitive comparison 
