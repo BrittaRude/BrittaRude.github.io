@@ -34,7 +34,7 @@ This is why, for machine learning, we need more complex solutions for our predic
 
 ### What is a Support Vector Machine? 
 
-<img src="/images/ML2.jpg" alt="ML" style="float:left;margin: 2px 2px 2px 2px;max-width:40%;"/>
+<img src="/images/ML2.jpg" alt="ML" style="float:left;margin: 2px 2px 2px 2px;max-width:45%;"/>
 
 SVM is known for its high accuracy with relatively low computational power. What SVM does is to classify our data in a sense that it maximizes the distance between data points belonging to each class. SVM approaches this problem through [hyperplanes](https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47). A hyperplane is a decision boundary which helps to separate the different data points. The dimensionality of this hyperplane (e.g. 2-dimensional or 3-dimensional, or many more) depends on the number of features (e.g. document articles) you feed into the model. We can maximize the distance between data points of each class through this hyperplanes via support vectors. 
 
