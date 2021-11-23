@@ -2,7 +2,7 @@
 layout: post
 usemathjax: true 
 title: "Machine Learning 2.0.1. - Imbalanced Classification Problems"
-date: 2021-11-18
+date: 2021-11-23
 image: /images/ImbalancedClassification.png
 ---
 
