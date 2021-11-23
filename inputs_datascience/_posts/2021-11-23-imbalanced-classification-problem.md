@@ -1,3 +1,12 @@
+---
+layout: post
+usemathjax: true 
+title: "Machine Learning 2.0.1. - Imbalanced Classification Problems"
+date: 2021-11-18
+image: /images/ML0.jpg
+---
+
+<img src="/images/ImbalancedClassification.png" alt="ML" style="float:left;margin: 2px 2px 2px 2px;max-width:43%;"/>
 
 
 # Machine Learning and the problem of Imbalanced Classification
