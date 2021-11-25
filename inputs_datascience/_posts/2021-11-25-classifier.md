@@ -6,7 +6,7 @@ date: 2021-11-25
 image: /images/ML2.png
 ---
 
-<img src="/images/ML2.png" alt="ML" style="float:left;margin: 2px 2px 2px 2px;max-width:25%;"/>
+<img src="/images/ML2.png" alt="ML" style="float:left;margin: 2px 2px 2px 2px;max-width:30%;"/>
 
 # Machine Learning and different types of classifiers 
 I already mentioned in one of my previous blogposts that there are different types of classifiers we can use to apply machine learning in practice. Many divide these into the following categories: Naïve Bayes Classifier, Regularized Linear Regressions, Support Vector Machines, Decision Trees, k-Nearest Neighbors, as well as Artificial Neural Networks ([Source](https://monkeylearn.com/blog/what-is-a-classifier/). But what are the differences between all of these? And what is a classifier in the first place, anyhow? 
