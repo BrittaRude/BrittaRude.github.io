@@ -6,7 +6,7 @@ date: 2021-11-25
 image: /images/ML2.png
 ---
 
-<img src="/images/ML2.png" alt="ML" style="float:left;margin: 2px 2px 2px 2px;max-width:43%;"/>
+<img src="/images/ML2.png" alt="ML" style="float:left;margin: 2px 2px 2px 2px;max-width:25%;"/>
 
 # Machine Learning and different types of classifiers 
 I already mentioned in one of my previous blogposts that there are different types of classifiers we can use to apply machine learning in practice. Many divide these into the following categories: Naïve Bayes Classifier, Regularized Linear Regressions, Support Vector Machines, Decision Trees, k-Nearest Neighbors, as well as Artificial Neural Networks ([Source](https://monkeylearn.com/blog/what-is-a-classifier/). But what are the differences between all of these? And what is a classifier in the first place, anyhow? 
@@ -26,7 +26,7 @@ Now, how do we find the *nearest neighbors*? To identify the data points closest
 KNN works well when we have labeled data with little noise. The sample should also not be too large ([Source](https://www.youtube.com/watch?v=4HKqjENq9OU)). It is not recommended to use KNN with complicated datasets. In general, the KNN classifier might take quite some time to run, especially with a larger number of neighbors. 
 ## Decision Tree
 
-<img src="/images/Decision_Tree.jpg" alt="Decision_Tree" style="float:left;margin: 2px 2px 2px 2px;max-width:43%;"/>
+<img src="/images/Decision_Tree.jpg" alt="Decision_Tree" style="float:left;margin: 2px 2px 2px 2px;max-width:35%;"/>
 
 Decision trees belong to the category of supervised learning ([Source]( https://monkeylearn.com/blog/what-is-a-classifier/)). They also go by the name [CART]( https://machinelearningmastery.com/classification-and-regression-trees-for-machine-learning/) or Classification And Regression Trees. One of its most known and applied variations is called [Random Forest](https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/). A decision tree consists of nodes, representing respective input variables, and leaf nodes with the output variable. Let’s assume you have three fruits, an apple, banana and kiwi, and want to teach your machine to distinguish between them based on their respective colors. The set of rules that we can deduct from our tree goes as follows: 
 
