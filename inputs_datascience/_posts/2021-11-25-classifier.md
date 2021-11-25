@@ -2,7 +2,7 @@
 layout: post
 usemathjax: true 
 title: "Machine Learning 1.0.1. - What is a classifier?"
-date: 2021-11-23
+date: 2021-11-25
 image: /images/ML2.png
 ---
 
