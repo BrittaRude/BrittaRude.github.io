@@ -99,3 +99,7 @@ But where do these different predictions come from in the first place? Well, the
 
 <img src="/images/RF_Final.png" alt="RandomForest" style="max-width:100%;"/>
 
+## Summing up 
+
+Well, as you have seen there is no shortage of classifiers out there! When trying to solve a classification problem, you can start by spot-checking some of those and comparing there performance. Or you can take a step back, think about the structure of your data and decide on which type of classifier will work best for the kind or problem you are facing! There are some methods and measures you can look at to detect the best possible classifier among all the ones you are looking at, but that is food for a future blogpost. For now, have fun experimenting with some ML classifiers!
+
