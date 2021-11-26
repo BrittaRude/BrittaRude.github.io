@@ -95,9 +95,11 @@ Random Forests are one of the most advanced algorithms and form part of the so-c
 
 <img src="/images/RandomForest.PNG" alt="RandomForest" style="max-width:100%;"/>
 
-But where do these different predictions come from in the first place? Well, the outcome of the tree depends on the ordering of the decision parameters. Below there are 3 different trees with different outcome. Now, let’s assume you have a white, big dog. The first tree will tell you that the animal is a lamp, the second one that it is a cat and the third one that it is a lamp. So the final decision of the forest tree would classify the white, big dig as a lamp. As you can see in the picture below, the 3 trees are generated in parallel. This is why Random Forests form part of the Parallel Ensemble Methods and not the Sequential Ensemble Methods (more about this later) ([Source](https://www.youtube.com/watch?v=WtWxOhhZWX0)). 
+But where do these different predictions come from in the first place? Well, the outcome of the tree depends on the ordering of the decision parameters. Below there are 3 different trees with different outcome. Now, let’s assume you have a white, big dog. The first tree will tell you that the animal is a lamp, the second one that it is a cat and the third one that it is a lamp. So the final decision of the forest tree would classify the white, big dig as a lamp. 
 
 <img src="/images/RF_Final.png" alt="RandomForest" style="max-width:100%;"/>
+
+As you can see in the picture above, the 3 trees are generated in parallel. This is why Random Forests form part of the Parallel Ensemble Methods and not the Sequential Ensemble Methods (more about this later) ([Source](https://www.youtube.com/watch?v=WtWxOhhZWX0)). Through combining several trees instead of just looking at one tree, the overall model's prediction will be more accurate and more robust. 
 
 ## Summing up 
 
