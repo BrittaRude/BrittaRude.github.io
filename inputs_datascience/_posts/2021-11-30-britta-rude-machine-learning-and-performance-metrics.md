@@ -1,7 +1,7 @@
 ---
 layout: post
 usemathjax: true 
-title: "Machine Learning 1.0.1. - An overview of Performance Metrics?"
+title: "Machine Learning 1.0.1. - An overview of Performance Metrics"
 date: 2021-11-30
 image: /images/doors.jpg
 ---
@@ -36,7 +36,7 @@ Recall = TN/(TN + FN)
 
 Now, the F1-Score combines these two measures into one. More concretely speaking, it is the [harmonic average](https://medium.com/@MohammedS/performance-metrics-for-classification-problems-in-machine-learning-part-i-b085d432082b) of the Precision and Recall. In the ideal case, the F1 Score is equal to 1. 
 ## AUC-ROC Curve
-It might be that you are looking at several model specifications of your model. One example is logistic regression. In logistic regressions, you need to determine a threshold for your classification. You’re your model’s performance might differ, depending on which threshold you use. This is where the ROC Curve can help you ([Source](https://www.youtube.com/watch?v=4jRBRDbJemM)). What the ROC (Receiver Operator Characteristic) Curve does is to plot the True Positive Rate (TPR) against the False Positive Rate (FPR). This is much more comfortable than looking at a variety of different confusion matrices, one for each threshold. On the diagonal in the below picture, the TPR is equal to the FPR. As soon as the proportion of true positives is larger than the one of false positives, a data point will lie to the left of our diagonal. In the ideal case, your data point would lie on the Y-Axis (where you plot your TPR). We can also compare different RUC curves (e.g. generated through different algorithm types) to each other through looking at the AUC (Area under the curve). The greater the AUC, the better the algorithm. Note that you can also replace the False Positive Rate with the Precision. This might be suitable in some cases, as for example in the occurrence of a rare disease ([Source](https://www.youtube.com/watch?v=4jRBRDbJemM)). 
+It might be that you are looking at several model specifications of your model. One example is logistic regression. In logistic regressions, you need to determine a threshold for your classification. Your model’s performance might differ, depending on which threshold you use. This is where the ROC Curve can help you ([Source](https://www.youtube.com/watch?v=4jRBRDbJemM)). What the ROC (Receiver Operator Characteristic) Curve does is to plot the True Positive Rate (TPR) against the False Positive Rate (FPR). This is much more comfortable than looking at a variety of different confusion matrices, one for each threshold. On the diagonal in the below picture, the TPR is equal to the FPR. As soon as the proportion of true positives is larger than the one of false positives, a data point will lie to the left of our diagonal. In the ideal case, your data point would lie on the Y-Axis (where you plot your TPR). We can also compare different RUC curves (e.g. generated through different algorithm types) to each other through looking at the AUC (Area under the curve). The greater the AUC, the better the algorithm. Note that you can also replace the False Positive Rate with the Precision. This might be suitable in some cases, as for example in the occurrence of a rare disease ([Source](https://www.youtube.com/watch?v=4jRBRDbJemM)). 
 
 <img src="/images/AUC_ROC.PNG" alt="AUC_ROC" style="max-width:80%;"/>
 
