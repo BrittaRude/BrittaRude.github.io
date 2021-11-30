@@ -6,9 +6,11 @@ date: 2021-11-30
 image: /images/doors.jpg
 ---
 
+
+## Machine Learning and how to measure the performance of your model 
+
 <img src="/images/doors.jpg" alt="doors" style="float:left;margin: 2px 2px 2px 2px;max-width:30%;"/>
 
-# Machine Learning and how to measure the performance of your model 
 As mentioned in my previous blogposts, one of the most important steps involved in machine learning is evaluating your machine learning model and finding the best algorithm for your underlying data structure. Normally, the first step after data management is [spot checking](https://machinelearningmastery.com/why-you-should-be-spot-checking-algorithms-on-your-machine-learning-problems/) a variety of different algorithms. But in order to choose your best possible algorithm in order to answer your problem, you need some metrics on which you can compare all of them. This blogpost will give you an overview of some of the mostly used model performance measures in machine learning, with a special focus on classification problems. For a full overview of possible metrics, see [here](https://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics). 
 ## Accuracy
 
@@ -48,12 +50,12 @@ In classification models, you can also look at the Log Loss when evaluating your
 
 The extreme case of the Four-Fold Cross Validation is dividing our sample by individual observations (in our case employees) and only leaving out one observations for testing. This is referred to as *Leave One Out Cross Validation* ([Source](https://www.youtube.com/watch?v=fSytzGwwBVw)). The most common approach is to divide it into 10 blocks, known as *Ten-Fold Cross Validation*. A more advanced method of Cross Validation is called Stratified K-Fold Cross-Validation ([Source]( https://www.youtube.com/watch?v=xE9cIcJf48A)). Stratified K-Fold Cross-Validation makes sense in a lot of real-time applications. Let’s assume that only a small part of our dataset from above works in the primary sector, more concretely speaking, around 10 percent. If we now randomly divide our dataset without taking into consideration this sector share, our model might make biased predictions. One example is the below graph. What we do there is a Four-Fold Cross-Validation. When we take the second block as testing data, a very small share of our subsample works in the primary sector, leading to a very low accuracy of our model in general. This is why we can fix the distribution of workers by sector in each of the 4 blocks. This is then called stratified cross validation leading to models also doing a good job on minority classes.  
 
-<img src="/images/Cross_Validation_Stratisfied.PNG" alt="Cross_Validation_Stratisfied" style="float:left;margin: 2px 2px 2px 2px;max-width:50%;"/>
+<img src="/images/Cross_Validation_Stratisfied.PNG" alt="Cross_Validation_Stratisfied" style="float:left;margin: 2px 2px 2px 2px;max-width:40%;"/>
 
 Through Cross Validation we can compare the performance of different models and choose the best one among all of them. Instead of looking at a single accuracy score, we look at k-different accuracy scores (in the case of Four-Fold Cross Validation at 4 different accuracy scores) and take the mean of all of them ([Source](https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation)). Cross Validation can also help us to find so-called *tuning parameters* (such as in the case of Ridge or Lasso Regressions) ([Source](https://www.youtube.com/watch?v=fSytzGwwBVw)). For an overview of how to implement this in Python, have a look at [this video](https://www.youtube.com/watch?v=xE9cIcJf48A) or [this one](https://www.youtube.com/watch?v=L_dQrZZjGDg). If you want to understand the difference between cross-validation and test-train-split better have a look at [this video](https://www.youtube.com/watch?v=WtWxOhhZWX0). 
 ### Ending our tour of performance metrics 
 
-<img src="/images/road.png" alt="road" style="float:right;margin: 2px 2px 2px 2px;max-width:30%;"/>
+<img src="/images/road.png" alt="road" style="float:right;margin: 2px 2px 2px 2px;max-width:15%;"/>
 
 This blogpost has presented you with a little tour of different performance metrics. As I mentioned above, due to misclassification problems but also based on other criteria, it is recommended to look at [several model performance measures](https://www.analyticsvidhya.com/blog/2020/07/10-techniques-to-deal-with-class-imbalance-in-machine-learning/): Confusion Matrix, Precision, Recall, F1 Score, ROC Curve – the list is long! Now, go ahead and cruise some of the different performance measures in order to find the best algorithm for your machine learning model! 
 
