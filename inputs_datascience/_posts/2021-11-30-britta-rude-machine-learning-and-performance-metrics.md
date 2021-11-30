@@ -6,7 +6,7 @@ date: 2021-11-30
 image: /images/doors.jpg
 ---
 
-<img src="/images/doors.jpg" alt="ML" style="float:left;margin: 2px 2px 2px 2px;max-width:30%;"/>
+<img src="/images/doors.jpg" alt="doors" style="float:left;margin: 2px 2px 2px 2px;max-width:30%;"/>
 
 # Machine Learning and how to measure the performance of your model 
 As mentioned in my previous blogposts, one of the most important steps involved in machine learning is evaluating your machine learning model and finding the best algorithm for your underlying data structure. Normally, the first step after data management is [spot checking](https://machinelearningmastery.com/why-you-should-be-spot-checking-algorithms-on-your-machine-learning-problems/) a variety of different algorithms. But in order to choose your best possible algorithm in order to answer your problem, you need some metrics on which you can compare all of them. This blogpost will give you an overview of some of the mostly used model performance measures in machine learning, with a special focus on classification problems. For a full overview of possible metrics, see [here]( https://scikit-learn.org/stable/modules/model_evaluation.html#classification-metrics). 
