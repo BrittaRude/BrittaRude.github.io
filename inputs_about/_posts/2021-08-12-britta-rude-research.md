@@ -11,7 +11,7 @@ image: /images/Explore.jpg
 
 - Yvonne Giesing & Nadzeya Laurentsyeva & Britta Rude, 2020. “Technological Change and the Demand for Immigration“, part of the EU H2020 project PILLARS.
 
-- Ilpo Kauppinen & Michele Battisti & Britta Rude, 2020. "Leading the way towards less discrimination and morediversity? The power of more diversity in leadership."
+- Ilpo Kauppinen & Michele Battisti & Britta Rude, 2020. "Leading the way towards less discrimination and more diversity? The power of more diversity in leadership."
 
 - Britta Rude, 2020. "The effects of deforestation on poverty and household well-being."
 
