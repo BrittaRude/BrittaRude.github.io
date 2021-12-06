@@ -7,7 +7,7 @@ image: /images/Explore.jpg
 
 ## Academic Work in Progress 
 
-- Britta Rude, 2020. "Can we grow with our children? The effects of an integrated early childhood development program." 
+- Britta Rude, 2020. "Can we grow with our children? The effects of an integrated early childhood development program." [Video](https://www.youtube.com/watch?v=SXlIEZ14MZk)
 
 - Yvonne Giesing & Nadzeya Laurentsyeva & Britta Rude, 2020. “Technological Change and the Demand for Immigration“, part of the EU H2020 project PILLARS.
 
