@@ -38,11 +38,11 @@ image: /images/Explore.jpg
 
 ## World Bank Consultancies
 
-- The World Bank, 2020. Public Expenditure Review of Early Childhood Development. Paraguay 
+- The World Bank, 2019/2020. Public Expenditure Review of Early Childhood Development. Paraguay 
 
-- The World Bank, 2020. Gender Assessment of the Forestry Sector. Paraguay. 
+- The World Bank, 2019/2020. Gender Assessment of the Forestry Sector. Paraguay. 
 
-- The World Bank, 2020. Financial and economic rate of returns of forest plantations. Paraguay. 
+- The World Bank, 2019/2020. Financial and economic rate of returns of forest plantations. Paraguay. 
 
 - The World Bank, 2021. Poverty Section. 
 
