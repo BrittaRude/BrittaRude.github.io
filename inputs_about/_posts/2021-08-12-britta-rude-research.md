@@ -1,19 +1,19 @@
 ---
 layout: post
 title: "Research"
-date: 2021-08-12
+date: 2021-12-16
 image: /images/Explore.jpg
 ---
 
 ## Academic Work in Progress 
 
-- Britta Rude, 2020. "Can we grow with our children? The effects of an integrated early childhood development program." [Video](https://www.youtube.com/watch?v=SXlIEZ14MZk)
+- Britta Rude. "Can we grow with our children? The effects of an integrated early childhood development program." [Video](https://www.youtube.com/watch?v=SXlIEZ14MZk)
 
-- Yvonne Giesing & Nadzeya Laurentsyeva & Britta Rude, 2020. “Technological Change and the Demand for Immigration“, part of the EU H2020 project PILLARS.
+- Yvonne Giesing & Britta Rude. “Industry 4.0 - A war of talent or a race of the displaced“, part of the EU H2020 project PILLARS.
 
-- Ilpo Kauppinen & Michele Battisti & Britta Rude, 2020. "Leading the way towards less discrimination and more diversity? The power of more diversity in leadership."
+- Ilpo Kauppinen & Michele Battisti & Britta Rude. "Backlashing metoo? Triggering down the conversation on gender-based violence and men’s rights online."
 
-- Britta Rude, 2020. "The effects of deforestation on poverty and household well-being."
+- Anna Arias Duart, Chelsea Couture & Britta Rude. "Innovation and Social Interactions", part of the [Regional Academy on the United Nations 2021](http://www.ra-un.org/). 
 
 
 ## Policy Briefs
@@ -36,21 +36,35 @@ image: /images/Explore.jpg
 
 - World Bank. 2020. A Forest’s Worth : Policy Options for a Sustainable and Inclusive Forest Economy in Paraguay. Country Forest Note;. World Bank, Washington, DC. © World Bank. [https://openknowledge.worldbank.org/handle/10986/34988](https://openknowledge.worldbank.org/handle/10986/34988) License: CC BY 3.0 IGO.
 
-## Policy Briefs - Unpublished
+## World Bank Consultancies
 
-- The World Bank, 2020. Gender Assessment of the Forestry Sector in Paraguay. 
+- The World Bank, 2020. Public Expenditure Review of Early Childhood Development. Paraguay 
 
-- The World Bank, 2020. Financial and economic rate of returns of forest plantations in Paraguay. 
+- The World Bank, 2020. Gender Assessment of the Forestry Sector. Paraguay. 
+
+- The World Bank, 2020. Financial and economic rate of returns of forest plantations. Paraguay. 
 
 - The World Bank, 2021. Poverty Section. 
 
 - The World Bank, 2021. The effect of poverty-level wages on unemployment and overall welfare. 
 
-- The World Bank, 2021. Small-area estimates of poverty indicators and the Fay-Herriot Model. 
+- The World Bank, 2021. Small-area estimates of poverty indicators and the Fay-Herriot Model.
 
-- The World Bank, 2021. Assessing vulnerability to poverty through the Vulnerability Tool. 
+- The World Bank, 2021. Poverty Assessment. Honduras. 
+
+- The World Bank, 2021. Gender Scorecard. El Salvador. 
+
+- The World Bank, 2021. Country Policy and Institutional Assessment. El Salvador. 
+
+- The World Bank, 2021. Assessing vulnerability to poverty through the Vulnerability Tool. El Salvador. 
+
+- The World Bank, 2021. Systematic Country Diagnostic. El Salvador. 
+
+
 
 ## Conferences
+
+- [Conference on the Regional Academy on the United Nations, 2021](http://www.ra-un.org/)
 
 - [XIV Meeting on Labour Economics (JEL), 2021](https://editorialexpress.com/conference/JEL2021/program/JEL2021.html#15)
 
