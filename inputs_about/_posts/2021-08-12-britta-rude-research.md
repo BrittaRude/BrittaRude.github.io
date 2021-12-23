@@ -13,8 +13,10 @@ image: /images/Explore.jpg
 
 - Ilpo Kauppinen & Michele Battisti & Britta Rude. "Backlashing metoo? Triggering down the conversation on gender-based violence and men’s rights online."
 
-- Anna Arias Duart, Chelsea Couture & Britta Rude. "Innovation and Social Interactions", part of the [Regional Academy on the United Nations 2021](http://www.ra-un.org/). 
+## Academic Working Papers
 
+- Anna Arias Duart, Chelsea Couture & Britta Rude. "Innovation and Social Interactions", part of the [Regional Academy on the United Nations 2021](http://www.ra-un.org/).
+ [Working Paper](http://www.ra-un.org/2021-papers.html)
 
 ## Policy Briefs
 
