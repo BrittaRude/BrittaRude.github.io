@@ -1,7 +1,13 @@
+---
+layout: post
+title: "LDA Topic Modeling - The example of CEDEFOP Skill Descriptions"
+date: 2021-12-10
+myexcerpt: Often we would like to identify topics in a large set of data. This could be the case if we analyze a large set of newspaper articles, for example. Going through all newspapers of the last year would be an insane task, but luckily Machine Learning can help!  
+image: /images/topicmodeling.jpg
+---
 
-# LDA Topic Modeling - The example of CEDEFOP Skill Descriptions
 
-Often we would like to identify topics in a large set of data. This could be the case if we analyze a large set of newspaper articles, for example. Going through all newspapers of the last year would be an insane task, but luckily Machine Learning can help! Hello AI! - Let's have a look at our first AI application example in Python. :-) 
+Often we would like to identify topics in a large set of data. This could be the case if we analyze a large set of newspaper articles, for example. Going through all newspapers of the last year would be an insane task, but luckily Machine Learning can help! Hello AI! - Let's have a look at our first AI application example in Python. :-) *[Picture by Arie Wubben]*
 
 In this post, we will have a look at **LDA Topic Modeling**. Topic Modeling is nothing else than a *Classification Problem* and as it does not require any prelabeling or pretraining, belongs to *Unsupervised Learning*. It is also a category of *Natural Language Processing*. 
 
