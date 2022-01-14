@@ -3,7 +3,7 @@ layout: post
 title: "Reading in a PDF Table using Python"
 date: 2022-01-14
 myexcerpt: Often we have to process data in annoying formats. One exampel are PDF Tables. But luckily Python can help! Here we will read in a table from a pdf file using Python.  
-image: /images/read_pdf.webp
+image: /images/read_pdf.jpg
 ---
 
 Often we have to process data in annoying formats. One exampel are PDF Tables. But luckily Python can help! Here we will read in a table from a pdf file using Python. For more information [see this link](https://colab.research.google.com/github/chezou/tabula-py/blob/master/examples/tabula_example.ipynb#scrollTo=q6FGPenCluQz). We are reading in the tables from the annex of [this document](https://www.oecd-ilibrary.org/docserver/5f65ff7e-en.pdf?expires=1642059287&id=id&accname=guest&checksum=7AE1164B91B4404E41ACD029B6BA19A2). *[Picture by Markus Winkler]*
