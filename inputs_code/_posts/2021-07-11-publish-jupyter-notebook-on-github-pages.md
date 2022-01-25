@@ -27,3 +27,10 @@ jupyter nbconvert --to markdown  notebook.ipynb
 This then creates a *notebook.md* file with the markdown text of our blog post. Additionally, it creates a folder called *notebook_folder* with all images of the blogpost. 
 
 Lastly, upload the *notebook.md* file to the *_posts* folder of your github page. Add the date and title of the blogpost to your title. You will also need to adjust the source code for your images. Therefore, upload the *notebook_folder* to the *images* folder of your github pages repository. [*Picture by Roman Synkevych*] 
+
+Sometimes you might encounter the problem that not all of your notebook converts. Then try the following in your conda command prompt: 
+
+```
+Jupyter nbconvert --to latex notebook.ipynb
+pdflatex notebook.tex
+```
