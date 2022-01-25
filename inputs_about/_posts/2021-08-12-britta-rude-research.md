@@ -9,9 +9,9 @@ image: /images/Explore.jpg
 
 - Britta Rude. "Can we grow with our children? The effects of an integrated early childhood development program." [Video](https://www.youtube.com/watch?v=SXlIEZ14MZk)
 
-- Yvonne Giesing & Britta Rude. “Industry 4.0 - A war of talent or a race of the displaced“, part of the [EU H2020 project PILLARS](https://www.h2020-pillars.eu/).
+- Yvonne Giesing & Britta Rude. “Technological Change and Immigration - A race for talent or of displaced workers“, part of the [EU H2020 project PILLARS](https://www.h2020-pillars.eu/).
 
-- Ilpo Kauppinen & Michele Battisti & Britta Rude. "Backlashing metoo? Triggering down the conversation on gender-based violence and men’s rights online."
+- Ilpo Kauppinen & Michele Battisti & Britta Rude. "Backlashing metoo? Triggering down the conversation on gender-based violence on social media."
 
 ## Academic Working Papers
 
