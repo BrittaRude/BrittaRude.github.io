@@ -54,15 +54,21 @@ image: /images/Explore.jpg
 
 - The World Bank, 2021. Small-area estimates of poverty indicators and the Fay-Herriot Model.
 
+- The World Bank, 2021. Development Policy Loan. Poverty and social impact analysis. El Salvador. 
+
 - The World Bank, 2021. Poverty Assessment. Honduras. 
 
 - The World Bank, 2021. Gender Scorecard. El Salvador. 
 
 - The World Bank, 2021. Country Policy and Institutional Assessment. El Salvador. 
 
-- The World Bank, 2021. Assessing vulnerability to poverty through the Vulnerability Tool. El Salvador. 
+- The World Bank, 2021/22. Assessing vulnerability to poverty through the Vulnerability Tool. El Salvador. 
 
-- The World Bank, 2021. Systematic Country Diagnostic. El Salvador. 
+- The World Bank, 2021/22. Small-area estimates of poverty. El Salvador & Honduras.
+
+- The World Bank, 2021/22. Multi-dimensional poverty estimates. El Salvador & Honduras. 
+
+- The World Bank, 2021/22. Systematic Country Diagnostic. El Salvador. 
 
 
 
