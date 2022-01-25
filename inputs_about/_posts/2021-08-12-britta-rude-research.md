@@ -21,7 +21,7 @@ image: /images/Explore.jpg
 ## Policy Briefs
 
 - Albrecht, Clara, Britta Rude, and Tanja Stitteneder. "[Women in Afghanistan: Developments over the Last 20 Years and the Return of the Taliban](https://www.ifo.de/en/publikationen/2021/article-journal/women-afghanistan-developments-over-past-20-years-and-return)." CESifo Forum. Vol. 23. No. 01. ifo Institute-Leibniz Institute for Economic Research at the University of Munich, 2022.
-- 
+
 - Albrecht, Clara, Britta Rude, and Tanja Stitteneder. "[Afghanistan’s Free Fall–Return of the Taliban and Flight as a Last Resort](https://www.cesifo.org/en/publikationen/2021/article-journal/afghanistans-free-fall-return-taliban-and-flight-last-resort)." CESifo Forum. Vol. 22. No. 06. ifo Institute-Leibniz Institute for Economic Research at the University of Munich, 2021.
 
 - Albrecht, Clara, Britta Rude, and Tanja Stitteneder. "[Frauen in Afghanistan: Entwicklungen in den letzten 20 Jahren und die Rückkehr der Taliban](https://www.ifo.de/publikationen/2021/aufsatz-zeitschrift/frauen-afghanistan-entwicklungen-den-letzten-20-jahren-und)." ifo Schnelldienst, 2021, 74, Nr. 11, 47-49.
