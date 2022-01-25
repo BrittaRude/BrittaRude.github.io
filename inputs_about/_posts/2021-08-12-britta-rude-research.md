@@ -68,6 +68,8 @@ image: /images/Explore.jpg
 
 ## Conferences
 
+- [ASSA, 2022](https://www.aeaweb.org/conference/2022/preliminary/2141?q=eNo1jEEKgCAURK8Ss3ZRizaeowuIfVQwFb8UXCLePaPavTczTAMTs4thq4kg26-QWNAFFHPUQyBQKB-DCmkboo_GaeVcJ21VMDTaXdVv5g566XR0PZc5pRGsM3q_AQyJIzo,)
+
 - [Conference on the Regional Academy on the United Nations, 2021](http://www.ra-un.org/)
 
 - [XIV Meeting on Labour Economics (JEL), 2021](https://editorialexpress.com/conference/JEL2021/program/JEL2021.html#15)
