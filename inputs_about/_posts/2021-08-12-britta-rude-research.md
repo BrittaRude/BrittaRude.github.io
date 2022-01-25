@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Research"
-date: 2021-12-16
+date: 2022-01-25
 image: /images/Explore.jpg
 ---
 
@@ -61,6 +61,8 @@ image: /images/Explore.jpg
 - The World Bank, 2021. Gender Scorecard. El Salvador. 
 
 - The World Bank, 2021. Country Policy and Institutional Assessment. El Salvador. 
+
+- The World Bank, 2021/22. Event series on the forest sector and its potential to fight poverty and to promote socio-economic development. Paraguay. 
 
 - The World Bank, 2021/22. Assessing vulnerability to poverty through the Vulnerability Tool. El Salvador. 
 
