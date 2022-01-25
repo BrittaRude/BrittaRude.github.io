@@ -72,7 +72,11 @@ image: /images/Explore.jpg
 
 - The World Bank, 2021/22. Systematic Country Diagnostic. El Salvador. 
 
+## Other policy consultancies
 
+- European Union, since 2020. [PILLARS](https://www.h2020-pillars.eu/). Pathways to Inclusive Labour Markets. 
+
+- European Commission, 2022. [POSTING.STAT](https://hiva.kuleuven.be/en/news/newsitems/posting-stat-enhancing-collection-and-analysis-national-data-on-intra-eu-posting). Enhancing the collection and analysis of national data on intra-EU posting.
 
 ## Conferences
 
