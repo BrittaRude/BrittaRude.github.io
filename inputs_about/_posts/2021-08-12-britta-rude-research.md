@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Research"
+title: "Research & Policy Advice"
 date: 2022-01-25
 image: /images/Explore.jpg
 ---
