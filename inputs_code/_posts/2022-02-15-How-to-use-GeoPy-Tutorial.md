@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ow to use GeoPy"
+title: "How to use GeoPy"
 date: 2022-02-15
 myexcerpt: Sometimes you might want to transform or unify a bunch of addresses. To do this, you can take advantage of GeoPy. 
 image: /images/GeoPy.jpg
