@@ -1,6 +1,6 @@
 # How to use GeoPy
 
-We will closely follow [this tutorial](https://www.youtube.com/watch?v=gJMHbW3MK2w). 
+Sometimes you might want to transform or unify a bunch of addresses. For example, you might have a list of addresses in different formats and might want to match them to official administrative geographic boarders. To do this, you can take advantage of [GeoPy](https://geopy.readthedocs.io/en/stable/). GeoPy is a Python Client for geocoding web services and works via API querys. GeoPy allows you to connect to a large number of geocoding webs. For a full overview see the documentation. One example is the [Nominatim](https://nominatim.org/) web service, which we will make use of in this tutorial. We will closely follow [this tutorial](https://www.youtube.com/watch?v=gJMHbW3MK2w). 
 
 
 ```python
@@ -439,3 +439,5 @@ df.head()
 ```python
 
 ```
+
+Now, go ahead and extract the necessary geo information from your dataset! :-)
