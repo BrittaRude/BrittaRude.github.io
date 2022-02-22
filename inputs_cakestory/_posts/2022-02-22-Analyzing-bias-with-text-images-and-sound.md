@@ -1,6 +1,11 @@
+---
+layout: post
+title: "Analyzing Bias with Text, Images, And Sound"
+date: 2022-02-22
+myexcerpt: Most of us were shocked about the speed with which the Taliban reconquered Afghanistan in August, after international troops ended their operations in the country. A lot of NGOs and development aid workers started to say that the progress made during nearly 20 years, especially in the area of gender equality, was destroyed in just a couple of days. So – what can we learn from what has happened in Afghanistan for future development projects around the world? Is it all in vain?     
+image: /images/stereotypes.jpg
+---
 
-
-# Analyzing Bias with Text, Images, And Sound
 This year I presented one of my papers at the virtual ASSA 2022, one of the most well-known international conferences in economics. I took the opportunity to also listen to some really interesting sessions from some colleagues in the field. One session was especially interesting to me, as it combined a topic I am really interested in with data science methodologies I am really interested in. The session had the name of this blogpost “Analyzing Bias with Text, Images, And Sound”. The session consisted of 4 papers analyzing text, images and sound to detect bias (as the title might suggest). So let’s have a brief look at each of the papers to understand how we can use cool new data sources to disclose stereotypes and biases. 
 ## Paper Number 1: Visual Representation and Stereotypes in News Media
 In this paper, the authors use 2 million web articles from the New York Times (NYT) and Fox News Channel from 20 years (2000-2020) and the related text, images, and metadata (such as the date, section and byline) to provide evidence on stereotypes in the media. They apply machine learning algorithms to detect the gender and ethnicity from an image. The researchers additionally conduct a topic modeling exercise. What they find is that the representation in the newsroom strongly influences the image choice in the news articles. Let’s have a look at that in more detail. 
