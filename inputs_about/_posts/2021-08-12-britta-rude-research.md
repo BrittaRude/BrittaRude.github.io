@@ -56,7 +56,7 @@ image: /images/Explore.jpg
 
 - The World Bank, 2019/2020. Financial and economic rate of returns of forest plantations. Paraguay.
 
-- The World Bank. 2020. Policy Options for a Sustainable and Inclusive Forest Economy. Paraguay. [Link](https://openknowledge.worldbank.org/handle/10986/34988 
+- The World Bank. 2020. Policy Options for a Sustainable and Inclusive Forest Economy. Paraguay. [Link](https://openknowledge.worldbank.org/handle/10986/34988) 
 
 - The World Bank, 2021. Poverty Section. 
 
