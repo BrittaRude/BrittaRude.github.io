@@ -24,6 +24,8 @@ image: /images/Explore.jpg
 
 ## Policy Briefs
 
+- Albrecht, Clara and Britta Rude. "[Where does Germany stand with respect to Gender Equality?](https://www.ifo.de/publikationen/2022/aufsatz-zeitschrift/wo-steht-deutschland-2022-bei-der-gleichstellung-der)" ifo Schnelldienst 22 (2022): 01-11.  
+
 - Albrecht, Clara, Britta Rude, and Tanja Stitteneder. "[Women in Afghanistan: Developments over the Last 20 Years and the Return of the Taliban](https://www.ifo.de/en/publikationen/2021/article-journal/women-afghanistan-developments-over-past-20-years-and-return)." CESifo Forum. Vol. 23. No. 01. ifo Institute-Leibniz Institute for Economic Research at the University of Munich, 2022.
 
 - Albrecht, Clara, Britta Rude, and Tanja Stitteneder. "[Afghanistan’s Free Fall–Return of the Taliban and Flight as a Last Resort](https://www.cesifo.org/en/publikationen/2021/article-journal/afghanistans-free-fall-return-taliban-and-flight-last-resort)." CESifo Forum. Vol. 22. No. 06. ifo Institute-Leibniz Institute for Economic Research at the University of Munich, 2021.
@@ -54,7 +56,7 @@ image: /images/Explore.jpg
 
 - The World Bank, 2019/2020. Financial and economic rate of returns of forest plantations. Paraguay.
 
-- The World Bank. 2020. Policy Options for a Sustainable and Inclusive Forest Economy. Paraguay. 
+- The World Bank. 2020. Policy Options for a Sustainable and Inclusive Forest Economy. Paraguay. [Link](https://openknowledge.worldbank.org/handle/10986/34988 
 
 - The World Bank, 2021. Poverty Section. 
 
@@ -78,7 +80,7 @@ image: /images/Explore.jpg
 
 - The World Bank, 2021/22. Multi-dimensional poverty estimates. El Salvador & Honduras. 
 
-- The World Bank, 2021/22. Systematic Country Diagnostic. El Salvador. 
+- The World Bank, 2021/22. Systematic Country Diagnostic. El Salvador. [Link](https://openknowledge.worldbank.org/handle/10986/37269)
 
 ## Other policy consultancies
 
@@ -87,6 +89,8 @@ image: /images/Explore.jpg
 - European Commission, 2022. [POSTING.STAT](https://hiva.kuleuven.be/en/news/newsitems/posting-stat-enhancing-collection-and-analysis-national-data-on-intra-eu-posting). Enhancing the collection and analysis of national data on intra-EU posting.
 
 ## Conferences
+
+- [Junior Migration Workshop, 2022](https://sites.google.com/view/the-economics-of-migration/past-presentations)
 
 - [ASSA, 2022](https://www.aeaweb.org/conference/2022/preliminary/2141?q=eNo1jEEKgCAURK8Ss3ZRizaeowuIfVQwFb8UXCLePaPavTczTAMTs4thq4kg26-QWNAFFHPUQyBQKB-DCmkboo_GaeVcJ21VMDTaXdVv5g566XR0PZc5pRGsM3q_AQyJIzo,)
 
