@@ -6,4 +6,7 @@ myexcerpt: This paper analyzes the impact of comprehensive and universal early c
 ---
 
 
+<object data="/images/ChCC_Single_Authored_RDD_WP_Version_final.pdf" width="1000" height="1000" type='application/pdf'></object>
+
+
 
