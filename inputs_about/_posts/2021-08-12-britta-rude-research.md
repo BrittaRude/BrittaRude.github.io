@@ -11,7 +11,7 @@ image: /images/Explore.jpg
 
 - Britta Rude. "The Critical Role of Social Leaders in the Spread of Social Movements against Gender-Based Violence on Twitter." [Working Paper](https://www.ifo.de/publikationen/2022/working-paper/critical-role-social-leaders-spread-social-movements-against) (submitted)
 
-- Ilpo Kauppinen & Michele Battisti & Britta Rude. "Twitter and crime. The effect of social movements on gender-based violence"
+- Ilpo Kauppinen & Michele Battisti & Britta Rude. "Twitter and crime. The effect of social movements on gender-based violence" [Working Paper](https://www.ifo.de/publikationen/2022/working-paper/twitter-and-crime-effect-social-movements-genderbased-violence)
 
 - Monica Robayo & Britta Rude. "Quantifying vulnerability to poverty in El Salvador." Currently under review for publication at the World Bank Policy Research Working Papers.
 
