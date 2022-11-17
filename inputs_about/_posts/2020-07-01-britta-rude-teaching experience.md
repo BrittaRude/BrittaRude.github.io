@@ -18,3 +18,7 @@ image: /images/Teaching.jpg
 - The effect of naturalization on immigrant children (Winter 2021/22) 
 
 - How to channel remittances towards more productive assets in developing countries (Winter 2021/22)
+
+## Master Thesis
+
+- The Interaction between Educational Programs and Informality in Latin-America (Winter 2022/23)
