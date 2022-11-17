@@ -5,6 +5,14 @@ date: 2021-12-06
 image: /images/Teaching.jpg
 ---
 
+## Pre-academic Teaching Experience
+
+- Piano and English teacher in a poor neighborhood in Cali, Colombia (2011/2012)
+
+- Private Tutor (Math, English and Spanish) at "Schülerhilfe e.V." (2013/2014)
+
+- Private Tutor (German for Foreigners) in Barcelona (2017/2018)
+
 ## Bachelor 
 
 - Teaching Assistant at [University of Munich](https://www.en.econ.uni-muenchen.de/index.html): Causes and Consequences of Migration Seminar (Summer 2020)
