@@ -15,7 +15,7 @@ image: /images/Explore.jpg
 
 - Monica Robayo & Britta Rude. "Quantifying vulnerability to poverty in El Salvador." Currently under review for publication at the World Bank Policy Research Working Papers.
 
-- Monica Robayo & Britta Rude. "Measuring vulnerability to poverty in El Salvador." Currently under review for publication at the World Bank Policy Research Working Papers.
+- Monica Robayo & Britta Rude. "Poverty Maps in El Salvador." Currently under review for publication at the World Bank Policy Research Working Papers.
 
 - Yvonne Giesing & Britta Rude. “Technological Change and Immigration - A race for talent or of displaced workers“, part of the [EU H2020 project PILLARS](https://www.h2020-pillars.eu/). [Working Paper](https://www.aeaweb.org/conference/2022/preliminary/2141?q=eNo1jEEKgCAURK8Ss3ZRizaeowuIfVQwFb8UXCLePaPavTczTAMTs4thq4kg26-QWNAFFHPUQyBQKB-DCmkboo_GaeVcJ21VMDTaXdVv5g566XR0PZc5pRGsM3q_AQyJIzo,) [Video](https://www.aeaweb.org/conference/2022/aea-session-recordings/player?meetingId=924&recordingId=1558&VideoSearch%5Bpage%5D=7)
 
