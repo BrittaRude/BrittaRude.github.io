@@ -5,24 +5,35 @@ date: 2022-01-25
 image: /images/Explore.jpg
 ---
 
-## Academic Work in Progress 
+## Academic Work in Progress and Working Papers
 
-- Britta Rude. "Can we grow with our children? The effects of an integrated early childhood development program." [Video](https://www.youtube.com/watch?v=SXlIEZ14MZk)
+- Britta Rude. "Can we grow with our children? The effects of an integrated early childhood development program." [Video](https://www.youtube.com/watch?v=SXlIEZ14MZk) [Working Paper](https://www.ifo.de/publikationen/2022/working-paper/middle-run-impacts-comprehensive-early-childhood-interventions) (submitted)
 
-- Yvonne Giesing & Britta Rude. “Technological Change and Immigration - A race for talent or of displaced workers“, part of the [EU H2020 project PILLARS](https://www.h2020-pillars.eu/). [Working Paper](https://www.aeaweb.org/conference/2022/preliminary/2141?q=eNo1jEEKgCAURK8Ss3ZRizaeowuIfVQwFb8UXCLePaPavTczTAMTs4thq4kg26-QWNAFFHPUQyBQKB-DCmkboo_GaeVcJ21VMDTaXdVv5g566XR0PZc5pRGsM3q_AQyJIzo,) [Video](https://www.aeaweb.org/conference/2022/aea-session-recordings/player?meetingId=924&recordingId=1558&VideoSearch%5Bpage%5D=7)
+- Britta Rude. "The Critical Role of Social Leaders in the Spread of Social Movements against Gender-Based Violence on Twitter." [Working Paper](https://www.ifo.de/publikationen/2022/working-paper/critical-role-social-leaders-spread-social-movements-against) (submitted)
 
 - Ilpo Kauppinen & Michele Battisti & Britta Rude. "Twitter and crime. The effect of social movements on gender-based violence"
 
-- Monica Robayo & Britta Rude. "The effect of remittances on labor force participation in El Salvador."
+- Monica Robayo & Britta Rude. "Quantifying vulnerability to poverty in El Salvador." Currently under review for publication at the World Bank Policy Research Working Papers.
 
-- Monica Robayo & Britta Rude. "Measuring vulnerability to poverty in El Salvador." 
+- Monica Robayo & Britta Rude. "Measuring vulnerability to poverty in El Salvador." Currently under review for publication at the World Bank Policy Research Working Papers.
 
-## Academic Working Papers
+- Yvonne Giesing & Britta Rude. “Technological Change and Immigration - A race for talent or of displaced workers“, part of the [EU H2020 project PILLARS](https://www.h2020-pillars.eu/). [Working Paper](https://www.aeaweb.org/conference/2022/preliminary/2141?q=eNo1jEEKgCAURK8Ss3ZRizaeowuIfVQwFb8UXCLePaPavTczTAMTs4thq4kg26-QWNAFFHPUQyBQKB-DCmkboo_GaeVcJ21VMDTaXdVv5g566XR0PZc5pRGsM3q_AQyJIzo,) [Video](https://www.aeaweb.org/conference/2022/aea-session-recordings/player?meetingId=924&recordingId=1558&VideoSearch%5Bpage%5D=7)
 
 - Anna Arias Duart, Chelsea Couture & Britta Rude. "Innovation and Social Interactions", part of the [Regional Academy on the United Nations 2021](http://www.ra-un.org/).
  [Working Paper](http://www.ra-un.org/2021-papers.html)
+ 
+ 
+ ## Podcasts
+ 
+ - [The Gender Gap in Germany](https://www.ifo.de/podcast-gleichstellung)
+
+- [Twitter, Big Data and Inequality](https://datenaffaire.com/2022/04/13/episode-43-2/)
 
 ## Policy Briefs
+
+- Peichl, Andreas and Britta Rude. "[The Gender Gap in Germany](https://www.ifo.de/publikationen/2022/aufsatz-zeitschrift/wie-gross-ist-der-gender-gap-anspruch)" ifo Schnelldienst, 2022, 75, Nr. 10, 03-35
+
+- Albrecht, Clara, Yvonne Giesing, and Britta Rude. "[Posted Workers in Germany – Developments and New Legislations](https://www.cesifo.org/de/publikationen/2022/aufsatz-zeitschrift/posted-workers-germany-developments-and-new-legislations)" CESifo Forum 23 (3), 8-14
 
 - Albrecht, Clara and Britta Rude. "[Where does Germany stand with respect to Gender Equality?](https://www.ifo.de/publikationen/2022/aufsatz-zeitschrift/wo-steht-deutschland-2022-bei-der-gleichstellung-der)" ifo Schnelldienst 22 (2022): 01-11.  
 
@@ -84,6 +95,12 @@ image: /images/Explore.jpg
 
 - The World Bank, 2021/22. Systematic Country Diagnostic. El Salvador. [Link](https://openknowledge.worldbank.org/handle/10986/37269)
 
+- The World Bank, 2021/22. Poverty Assessment. Honduras.
+
+- The World Bank, 2022/23. Gender Assessment. Romania.
+
+- The World Bank, 2022/23. The Impact of Energy Prices on Poverty and Inequality. Romania and Bulgaria.
+
 ## Other policy consultancies
 
 - European Union, since 2020. [PILLARS](https://www.h2020-pillars.eu/). Pathways to Inclusive Labour Markets. 
@@ -91,6 +108,26 @@ image: /images/Explore.jpg
 - European Commission, 2022. [POSTING.STAT](https://hiva.kuleuven.be/en/news/newsitems/posting-stat-enhancing-collection-and-analysis-national-data-on-intra-eu-posting). Enhancing the collection and analysis of national data on intra-EU posting.
 
 ## Conferences
+
+- [Gender and Family Economics Webinar 2022](https://www.gefam.com.br/)
+
+- [Junior Workshop on Big Data 2022](https://www.cesifo.org/en/event/2022-10-20/cesifoifo-junior-workshop-big-data)
+
+- [Conference on Robots and Automation (CORA 2022)](https://www.wiwi.uni-frankfurt.de/abteilungen/eq/professoren/klump/cora-2022-conference.html)
+
+- [Gender Economics Workshop 2022](https://www.jfki.fu-berlin.de/faculty/economics/dates/2nd-Berlin-Workshop.html)
+
+- EEA-ESEM 2022
+
+- [PILLARS 2022](https://www.h2020-pillars.eu/interim_conference)
+
+- [AIEL 2022](https://www.ai-econlab.com/)
+
+- [Posting.Stat 2022](https://hiva.kuleuven.be/en/news/docs/ZKD9978_POSTING_STAT_Closing_conference_20_May_2022_programme_and_registration)
+
+- [ifo Lunchtime Seminar 2022](https://www.ifo.de/veranstaltungen/ifo-lunchtime-seminare)
+
+- [Workshop on Labour Economics, 2022 - IAAEU](https://www.iaaeg.de/index.php?option=com_content&view=article&id=262&lang=de)
 
 - [Junior Migration Workshop, 2022](https://sites.google.com/view/the-economics-of-migration/past-presentations)
 
