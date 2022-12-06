@@ -4,7 +4,7 @@ title: "What is shock-responsive social protection?"
 date: 2022-06-12
 myexcerpt: We are living in a world in which crises are becoming more complex, frequent and last longer. Sadly, it is the vulnerable and fragile population which is most affected by this ever more complex environment. What are shock-responsive social protection systems? While social protection systems are risk-oriented by nature, shock-responsive social protection programs go one step further and take a risk and vulnerability perspective. They try to address potentially destructive human and natural hazards before, immediately after, and in the long-run after a particular shock hit. There is still a lot we can do in the area of shock-responsiveness, a field which has definitely grown since the COVID-19 outbreak.
 
-image: /images/stereotypes.jpg
+image: /images/earthquake_poor.jpg
 ---
 
 ## We are living in a world in which crises are becoming more complex, frequent and last longer.
