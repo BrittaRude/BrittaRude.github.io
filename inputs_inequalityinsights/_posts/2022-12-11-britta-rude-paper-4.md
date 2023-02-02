@@ -6,4 +6,6 @@ myexcerpt: El Salvador is marked by high vulnerability to risks and hazards, suc
 ---
 
 
-Currently under review for publication at the World Bank Policy Research Working Papers. 
+[World Bank Policy Research Paper](https://documents1.worldbank.org/curated/en/099642102012330604/pdf/IDU0a3d39af50f12704d0d0889c0f48b6edbbedd.pdf)
+
+<object data="/images/WB_WorkingPaper.pdf" width="1000" height="1000" type='application/pdf'></object>
