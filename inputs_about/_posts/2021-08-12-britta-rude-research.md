@@ -13,9 +13,9 @@ image: /images/Explore.jpg
 
 - Ilpo Kauppinen & Michele Battisti & Britta Rude. "Twitter and crime. The effect of social movements on gender-based violence" [Working Paper](https://www.ifo.de/publikationen/2022/working-paper/twitter-and-crime-effect-social-movements-genderbased-violence)
 
-- Monica Robayo & Britta Rude. "Quantifying vulnerability to poverty in El Salvador." Currently under review for publication at the World Bank Policy Research Working Papers.
-
-- Monica Robayo & Britta Rude. "Poverty Maps in El Salvador." Currently under review for publication at the World Bank Policy Research Working Papers.
+- Monica Robayo & Britta Rude. "Quantifying vulnerability to poverty in El Salvador." [Working Paper](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099642102012330604/idu0a3d39af50f12704d0d0889c0f48b6edbbedd)
+](
+- Monica Robayo & Britta Rude. "Poverty Maps in El Salvador." [World Bank Report](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099447302022329651/idu06466952d03db90416e09a3c0d3ba51402688)
 
 - Yvonne Giesing & Britta Rude. “Technological Change and Immigration - A race for talent or of displaced workers“, part of the [EU H2020 project PILLARS](https://www.h2020-pillars.eu/). [Working Paper](https://www.aeaweb.org/conference/2022/preliminary/2141?q=eNo1jEEKgCAURK8Ss3ZRizaeowuIfVQwFb8UXCLePaPavTczTAMTs4thq4kg26-QWNAFFHPUQyBQKB-DCmkboo_GaeVcJ21VMDTaXdVv5g566XR0PZc5pRGsM3q_AQyJIzo,) [Video](https://www.aeaweb.org/conference/2022/aea-session-recordings/player?meetingId=924&recordingId=1558&VideoSearch%5Bpage%5D=7)
 
@@ -101,7 +101,7 @@ image: /images/Explore.jpg
 
 - The World Bank, 2022/23. The Impact of Energy Prices on Poverty and Inequality. Romania and Bulgaria.
 
-## Other policy consultancies
+## Other Policy Consultancies
 
 - European Union, since 2020. [PILLARS](https://www.h2020-pillars.eu/). Pathways to Inclusive Labour Markets. 
 
@@ -109,11 +109,13 @@ image: /images/Explore.jpg
 
 ## Conferences
 
+- [Gender and Family Economics Webiner 2023](https://sites.google.com/view/genfameconwebinar/schedule?pli=1)
+
 - [Gender and Family Economics Webinar 2022](https://www.gefam.com.br/)
 
 - [Junior Workshop on Big Data 2022](https://www.cesifo.org/en/event/2022-10-20/cesifoifo-junior-workshop-big-data)
 
-- [Conference on Robots and Automation (CORA 2022)](https://www.wiwi.uni-frankfurt.de/abteilungen/eq/professoren/klump/cora-2022-conference.html)
+- [Conference on Robots and Automation (CORA 2022)](https://www.wiwi.uni-frankfurt.de/abteilungen/eGendq/professoren/klump/cora-2022-conference.html)
 
 - [Gender Economics Workshop 2022](https://www.jfki.fu-berlin.de/faculty/economics/dates/2nd-Berlin-Workshop.html)
 
