@@ -7,4 +7,4 @@ myexcerpt: This report presents poverty maps at the municipality level based on 
 
 [World Bank Report](https://documents1.worldbank.org/curated/en/099447302022329651/pdf/IDU06466952d03db90416e09a3c0d3ba51402688.pdf)
 
-<object data="/images/Twitter_and_GBV_WPVersion.pdf" width="1000" height="1000" type='application/pdf'></object> 
+<object data="/images/PovertyMappingSLV.pdf" width="1000" height="1000" type='application/pdf'></object> 
