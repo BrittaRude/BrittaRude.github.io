@@ -79,8 +79,6 @@ image: /images/Explore.jpg
 
 - The World Bank, 2021. Development Policy Loan. Poverty and social impact analysis. El Salvador. 
 
-- The World Bank, 2021. Poverty Assessment. Honduras. 
-
 - The World Bank, 2021. Gender Scorecard. El Salvador. 
 
 - The World Bank, 2021. Country Policy and Institutional Assessment. El Salvador. 
@@ -95,7 +93,7 @@ image: /images/Explore.jpg
 
 - The World Bank, 2021/22. Systematic Country Diagnostic. El Salvador. [Link](https://openknowledge.worldbank.org/handle/10986/37269)
 
-- The World Bank, 2021/22. Poverty Assessment. Honduras.
+- The World Bank, 2021/22. Poverty Assessment. Honduras. [Link](https://openknowledge.worldbank.org/handle/10986/39449)
 
 - The World Bank, 2022/23. Gender Assessment. Romania.
 
