@@ -2,8 +2,7 @@
 layout: post
 title: "Ending Statelessness for Displaced Children: Impacts on Early Childhood Education"
 date: 2023-09-19
-myexcerpt: Displaced children often face educational disadvantages in their host countries. Statelessness might be one of the factors limiting educational access, but research on this aspect is limited. In this paper, I leverage the introduction of birthright citizenship for Venezuelan children in Colombia to analyze the effect of ending statelessness on educational participation during early childhood. I employ a difference-in-discontinuity strategy that exploits a birthdate and policy cutoff to determine whether a Venezuelan child became eligible for birthright citizenship or not. I find that the reform has positive 
-effects on the participation rates of children below six years old. I explain these results by demand- and supply-side factors faced by displaced parents and their children.  
+myexcerpt: The COVID-19 pandemic has led to an increase in virtual work and learning environments. The paper at hand sheds light on how social interactions are affected in the virtual space. We focus on one specific sub-area of virtual interactions in adult professional development programs, the virtual learning environment offered to United Nations High Commissioner for Refugees (UNHCR) staff members. This study applies a qualitative research strategy and conducts semi-structured interviews with 3 different target groups. The investigation found that all 3 stakeholder groups coincide on certain advantages and disadvantages when learning online, and that the creation of meaningful social relationships virtually is especially problematic. The current investigation concludes by giving 3 higher-level recommendations on how to foster social interactions in the virtual space and relates these to specified hands-on approaches.  
 ---
 
 [ifo Working Paper](https://www.ifo.de/DocDL/wp-2023-401-rude-colombia-birthright.pdf)
