@@ -15,4 +15,4 @@ by demand- and supply-side factors faced by displaced parents and their children
 
 [ifo Working Paper](https://www.ifo.de/DocDL/wp-2023-401-rude-colombia-birthright.pdf)
 
-<object data="/images/group_15_unhcr_2021_raun_final_paper.pdf" width="1000" height="1000" type='application/pdf'></object>
+<object data="/images/wp-2023-401-rude-colombia-birthright.pdf" width="1000" height="1000" type='application/pdf'></object>
