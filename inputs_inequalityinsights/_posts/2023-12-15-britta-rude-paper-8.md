@@ -7,4 +7,4 @@ myexcerpt: This paper uses the introduction of preparatory school classes target
 
 [World Bank Research Policy Working Paper](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099916512112331443/idu04bdf4f0b0085404fe308329043198ba43117)
 
-<object data="/images/Preparatory_School_Yearst.pdf" width="1000" height="1000" type='application/pdf'></object>
+<object data="/images/Preparatory_School_Years.pdf" width="1000" height="1000" type='application/pdf'></object>
