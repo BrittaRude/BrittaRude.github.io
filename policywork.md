@@ -17,13 +17,6 @@ title: "Policy Work"
 
 - The World Bank. 2020. Policy Options for a Sustainable and Inclusive Forest Economy. Paraguay. [Link](https://openknowledge.worldbank.org/handle/10986/34988) 
  
- 
-## Podcasts
- 
- - [The Gender Gap in Germany](https://www.ifo.de/podcast-gleichstellung)
-
-- [Twitter, Big Data and Inequality](https://datenaffaire.com/2022/04/13/episode-43-2/)
-
 ## Policy Briefs - Published
 
 - Peichl, Andreas and Britta Rude. "[The Gender Gap in Germany](https://www.ifo.de/publikationen/2022/aufsatz-zeitschrift/wie-gross-ist-der-gender-gap-anspruch)" ifo Schnelldienst, 2022, 75, Nr. 10, 03-35
@@ -55,6 +48,12 @@ title: "Policy Work"
 - Britta Rude & Bennet Niederhöfer & Fabio Ferrara, 2020. "[ifo Migrationsmonitor: Entwaldung und Migration](https://ideas.repec.org/a/ces/ifosdt/v73y2020i09p66-74.html)," ifo Schnelldienst, ifo Institute - Leibniz Institute for Economic Research at the University of Munich, vol. 73(09), pages 66-74, September.
 
 - World Bank. 2020. A Forest’s Worth : Policy Options for a Sustainable and Inclusive Forest Economy in Paraguay. Country Forest Note;. World Bank, Washington, DC. © World Bank. [https://openknowledge.worldbank.org/handle/10986/34988](https://openknowledge.worldbank.org/handle/10986/34988) License: CC BY 3.0 IGO.
+
+## Podcasts
+ 
+ - [The Gender Gap in Germany](https://www.ifo.de/podcast-gleichstellung)
+
+- [Twitter, Big Data and Inequality](https://datenaffaire.com/2022/04/13/episode-43-2/)
 
 ## Other World Bank Consultancies - Unpublished work
 
@@ -90,7 +89,7 @@ title: "Policy Work"
 
 ## Other Policy Consultancies
 
-- European Union, since 2020. [PILLARS](https://www.h2020-pillars.eu/). Pathways to Inclusive Labour Markets. 
+- European Union, 2020-2022. [PILLARS](https://www.h2020-pillars.eu/). Pathways to Inclusive Labour Markets. 
 
 - European Commission, 2022. [POSTING.STAT](https://hiva.kuleuven.be/en/news/newsitems/posting-stat-enhancing-collection-and-analysis-national-data-on-intra-eu-posting). Enhancing the collection and analysis of national data on intra-EU posting.
 
