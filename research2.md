@@ -9,7 +9,7 @@ title: Overview of Research
 - **Authors**: Britta Rude
 - **Publication**: Journal of Population Economics
 - **Year**: 2024
-- **Link**: [Full Text](https://link-to-your-paper.com)
+- **Link**: [Final Published Paper](https://rdcu.be/dB4xB), [Blogpost](https://blogs.worldbank.org/en/education/Comprehensive-early-childhood-interventions-to-build-human-capital)
 
 # Working Papers
 
@@ -41,7 +41,7 @@ title: Overview of Research
 - **Authors**: Britta Rude and Monica Robayo-Abril
 - **Publication**: submitted
 - **Year**: 2022-2024
-- **Link**: [World Bank Policy Research Working Paper](https://documents1.worldbank.org/curated/en/099642102012330604/pdf/IDU0a3d39af50f12704d0d0889c0f48b6edbbedd.pdf)
+- **Link**: [World Bank Policy Research Working Paper](https://documents1.worldbank.org/curated/en/099642102012330604/pdf/IDU0a3d39af50f12704d0d0889c0f48b6edbbedd.pdf), [Blogpost](https://blogs.worldbank.org/en/latinamerica/risks-hazards-growing-implication-poverty-analysis-el-salvador)
 
 ###  Statistical Matching for Combining the European Survey on Income and Living Conditions and the Household Budget Surveys: An Evaluation of Energy Expenditures in Bulgaria
 - **Authors**: Britta Rude and Monica Robayo-Abril
