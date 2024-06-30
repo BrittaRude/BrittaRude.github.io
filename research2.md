@@ -61,6 +61,12 @@ title: Overview of Research
 - **Year**: 2022
 - **Link**: [RAUN Working Paper](http://www.ra-un.org/uploads/4/7/5/4/47544571/group_15_unhcr_2021_raun_final_paper.pdf)
 
+# Work in Progress
+* <b> Decomposing Poverty in Nepal. </b>
+* <b> Machine Learning and Poverty Targeting. </b>
+* <b> The Gendered Impacts of Impacts of Comprehensive Early Childhood Interventions<b>
+
+
   
 
 
