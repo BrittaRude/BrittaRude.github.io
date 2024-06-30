@@ -35,6 +35,23 @@ title: Overview of Research
 - **Authors**: Britta Rude
 - **Publication**: submitted
 - **Year**: 2022-2024
-- **Link**: [ifo Working Paper](https://www.ifo.de/en/publications/2023/working-paper/ending-statelessness-displaced-children-impact-early-childhood)
+- **Link**: [ifo Working Paper](https://www.ifo.de/en/publications/2022/working-paper/critical-role-social-leaders-spread-social-movements-against-gender)
+
+###  Quantifying vulnerability to poverty in El Salvador
+- **Authors**: Britta Rude and Monica Robayo-Abril
+- **Publication**: submitted
+- **Year**: 2022-2024
+- **Link**: [World Bank Policy Research Working Paper](https://documents1.worldbank.org/curated/en/099642102012330604/pdf/IDU0a3d39af50f12704d0d0889c0f48b6edbbedd.pdf)
+
+###  Statistical Matching for Combining the European Survey on Income and Living Conditions and the Household Budget Surveys: An Evaluation of Energy Expenditures in Bulgaria
+- **Authors**: Britta Rude and Monica Robayo-Abril
+- **Publication**: submitted
+- **Year**: 2024
+- **Link**: [World Bank Policy Research Working Paper](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099918006242435645/idu18642b8e2160eb142ff18e241ebb95b21d260)
+
+
+  
+
+
 
 
