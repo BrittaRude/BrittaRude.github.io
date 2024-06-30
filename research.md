@@ -64,7 +64,7 @@ title: Research
 # Work in Progress
 * <b> Decomposing Poverty in Nepal. </b>
 * <b> Machine Learning and Poverty Targeting. </b>
-* <b> The Gendered Impacts of Impacts of Comprehensive Early Childhood Interventions<b>
+* <b> The Gendered Impacts of Impacts Comprehensive Early Childhood Interventions<b>
 
 
   
