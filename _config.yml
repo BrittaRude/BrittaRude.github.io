@@ -1,6 +1,6 @@
 theme: minima
 title: Welcome to my homepage!
-description: Data Science and Inequality - Here I want to share what I am most passionate about.
+description: Data Science and Inequality - Here I want to share what I am most passionate about. The views, findings, interpretations, and conclusions expressed on this website are entirely those of the author(s) and should not be attributed to the World Bank, its Board of Executive Directors, or the governments they represent.
 author: 
   name: Britta Rude
   email: britta.rude@gmx.net
@@ -19,4 +19,4 @@ minima:
     github:   BrittaRude
     linkedin: britta-rude-712301a4
     twitter: BrittaRude
-    Disclaimer: The views, findings, interpretations, and conclusions expressed on this website are entirely those of the author(s) and should not be attributed to the World Bank, its Board of Executive Directors, or the governments they represent.
+    
