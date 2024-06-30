@@ -3,7 +3,7 @@ layout: default
 title: "Policy Work"
 ---
 
-## World Bank Reports
+## World Bank Reports - Published
 
 - The World Bank, 2024. Energizing Europe. [Link](https://documents1.worldbank.org/curated/en/099022624103525741/pdf/P18028117b71690be1a761156962f72e426.pdf) 
 
@@ -24,7 +24,7 @@ title: "Policy Work"
 
 - [Twitter, Big Data and Inequality](https://datenaffaire.com/2022/04/13/episode-43-2/)
 
-## Policy Briefs
+## Policy Briefs - Published
 
 - Peichl, Andreas and Britta Rude. "[The Gender Gap in Germany](https://www.ifo.de/publikationen/2022/aufsatz-zeitschrift/wie-gross-ist-der-gender-gap-anspruch)" ifo Schnelldienst, 2022, 75, Nr. 10, 03-35
 
@@ -56,7 +56,7 @@ title: "Policy Work"
 
 - World Bank. 2020. A Forest’s Worth : Policy Options for a Sustainable and Inclusive Forest Economy in Paraguay. Country Forest Note;. World Bank, Washington, DC. © World Bank. [https://openknowledge.worldbank.org/handle/10986/34988](https://openknowledge.worldbank.org/handle/10986/34988) License: CC BY 3.0 IGO.
 
-## Other World Bank Consultancies
+## Other World Bank Consultancies - Unpublished work
 
 - The World Bank, 2019/2020. Designing impact evaluations for interventions in early childhood development. Paraguay.
 
