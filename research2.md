@@ -37,7 +37,7 @@ title: Overview of Research
 - **Year**: 2022-2024
 - **Link**: [ifo Working Paper](https://www.ifo.de/en/publications/2022/working-paper/critical-role-social-leaders-spread-social-movements-against-gender)
 
-###  Quantifying vulnerability to poverty in El Salvador
+###  Quantifying Vulnerability to Poverty in El Salvador
 - **Authors**: Britta Rude and Monica Robayo-Abril
 - **Publication**: submitted
 - **Year**: 2022-2024
