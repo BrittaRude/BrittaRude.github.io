@@ -49,6 +49,12 @@ title: Overview of Research
 - **Year**: 2024
 - **Link**: [World Bank Policy Research Working Paper](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099918006242435645/idu18642b8e2160eb142ff18e241ebb95b21d260)
 
+###  Conceptualizing and Measuring Energy Poverty in Bulgaria 
+- **Authors**: Monica Robayo-Abril and Britta Rude
+- **Publication**: Working Paper available 
+- **Year**: 2024
+- **Link**: [World Bank Policy Research Working Paper](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099011006262428993/idu1273e6f361f48d14b621abcc16393247a6a3b)
+
 
   
 
