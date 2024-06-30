@@ -23,7 +23,7 @@ title: Research
 - **Authors**: Michele Battisti, Ilpo Kauppinen, Britta Rude
 - **Publication**: R&R at European Journal of Political Economy 
 - **Year**: 2024
-- **Link**: [ifo Working Paper](https://www.ifo.de/en/publications/2022/working-paper/twitter-and-crime-effect-social-movements-genderbased-violence#:~:text=Michele%20Battisti%2C%20Ilpo%20Kauppinen%2C%20Britta%20Rude&text=We%20exploit%20the%20high%2Dfrequency,decrease%20in%20reported%20crime%20rates.)[Podcast](https://datenaffaire.com/2022/04/13/episode-43-2/)
+- **Link**: [ifo Working Paper](https://www.ifo.de/en/publications/2022/working-paper/twitter-and-crime-effect-social-movements-genderbased-violence#:~:text=Michele%20Battisti%2C%20Ilpo%20Kauppinen%2C%20Britta%20Rude&text=We%20exploit%20the%20high%2Dfrequency,decrease%20in%20reported%20crime%20rates.)[Podcast],(https://datenaffaire.com/2022/04/13/episode-43-2/)
 
 ### Preparatory School Years and Maternal Employment in Romania
 - **Authors**: Monica Robayo-Abril and Britta Rude
