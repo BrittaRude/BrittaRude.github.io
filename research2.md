@@ -55,6 +55,11 @@ title: Overview of Research
 - **Year**: 2024
 - **Link**: [World Bank Policy Research Working Paper](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099011006262428993/idu1273e6f361f48d14b621abcc16393247a6a3b)
 
+### Innovations in the Space of Learning and Social Interaction
+- **Authors**: Anna Arias-Duart and Chelsea Couture 
+- **Publication**: Working Paper available 
+- **Year**: 2022
+- **Link**: [RAUN Working Paper](http://www.ra-un.org/uploads/4/7/5/4/47544571/group_15_unhcr_2021_raun_final_paper.pdf)
 
   
 
