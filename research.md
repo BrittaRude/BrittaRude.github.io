@@ -5,6 +5,11 @@ title: Research
 
 # Published Papers
 
+### Labor Demand for Digital Skills during Invasion: Evidence from Online Job Vacancy Data from Ukraine
+- **Authors**: Yurii Kleban Britta Rude
+- **Publication**: Economic Modelling
+- **Year**: 2025
+
 ### Middle-run Impacts of Comprehensive Early Childhood Interventions: Evidence from a Pioneer Program in Chile
 - **Authors**: Britta Rude
 - **Publication**: Journal of Population Economics
@@ -27,7 +32,7 @@ title: Research
 
 ### Preparatory School Years and Maternal Employment in Romania
 - **Authors**: Monica Robayo-Abril and Britta Rude
-- **Publication**: submitted
+- **Publication**: R&R in Labour
 - **Year**: 2024
 - **Link**: [World Bank Policy Research Working Paper](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099916512112331443/idu04bdf4f0b0085404fe308329043198ba43117)
 
@@ -62,7 +67,7 @@ title: Research
 - **Link**: [RAUN Working Paper](http://www.ra-un.org/uploads/4/7/5/4/47544571/group_15_unhcr_2021_raun_final_paper.pdf)
 
 # Work in Progress
-* <b> Decomposing Poverty in Nepal. </b>
+* <b> Migration Dynamics under Geopolitical Tensions. </b>
 * <b> Machine Learning and Poverty Targeting. </b>
 * <b> The Gendered Impacts of Impacts Comprehensive Early Childhood Interventions<b>
 
