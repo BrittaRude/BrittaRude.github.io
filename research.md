@@ -13,9 +13,9 @@ title: Research
 
 ### Twitter and Crime: The Effect of Social Movements on Gender-Based Violence
 - **Authors**: Michele Battisti, Ilpo Kauppinen, Britta Rude
-- **Publication**: Accepted at European Journal of Political Economy 
+- **Publication**: European Journal of Political Economy 
 - **Year**: 2024
-- **Link**: [ifo Working Paper](https://www.ifo.de/en/publications/2022/working-paper/twitter-and-crime-effect-social-movements-genderbased-violence#:~:text=Michele%20Battisti%2C%20Ilpo%20Kauppinen%2C%20Britta%20Rude&text=We%20exploit%20the%20high%2Dfrequency,decrease%20in%20reported%20crime%20rates.), [Podcast](https://datenaffaire.com/2022/04/13/episode-43-2/)
+- **Link**: [Final Published Paper](https://www.sciencedirect.com/science/article/pii/S0176268024001009?__cf_chl_f_tk=s.yRbnzoRACxVTB25IUchAcnv2QNG9HRzzxOlVXpYEs-1783299792-1.0.1.1-2c9BczpmlTU6imezHC20f.u.DplgUvDmalWqIt2Rh_E), [ifo Working Paper](https://www.ifo.de/en/publications/2022/working-paper/twitter-and-crime-effect-social-movements-genderbased-violence#:~:text=Michele%20Battisti%2C%20Ilpo%20Kauppinen%2C%20Britta%20Rude&text=We%20exploit%20the%20high%2Dfrequency,decrease%20in%20reported%20crime%20rates.), [Podcast](https://datenaffaire.com/2022/04/13/episode-43-2/)
 
 # Working Papers
 
