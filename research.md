@@ -6,9 +6,9 @@ title: Research
 # Published Papers
 
 ### Labor Demand for Digital Skills during Invasion: Evidence from Online Job Vacancy Data from Ukraine
-- **Authors**: Yurii Kleban Britta Rude
-- **Publication**: Economic Modelling
-- **Year**: 2025
+- **Authors**: Yurii Kleban and Britta Rude
+- **Publication**: Forthcoming in Economic Modelling
+- **Year**: 2026
 
 ### Middle-run Impacts of Comprehensive Early Childhood Interventions: Evidence from a Pioneer Program in Chile
 - **Authors**: Britta Rude
