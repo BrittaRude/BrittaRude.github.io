@@ -5,6 +5,10 @@ title: "Policy Work"
 
 ## World Bank Reports - Published
 
+- Listening to Ukraine, 2026. Spring 2026 Update. [Link](https://thedocs.worldbank.org/en/doc/3df3ca7530237868137cf8a73f9b36b2-0080062026/original/Listening-to-Ukraine-Update-Spring-2026.pdf)
+
+- Listening to Ukraine, 2025. Fall 2025 Update. [Link](https://thedocs.worldbank.org/en/doc/7a038d8198d79e7979898da40195c73b-0080012025/original/Listening-to-Ukraine-Update-Fall-2025.pdf)
+
 - The World Bank, 2025. Female Employment in Ukraine. [Link](https://openknowledge.worldbank.org/entities/publication/232aaddf-180d-4cf0-90d9-7f28e26f2aa7)
 
 - The World Bank, 2024. Energy Poverty Assessment. Romania [Link](https://www.worldbank.org/en/country/romania/publication/romania-energy-poverty-assessment)
