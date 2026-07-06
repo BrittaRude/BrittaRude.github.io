@@ -5,6 +5,10 @@ title: "Policy Work"
 
 ## World Bank Reports - Published
 
+- The World Bank, 2025. Female Employment in Ukraine. [Link](https://openknowledge.worldbank.org/entities/publication/232aaddf-180d-4cf0-90d9-7f28e26f2aa7)
+
+- The World Bank, 2024. Energy Poverty Assessment. Romania [Link](https://www.worldbank.org/en/country/romania/publication/romania-energy-poverty-assessment)
+
 - The World Bank, 2024. Energizing Europe. [Link](https://documents1.worldbank.org/curated/en/099022624103525741/pdf/P18028117b71690be1a761156962f72e426.pdf) 
 
 - The World Bank, 2022/23. Gender Assessment. Romania. [Link](https://www.worldbank.org/en/country/romania/publication/gender-equality-in-romania-where-do-we-stand-2023-romania-gender-assessment#:~:text=Romania%20is%20the%20second%20worst,European%20Institute%20for%20Gender%20Equality.)
