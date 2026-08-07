@@ -7,6 +7,8 @@ title: "Policy Work"
 
 - Listening to Ukraine, 2026. Spring 2026 Update. [Link](https://thedocs.worldbank.org/en/doc/3df3ca7530237868137cf8a73f9b36b2-0080062026/original/Listening-to-Ukraine-Update-Spring-2026.pdf)
 
+- The World Bank, 2026. Ukraine Fifth Rapid Damage and Needs Assessment. [Link](https://documents1.worldbank.org/curated/en/099022026094036395/pdf/P514499-22f93f3a-4278-42bc-b907-db9553d12069.pdf)
+
 - Listening to Ukraine, 2025. Fall 2025 Update. [Link](https://thedocs.worldbank.org/en/doc/7a038d8198d79e7979898da40195c73b-0080012025/original/Listening-to-Ukraine-Update-Fall-2025.pdf)
 
 - The World Bank, 2025. Female Employment in Ukraine. [Link](https://openknowledge.worldbank.org/entities/publication/232aaddf-180d-4cf0-90d9-7f28e26f2aa7)
