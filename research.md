@@ -5,7 +5,7 @@ title: Research
 
 # Published Papers
 
-### Labor Demand for Digital Skills during Invasion: Evidence from Online Job Vacancy Data from Ukraine
+### Labor Demand for Digital Skills in Post-2022 Ukraine : Evidence from Online Job Vacancy Data
 - **Authors**: Yurii Kleban and Britta Rude
 - **Publication**: Forthcoming in Economic Modelling
 - **Year**: 2026
