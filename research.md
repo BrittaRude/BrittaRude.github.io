@@ -9,6 +9,7 @@ title: Research
 - **Authors**: Yurii Kleban and Britta Rude
 - **Publication**: Forthcoming in Economic Modelling
 - **Year**: 2026
+- **Link**: [Working Paper](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099416309142637653)
 
 ### Middle-run Impacts of Comprehensive Early Childhood Interventions: Evidence from a Pioneer Program in Chile
 - **Authors**: Britta Rude
