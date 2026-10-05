@@ -68,8 +68,8 @@ title: Research
 - **Link**: [RAUN Working Paper](http://www.ra-un.org/uploads/4/7/5/4/47544571/group_15_unhcr_2021_raun_final_paper.pdf)
 
 # Work in Progress
-* <b> Retreat from Russia: Central Asian Migration amid Regional Instability. With Laurent Loic Yves Bossavie and Ling Zhou </b>
-* <b> Reorganizing after Disaster: Skill Reallocation, Wage Inequality, and Network Propagation. With Okan Akarsu, Seyit M. Cilasun, and Sirma Demir-Seker </b>
+* <b> Retreat from Russia: Central Asian Migration amid Regional Instability. </b> With Laurent Loic Yves Bossavie and Ling Zhou 
+* <b> Reorganizing after Disaster: Skill Reallocation, Wage Inequality, and Network Propagation. </b> With Okan Akarsu, Seyit M. Cilasun, and Sirma Demir-Seker
 * <b> Machine Learning and Poverty Targeting. </b>
 * <b> The Gendered Impacts of Comprehensive Early Childhood Interventions. <b>
 
