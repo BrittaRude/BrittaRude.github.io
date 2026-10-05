@@ -68,7 +68,8 @@ title: Research
 - **Link**: [RAUN Working Paper](http://www.ra-un.org/uploads/4/7/5/4/47544571/group_15_unhcr_2021_raun_final_paper.pdf)
 
 # Work in Progress
-* <b> Migration Dynamics under Geopolitical Tensions. </b>
+* <b> Retreat from Russia: Central Asian Migration amid Regional Instability. With Laurent Loic Yves Bossavie and Ling Zhou </b>
+* <b> Reorganizing after Disaster: Skill Reallocation, Wage Inequality, and Network Propagation. With Okan Akarsu, Seyit M. Cilasun, and Sirma Demir-Seker </b>
 * <b> Machine Learning and Poverty Targeting. </b>
 * <b> The Gendered Impacts of Impacts Comprehensive Early Childhood Interventions<b>
 
